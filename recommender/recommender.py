@@ -3,7 +3,7 @@ import pandas as pd
 import logging
 from modelServices.svdModel import SvdModel
 from modelServices.knnModel import KnnModel
-from modelServices.lightfmModel import LightfmModel
+# from modelServices.lightfmModel import LightfmModel
 from modelServices.deepLearnModel import DeepLearnModel
 from imageRecommender.imageRecommender import ImageRecommendationService, prepare_resources
 from config.config import Config
@@ -55,8 +55,8 @@ class Recommender:
         svd.train_svd()
         knn= KnnModel()
         knn.train_knn()
-        lightmodel = LightfmModel()
-        lightmodel.train_lightfm()
+        # lightmodel = LightfmModel()
+        # lightmodel.train_lightfm()
         deeplearn = DeepLearnModel()
         deeplearn.train_and_save_model()
         service = ImageRecommendationService()
