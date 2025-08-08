@@ -42,17 +42,17 @@ print("############################")
 ##################################################################################
 # التنبؤ باستخدام lightfm model
 
-from modelServices.lightfmModel import LightfmModel
+# from modelServices.lightfmModel import LightfmModel
 
-lightmodel = LightfmModel()
-# دالة التنبؤ recommend_with_lightfm(user_id, product_id)
-# نتيجة التنبؤ هي رقم بين 0 و 1
-print("predication With LightFm:")
-predicationWithLightFm = lightmodel.recommend_with_lightfm(1,5)
-print(predicationWithLightFm)
-print("########################")
-# لإعادة تدريب النموذج
-# lightmodel.train_lightfm()
+# lightmodel = LightfmModel()
+# # دالة التنبؤ recommend_with_lightfm(user_id, product_id)
+# # نتيجة التنبؤ هي رقم بين 0 و 1
+# print("predication With LightFm:")
+# predicationWithLightFm = lightmodel.recommend_with_lightfm(1,5)
+# print(predicationWithLightFm)
+# print("########################")
+# # لإعادة تدريب النموذج
+# # lightmodel.train_lightfm()
 
 ###################################################################################
 
