@@ -2,7 +2,7 @@ flask
 gunicorn
 scipy>=1.3.2
 cython>=0.29.24
-scikit-surprise==1.1.4
+scikit-surprise
 fairlearn==0.12.0
 surprise==0.1
 numpy>=1.21,<2.0
