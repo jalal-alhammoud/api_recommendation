@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 fastapi
 uvicorn
+=======
+flask
+gunicorn
+>>>>>>> c9a813a (modify api project)
 fairlearn==0.12.0
-lightfm==1.17
 surprise==0.1
 numpy>=1.21,<2.0
 joblib==1.5.1
@@ -14,4 +18,5 @@ tensorflow==2.19.0
 torch==2.6.0+cu124
 tqdm==4.67.1
 transformers==4.54.1
+lightfm
 
