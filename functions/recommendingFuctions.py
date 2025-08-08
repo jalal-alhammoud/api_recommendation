@@ -925,19 +925,19 @@ def deep_suggest_for_user(user_id):
 #تابع يقوم بالتبؤ بالتقييم لمستخدم معين لمجموعة من المنتجات باستخدام الموديلات
 from modelServices.svdModel import SvdModel
 from modelServices.knnModel import KnnModel
-from modelServices.lightfmModel import LightfmModel
+# from modelServices.lightfmModel import LightfmModel
 from modelServices.deepLearnModel import DeepLearnModel
 def predication_rating(user_id, product_ids, context = None):
         svd= SvdModel()  
         knn= KnnModel() 
-        lightmodel = LightfmModel()
+        # lightmodel = LightfmModel()
         user_feature=  get_user_features(user_id)
         deeplearn = DeepLearnModel()
         predication ={}
         for pro_id in product_ids:
             svd_predicat = svd.recommend_with_svd(user_id,pro_id)
             knn_predicat = knn.recommend_with_knn(user_id,pro_id)
-            light_predicat = 5 * lightmodel.recommend_with_lightfm(user_id, pro_id)
+            # light_predicat = 5 * lightmodel.recommend_with_lightfm(user_id, pro_id)
             product_feature = get_product_features(pro_id)
             review_text = get_review_text(user_id,pro_id)
             if context is None:
@@ -982,7 +982,7 @@ def predication_rating(user_id, product_ids, context = None):
             # print(deep_predicat)
 
 
-            models_predicate = 0.3*svd_predicat + 0.4*knn_predicat+ 0.1*light_predicat+0.2*deep_predicat
+            models_predicate = 0.4*svd_predicat + 0.4*knn_predicat+0.2*deep_predicat
             predication[pro_id] = models_predicate
         return predication
 
