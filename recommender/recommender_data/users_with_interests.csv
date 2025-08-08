@@ -1,0 +1,1002 @@
+user_id,age,gender,location,interests_categories,avg_preferred_price,preferred_brands,common_interaction_types,interacted_products,high_rated_products
+1,56,Male,San Francisco,"['Home & Kitchen', 'Electronics', 'Toys']",317.48,"['BrandA', 'BrandE', 'BrandC']","['view', 'purchase', 'add_to_cart']","[359, 251, 476, 339, 356, 300, 381, 329]","[174, 420]"
+2,46,Female,Houston,"['Home & Kitchen', 'Beauty', 'Books']",344.33,"['BrandC', 'BrandD', 'BrandA']",['view'],"[395, 54, 381, 59, 304]",[]
+3,32,Male,Chicago,"['Clothing', 'Books', 'Electronics']",140.62,"['BrandE', 'BrandA', 'BrandD']",['view'],"[273, 105]","[349, 379, 135]"
+4,60,Other,San Francisco,"['Electronics', 'Sports', 'Clothing']",214.51,"['BrandC', 'BrandB', 'BrandA']","['view', 'purchase', 'add_to_cart']","[131, 155, 70, 128, 2]",[171]
+5,25,Male,Los Angeles,"['Home & Kitchen', 'Toys', 'Books']",199.37,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[190, 286, 155, 232]",[158]
+6,38,Male,San Francisco,"['Toys', 'Books', 'Sports']",222.26,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart', 'purchase']","[101, 284, 52, 418, 45, 34]",[]
+7,56,Male,New York,"['Books', 'Home & Kitchen', 'Electronics']",250.09,"['BrandD', 'BrandB', 'BrandE']","['add_to_cart', 'view']","[369, 275, 223, 211]",[76]
+8,36,Male,Chicago,"['Home & Kitchen', 'Beauty', 'Clothing']",195.61,"['BrandC', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[474, 109, 194, 56, 437]","[486, 292]"
+9,40,Other,Los Angeles,"['Toys', 'Beauty', 'Electronics']",185.85,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[275, 201, 342, 492]",[310]
+10,28,Other,Houston,"['Electronics', 'Sports', 'Books']",165.65,"['BrandD', 'BrandB', 'BrandC']","['view', 'purchase', 'add_to_cart']","[242, 428, 104, 68, 307]","[449, 238]"
+11,28,Female,Los Angeles,"['Sports', 'Electronics', 'Beauty']",213.33,"['BrandC', 'BrandA']",['view'],"[273, 450]",[477]
+12,41,Other,Houston,"['Electronics', 'Sports', 'Home & Kitchen']",121.72,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[467, 422, 498, 3, 136, 58]",[]
+13,53,Other,Los Angeles,"['Beauty', 'Home & Kitchen', 'Sports']",217.32,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[325, 301, 284, 145, 481, 366, 388, 359, 229]",[]
+14,57,Female,San Francisco,"['Clothing', 'Books', 'Sports']",211.5,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart', 'purchase']","[396, 210, 235, 473, 97, 416, 480]",[]
+15,41,Other,San Francisco,"['Books', 'Electronics', 'Home & Kitchen']",390.21,"['BrandD', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[84, 241, 107]",[336]
+16,20,Male,San Francisco,"['Beauty', 'Sports', 'Home & Kitchen']",319.94,"['BrandB', 'BrandC', 'BrandD']","['purchase', 'add_to_cart']","[202, 382, 7, 84, 344, 387]",[]
+17,39,Male,New York,"['Books', 'Sports', 'Electronics']",255.54,"['BrandB', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[363, 193, 191]","[110, 31]"
+18,19,Female,Houston,"['Electronics', 'Clothing', 'Home & Kitchen']",275.06,"['BrandB', 'BrandC', 'BrandE']",['view'],"[123, 61, 264, 411]","[263, 323, 335]"
+19,41,Female,San Francisco,"['Toys', 'Home & Kitchen', 'Books']",238.82,"['BrandD', 'BrandB', 'BrandA']","['view', 'add_to_cart', 'purchase']","[27, 38, 456, 474, 438, 160, 390, 92]",[324]
+20,61,Female,New York,"['Sports', 'Toys', 'Electronics']",391.18,"['BrandA', 'BrandC']","['view', 'add_to_cart']","[62, 269]",[]
+21,47,Male,Houston,"['Electronics', 'Sports', 'Toys']",176.03,"['BrandC', 'BrandB', 'BrandE']","['view', 'purchase']","[401, 411, 282, 100, 88]",[191]
+22,55,Other,Los Angeles,"['Books', 'Home & Kitchen', 'Electronics']",241.87,"['BrandE', 'BrandB', 'BrandD']","['view', 'purchase']","[347, 208, 136, 265]",[]
+23,19,Male,New York,['Beauty'],209.38,"['BrandD', 'BrandC']",[],[],[459]
+24,38,Female,Chicago,"['Books', 'Electronics']",381.48,['BrandC'],['purchase'],[280],[]
+25,50,Other,New York,"['Toys', 'Sports', 'Books']",229.85,"['BrandB', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[65, 25, 378, 465, 286, 337, 100, 194]",[111]
+26,29,Other,New York,"['Electronics', 'Sports', 'Toys']",256.97,"['BrandD', 'BrandB', 'BrandE']",['view'],"[238, 188, 189, 19, 208]",[]
+27,39,Male,Houston,"['Toys', 'Home & Kitchen', 'Sports']",172.82,"['BrandC', 'BrandA', 'BrandD']","['view', 'purchase', 'add_to_cart']","[437, 93, 349, 275, 494, 425]",[74]
+28,61,Female,Los Angeles,"['Clothing', 'Electronics', 'Toys']",316.3,"['BrandD', 'BrandB', 'BrandC']","['view', 'add_to_cart']","[206, 94, 163, 202]","[259, 485, 370, 77, 398]"
+29,42,Male,Chicago,"['Electronics', 'Sports', 'Clothing']",265.88,"['BrandB', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[466, 176, 76, 281, 40, 400]","[365, 92]"
+30,44,Other,San Francisco,"['Home & Kitchen', 'Toys', 'Books']",304.48,"['BrandD', 'BrandE', 'BrandB']","['add_to_cart', 'view']","[192, 129, 205, 141, 164]",[141]
+31,59,Male,San Francisco,"['Beauty', 'Electronics', 'Home & Kitchen']",325.41,"['BrandB', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[106, 241, 417, 98]",[377]
+32,45,Male,New York,"['Books', 'Sports', 'Home & Kitchen']",238.82,"['BrandC', 'BrandE', 'BrandD']","['add_to_cart', 'view']","[463, 52, 479, 473, 454]",[266]
+33,33,Female,Houston,"['Electronics', 'Books', 'Toys']",260.07,"['BrandD', 'BrandE', 'BrandC']",['add_to_cart'],[378],"[76, 36]"
+34,32,Female,Houston,['Beauty'],320.36,['BrandD'],['view'],[154],[]
+35,64,Other,San Francisco,"['Electronics', 'Clothing']",278.75,"['BrandC', 'BrandB', 'BrandD']","['view', 'purchase']","[77, 131, 497, 431]",[]
+36,61,Male,Chicago,"['Home & Kitchen', 'Electronics', 'Clothing']",285.3,"['BrandD', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[431, 351, 273]",[304]
+37,20,Male,Los Angeles,"['Electronics', 'Beauty']",384.52,"['BrandB', 'BrandE']","['add_to_cart', 'view']","[131, 245]",[]
+38,54,Male,Chicago,"['Sports', 'Books', 'Toys']",319.5,"['BrandD', 'BrandB', 'BrandA']","['add_to_cart', 'view']","[279, 450]",[93]
+39,24,Other,Los Angeles,"['Toys', 'Books', 'Electronics']",255.13,"['BrandE', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[481, 43, 75, 242, 85, 176, 355]",[16]
+40,38,Other,San Francisco,"['Electronics', 'Beauty', 'Books']",201.89,"['BrandE', 'BrandC', 'BrandB']","['view', 'add_to_cart']","[99, 114, 206, 57]","[201, 380]"
+41,26,Female,Los Angeles,"['Toys', 'Books']",240.75,['BrandA'],['view'],[213],[]
+42,56,Female,Houston,"['Sports', 'Beauty', 'Home & Kitchen']",285.65,"['BrandE', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[404, 28, 207, 427, 450, 382, 471, 312]",[138]
+43,35,Female,New York,"['Books', 'Sports', 'Clothing']",231.37,"['BrandA', 'BrandE', 'BrandD']",['view'],"[488, 49, 162, 436, 208]","[17, 277]"
+44,21,Male,New York,"['Sports', 'Beauty', 'Books']",270.43,"['BrandE', 'BrandC', 'BrandA']","['view', 'add_to_cart', 'purchase']","[282, 476, 426, 85, 464, 386]",[454]
+45,42,Male,San Francisco,"['Electronics', 'Sports', 'Books']",286.95,"['BrandA', 'BrandB', 'BrandD']","['purchase', 'view', 'add_to_cart']","[186, 118, 266, 176, 35, 2]",[128]
+46,31,Female,Houston,"['Sports', 'Books', 'Electronics']",241.56,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart', 'purchase']","[266, 418, 204, 446]",[78]
+47,26,Male,Chicago,"['Clothing', 'Electronics', 'Beauty']",187.79,"['BrandA', 'BrandE', 'BrandD']","['view', 'add_to_cart']","[138, 266, 351, 42]",[145]
+48,43,Female,Houston,"['Beauty', 'Clothing', 'Home & Kitchen']",232.45,"['BrandC', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[180, 194, 12, 28]",[262]
+49,19,Other,New York,"['Sports', 'Electronics', 'Books']",298.88,"['BrandD', 'BrandB', 'BrandC']","['view', 'add_to_cart']","[257, 263, 478, 444, 288, 447]",[231]
+50,37,Female,New York,"['Electronics', 'Toys', 'Sports']",302.58,"['BrandE', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[16, 224, 79, 11, 260]",[36]
+51,45,Other,Houston,"['Home & Kitchen', 'Toys', 'Books']",224.18,"['BrandC', 'BrandE', 'BrandD']","['add_to_cart', 'view']","[411, 347, 471, 307]",[144]
+52,64,Male,Houston,"['Electronics', 'Toys', 'Beauty']",220.32,"['BrandD', 'BrandA', 'BrandE']","['add_to_cart', 'view']","[281, 295, 201, 78, 265, 116]","[316, 112]"
+53,24,Female,New York,"['Clothing', 'Sports', 'Books']",261.16,"['BrandE', 'BrandB', 'BrandC']",['view'],"[149, 358]",[451]
+54,61,Male,Chicago,"['Sports', 'Electronics', 'Beauty']",223.96,"['BrandA', 'BrandB', 'BrandC']","['add_to_cart', 'purchase', 'view']","[150, 477, 66, 10, 445]",[]
+55,25,Other,San Francisco,"['Toys', 'Books', 'Sports']",367.22,"['BrandD', 'BrandA', 'BrandC']","['purchase', 'add_to_cart']","[62, 367]",[]
+56,64,Other,San Francisco,"['Beauty', 'Toys', 'Home & Kitchen']",294.37,"['BrandA', 'BrandD', 'BrandB']","['add_to_cart', 'view', 'purchase']","[433, 404, 358, 199, 145, 291, 371, 176]","[413, 381]"
+57,52,Other,Houston,"['Home & Kitchen', 'Beauty', 'Electronics']",435.03,"['BrandD', 'BrandC', 'BrandB']","['add_to_cart', 'purchase', 'view']","[487, 258, 163, 4, 51, 25]",[107]
+58,31,Male,San Francisco,"['Beauty', 'Home & Kitchen', 'Electronics']",315.84,"['BrandC', 'BrandB', 'BrandD']","['view', 'purchase', 'add_to_cart']","[290, 258, 132, 386, 254, 271, 312, 252, 243]","[380, 304]"
+59,34,Male,New York,"['Books', 'Sports', 'Toys']",344.95,"['BrandC', 'BrandA', 'BrandB']","['view', 'purchase', 'add_to_cart']","[423, 137, 196, 89, 403, 294]",[358]
+60,53,Male,New York,"['Books', 'Clothing', 'Sports']",268.32,"['BrandB', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[454, 465, 154]","[31, 402]"
+61,57,Male,Houston,"['Beauty', 'Toys', 'Home & Kitchen']",292.5,"['BrandB', 'BrandA', 'BrandE']","['purchase', 'view']","[247, 85]","[334, 500, 67]"
+62,21,Other,Houston,"['Sports', 'Toys', 'Electronics']",257.23,"['BrandE', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[34, 300, 428, 166]",[]
+63,19,Other,Houston,"['Toys', 'Beauty', 'Clothing']",301.79,"['BrandA', 'BrandD', 'BrandC']","['add_to_cart', 'view']","[74, 359, 269]","[19, 180, 67]"
+64,23,Female,Chicago,"['Home & Kitchen', 'Clothing', 'Sports']",280.68,"['BrandA', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[200, 344, 439, 110, 324]",[]
+65,59,Female,San Francisco,"['Books', 'Beauty', 'Home & Kitchen']",293.1,"['BrandE', 'BrandD', 'BrandC']","['view', 'add_to_cart']","[137, 6, 109, 160, 464]","[158, 135, 182, 281, 461, 44]"
+66,21,Male,Houston,"['Sports', 'Toys', 'Electronics']",312.46,"['BrandC', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[19, 343, 387, 485, 258, 92]",[454]
+67,46,Other,Los Angeles,"['Clothing', 'Home & Kitchen', 'Toys']",214.61,"['BrandC', 'BrandB', 'BrandA']","['view', 'purchase']","[476, 332, 438]","[8, 7]"
+68,35,Other,Los Angeles,"['Home & Kitchen', 'Toys', 'Beauty']",321.35,"['BrandB', 'BrandC', 'BrandA']","['view', 'purchase', 'add_to_cart']","[377, 246, 65, 16, 183, 251, 250]",[]
+69,43,Other,New York,"['Toys', 'Electronics', 'Sports']",269.25,"['BrandB', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[237, 105, 288, 95, 439, 430, 391, 9]","[387, 111]"
+70,61,Female,San Francisco,"['Books', 'Sports', 'Clothing']",182.0,"['BrandA', 'BrandE', 'BrandD']",['view'],"[139, 10, 73, 323, 440, 470]",[]
+71,51,Female,Houston,"['Beauty', 'Home & Kitchen', 'Electronics']",304.95,"['BrandA', 'BrandD', 'BrandC']","['view', 'add_to_cart']","[383, 92, 404, 247, 87, 4, 66, 146, 22]","[486, 19, 117]"
+72,27,Other,Los Angeles,"['Beauty', 'Toys', 'Books']",296.41,"['BrandC', 'BrandD', 'BrandE']","['view', 'purchase', 'add_to_cart']","[75, 121, 197, 480, 450, 487, 205]",[]
+73,53,Other,San Francisco,"['Sports', 'Beauty', 'Toys']",269.77,"['BrandC', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[151, 199, 399, 188, 16, 31, 289, 212, 137]",[389]
+74,31,Other,New York,"['Sports', 'Toys', 'Home & Kitchen']",206.59,"['BrandA', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[359, 222, 74, 233, 362, 382]",[]
+75,48,Female,Chicago,"['Clothing', 'Toys', 'Home & Kitchen']",180.45,"['BrandA', 'BrandC', 'BrandB']","['view', 'add_to_cart', 'purchase']","[205, 109, 346, 479, 425, 8, 57]",[]
+76,32,Other,San Francisco,"['Sports', 'Clothing', 'Toys']",294.94,"['BrandA', 'BrandE', 'BrandD']","['view', 'purchase', 'add_to_cart']","[337, 83, 77, 225, 71, 29, 132]",[]
+77,25,Other,San Francisco,"['Home & Kitchen', 'Beauty', 'Sports']",262.51,"['BrandA', 'BrandB', 'BrandE']","['add_to_cart', 'view']","[166, 287]",[143]
+78,31,Male,Chicago,"['Home & Kitchen', 'Beauty', 'Sports']",313.42,"['BrandE', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[467, 258, 486, 391, 435]",[114]
+79,40,Male,San Francisco,"['Sports', 'Clothing', 'Electronics']",346.85,"['BrandB', 'BrandA', 'BrandD']","['view', 'purchase']","[132, 253, 208, 155, 50, 57, 370, 72]","[127, 236]"
+80,57,Female,New York,"['Electronics', 'Sports']",230.28,"['BrandA', 'BrandC', 'BrandB']",['view'],"[333, 264]","[254, 126, 498]"
+81,38,Other,New York,"['Home & Kitchen', 'Toys', 'Sports']",253.27,"['BrandD', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[61, 387, 257]","[471, 65, 357, 385]"
+82,33,Other,Chicago,"['Home & Kitchen', 'Books', 'Toys']",248.31,"['BrandB', 'BrandC', 'BrandE']","['add_to_cart', 'view', 'purchase']","[84, 447, 69, 159, 164, 262, 25, 260]",[256]
+83,62,Male,Houston,"['Electronics', 'Toys', 'Home & Kitchen']",299.99,"['BrandA', 'BrandC', 'BrandB']",['view'],"[258, 177, 380, 458, 224]",[]
+84,35,Female,Los Angeles,"['Electronics', 'Beauty', 'Books']",243.79,"['BrandC', 'BrandE', 'BrandB']","['view', 'add_to_cart', 'purchase']","[228, 472, 191, 499, 306]",[]
+85,64,Male,Houston,"['Books', 'Sports', 'Electronics']",262.98,"['BrandC', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[142, 191, 141, 80, 301, 48]",[352]
+86,41,Male,San Francisco,"['Beauty', 'Books', 'Electronics']",272.93,"['BrandA', 'BrandB', 'BrandE']","['add_to_cart', 'purchase', 'view']","[26, 407, 440]",[400]
+87,43,Male,Los Angeles,"['Toys', 'Home & Kitchen', 'Sports']",265.83,"['BrandE', 'BrandD', 'BrandA']",['view'],"[34, 278, 211, 468, 410]",[]
+88,42,Male,Chicago,"['Home & Kitchen', 'Electronics', 'Books']",250.09,"['BrandE', 'BrandD', 'BrandC']","['view', 'purchase', 'add_to_cart']","[440, 216, 229, 69, 164, 299]",[399]
+89,62,Other,Chicago,"['Electronics', 'Home & Kitchen', 'Toys']",169.25,"['BrandB', 'BrandE', 'BrandA']","['add_to_cart', 'view']","[447, 313]","[63, 116, 170, 498]"
+90,58,Other,Los Angeles,"['Books', 'Sports', 'Home & Kitchen']",288.84,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[497, 165, 23, 419, 257, 437, 42, 211, 403]",[440]
+91,46,Male,New York,"['Beauty', 'Electronics', 'Toys']",317.33,"['BrandD', 'BrandC', 'BrandA']",['add_to_cart'],"[87, 409]","[381, 191, 299]"
+92,32,Female,Los Angeles,"['Books', 'Clothing', 'Electronics']",153.55,"['BrandC', 'BrandA', 'BrandE']","['view', 'add_to_cart', 'purchase']","[417, 318, 69, 135, 332, 171]",[]
+93,62,Female,San Francisco,"['Home & Kitchen', 'Electronics', 'Books']",187.66,"['BrandE', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[89, 422, 293, 111, 116, 249, 216]",[60]
+94,18,Female,New York,"['Clothing', 'Electronics', 'Sports']",216.77,"['BrandC', 'BrandA']","['view', 'add_to_cart', 'purchase']","[319, 220, 56, 441]",[]
+95,42,Female,Chicago,"['Toys', 'Electronics', 'Books']",240.56,"['BrandC', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[308, 90, 288]",[427]
+96,24,Male,Los Angeles,"['Electronics', 'Home & Kitchen', 'Books']",227.75,"['BrandD', 'BrandA', 'BrandC']","['view', 'add_to_cart', 'purchase']","[420, 160, 152, 422, 425]",[]
+97,26,Other,Houston,"['Sports', 'Books', 'Electronics']",236.62,"['BrandC', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[328, 126, 123, 451, 414]",[88]
+98,41,Female,Houston,"['Home & Kitchen', 'Toys', 'Electronics']",318.23,"['BrandB', 'BrandA', 'BrandD']",['view'],"[253, 242, 19, 167, 81]","[384, 494]"
+99,18,Male,San Francisco,"['Beauty', 'Home & Kitchen', 'Electronics']",176.08,"['BrandC', 'BrandE', 'BrandD']","['add_to_cart', 'view']","[452, 271, 270, 275]",[]
+100,61,Female,Houston,"['Beauty', 'Clothing', 'Electronics']",213.05,"['BrandC', 'BrandA', 'BrandE']","['purchase', 'add_to_cart']","[336, 437]","[46, 495, 271]"
+101,25,Female,Los Angeles,"['Beauty', 'Home & Kitchen', 'Books']",286.03,"['BrandA', 'BrandD', 'BrandB']","['add_to_cart', 'view']","[463, 315, 483, 452, 325, 249, 57, 47]",[391]
+102,41,Male,Los Angeles,"['Books', 'Home & Kitchen']",107.42,"['BrandA', 'BrandE']","['view', 'add_to_cart']","[325, 393, 464]",[]
+103,28,Other,Houston,"['Books', 'Clothing', 'Sports']",166.22,"['BrandC', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[179, 325, 401, 390, 56]","[473, 460]"
+104,34,Other,Los Angeles,"['Books', 'Sports', 'Electronics']",142.19,"['BrandB', 'BrandC']",['view'],"[322, 191, 427]",[396]
+105,25,Male,San Francisco,"['Clothing', 'Electronics', 'Sports']",193.07,"['BrandA', 'BrandB', 'BrandD']","['add_to_cart', 'view']","[424, 8, 490, 449, 318, 309]",[]
+106,52,Other,New York,"['Books', 'Toys', 'Clothing']",330.28,"['BrandE', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[86, 87, 177, 180, 160, 443, 487, 18, 438]",[472]
+107,52,Male,San Francisco,"['Clothing', 'Sports', 'Beauty']",211.7,"['BrandA', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[490, 356, 479, 12]","[216, 199]"
+108,50,Male,San Francisco,"['Books', 'Beauty', 'Home & Kitchen']",285.32,"['BrandC', 'BrandA', 'BrandE']","['view', 'purchase', 'add_to_cart']","[7, 454, 159, 487, 479, 394]",[]
+109,22,Male,Los Angeles,"['Electronics', 'Books', 'Toys']",224.72,"['BrandE', 'BrandC', 'BrandB']","['add_to_cart', 'view']","[463, 376, 116, 368, 280, 114]","[407, 399]"
+110,59,Other,New York,"['Home & Kitchen', 'Electronics', 'Beauty']",319.76,"['BrandA', 'BrandB', 'BrandC']","['add_to_cart', 'view']","[92, 168, 113, 317]",[404]
+111,56,Male,Los Angeles,"['Sports', 'Beauty', 'Books']",283.59,"['BrandB', 'BrandE', 'BrandC']","['view', 'add_to_cart']","[44, 33, 132, 475, 234, 116, 123, 197]","[121, 267, 225]"
+112,58,Female,Chicago,"['Toys', 'Electronics', 'Books']",290.71,"['BrandD', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[368, 338, 233, 33, 281, 240, 361, 235, 15, 211, 134]","[50, 251]"
+113,45,Other,Los Angeles,"['Clothing', 'Home & Kitchen', 'Beauty']",188.61,"['BrandC', 'BrandE', 'BrandA']","['view', 'purchase']","[1, 302, 240, 446, 332]",[77]
+114,24,Other,Los Angeles,"['Electronics', 'Sports', 'Books']",253.43,"['BrandB', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[267, 493, 81, 378, 497, 434, 495, 24]",[]
+115,26,Other,Los Angeles,"['Home & Kitchen', 'Sports', 'Beauty']",271.66,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[27, 123, 154, 385]","[404, 223]"
+116,25,Other,New York,"['Home & Kitchen', 'Books', 'Sports']",220.52,"['BrandD', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[329, 220, 223, 249, 279]",[38]
+117,29,Female,Los Angeles,"['Sports', 'Electronics', 'Beauty']",261.0,"['BrandA', 'BrandC', 'BrandB']","['view', 'add_to_cart']","[45, 92, 171, 278, 191, 473, 256]",[17]
+118,51,Other,New York,"['Clothing', 'Books', 'Toys']",223.71,"['BrandE', 'BrandA', 'BrandB']","['add_to_cart', 'view']","[178, 271, 46, 54, 307]","[341, 464, 320]"
+119,50,Other,Houston,"['Clothing', 'Toys']",377.18,"['BrandC', 'BrandE']",['view'],"[394, 265, 414]",[]
+120,40,Male,Chicago,"['Clothing', 'Books', 'Sports']",195.57,"['BrandD', 'BrandC', 'BrandE']",['add_to_cart'],"[351, 48, 294, 46, 379]",[]
+121,41,Other,New York,"['Toys', 'Electronics', 'Home & Kitchen']",290.52,"['BrandC', 'BrandD', 'BrandA']",['view'],"[455, 131, 177]","[442, 443, 53]"
+122,54,Female,Houston,"['Home & Kitchen', 'Books', 'Sports']",229.01,"['BrandB', 'BrandE', 'BrandC']","['add_to_cart', 'view', 'purchase']","[73, 88, 117, 269]",[]
+123,52,Female,New York,"['Sports', 'Home & Kitchen', 'Books']",273.24,"['BrandA', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[186, 324, 180, 421, 342, 297, 314]","[346, 284]"
+124,61,Female,New York,"['Electronics', 'Beauty']",171.41,"['BrandE', 'BrandC']",['view'],[481],[]
+125,57,Female,Chicago,"['Sports', 'Electronics', 'Books']",272.73,"['BrandA', 'BrandE', 'BrandC']","['view', 'add_to_cart', 'purchase']","[444, 334, 369, 324, 268, 338, 58]",[]
+126,39,Other,San Francisco,"['Books', 'Beauty', 'Clothing']",242.39,"['BrandB', 'BrandC', 'BrandE']","['view', 'add_to_cart', 'purchase']","[20, 362, 492, 438, 79, 318, 365]",[255]
+127,44,Other,San Francisco,"['Clothing', 'Home & Kitchen']",288.03,"['BrandA', 'BrandD', 'BrandC']",['view'],"[12, 167, 114]",[13]
+128,52,Female,New York,"['Books', 'Clothing', 'Beauty']",256.34,"['BrandC', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[347, 230, 292, 198, 31, 111, 346]","[352, 379]"
+129,18,Female,Los Angeles,"['Clothing', 'Toys', 'Electronics']",275.17,"['BrandC', 'BrandA', 'BrandE']","['view', 'add_to_cart', 'purchase']","[432, 383, 460, 77, 462, 282, 169, 211]",[]
+130,52,Other,Houston,"['Books', 'Clothing', 'Electronics']",262.55,"['BrandB', 'BrandC', 'BrandD']","['view', 'add_to_cart', 'purchase']","[343, 57, 131, 175, 23, 100, 247, 258, 139]","[99, 94, 347]"
+131,54,Female,Los Angeles,"['Electronics', 'Beauty']",238.72,"['BrandE', 'BrandD']",['add_to_cart'],"[201, 327]",[]
+132,64,Male,Los Angeles,"['Beauty', 'Books', 'Sports']",252.86,"['BrandD', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[440, 296, 347, 56, 205, 338, 257]",[163]
+133,31,Female,New York,"['Beauty', 'Sports', 'Toys']",225.59,"['BrandE', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[77, 292, 32]",[348]
+134,20,Female,New York,"['Electronics', 'Books', 'Clothing']",321.6,"['BrandB', 'BrandE', 'BrandC']","['view', 'add_to_cart']","[236, 307, 257, 376, 173, 338]","[361, 355]"
+135,18,Male,New York,"['Toys', 'Electronics', 'Home & Kitchen']",237.36,"['BrandB', 'BrandA', 'BrandD']",['view'],"[323, 274, 281, 261, 49]","[279, 433, 174]"
+136,22,Male,New York,"['Books', 'Beauty']",271.67,"['BrandD', 'BrandB', 'BrandA']","['add_to_cart', 'view']","[133, 66]",[]
+137,43,Other,San Francisco,"['Home & Kitchen', 'Toys', 'Books']",147.91,"['BrandB', 'BrandE', 'BrandA']","['add_to_cart', 'view']","[257, 169, 46, 428]",[]
+138,31,Other,New York,"['Books', 'Beauty', 'Home & Kitchen']",248.75,"['BrandB', 'BrandC']","['view', 'add_to_cart']","[31, 487, 57, 88]",[308]
+139,56,Male,San Francisco,"['Sports', 'Home & Kitchen', 'Electronics']",262.79,"['BrandE', 'BrandC', 'BrandB']",['view'],"[380, 39, 266]",[454]
+140,44,Male,San Francisco,"['Toys', 'Books', 'Beauty']",188.65,"['BrandE', 'BrandC', 'BrandD']","['add_to_cart', 'view', 'purchase']","[364, 219, 408, 471, 297, 343]",[16]
+141,26,Other,New York,"['Home & Kitchen', 'Electronics', 'Sports']",152.42,"['BrandC', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[116, 326, 15, 71, 214]",[144]
+142,32,Female,Chicago,['Clothing'],289.05,['BrandB'],['add_to_cart'],[416],[]
+143,32,Male,Houston,"['Home & Kitchen', 'Sports', 'Beauty']",281.67,"['BrandD', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[305, 266, 335, 268, 112, 454]","[419, 177, 202, 81]"
+144,43,Other,Los Angeles,"['Toys', 'Sports', 'Books']",226.12,"['BrandE', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[277, 226, 190, 482, 480, 161, 48]",[]
+145,59,Female,San Francisco,"['Electronics', 'Beauty', 'Clothing']",313.32,"['BrandB', 'BrandD', 'BrandC']",['view'],"[282, 103, 54, 233]","[146, 4]"
+146,30,Male,Houston,"['Toys', 'Books', 'Clothing']",265.89,"['BrandC', 'BrandE', 'BrandD']","['view', 'add_to_cart']","[123, 128, 164, 72, 230, 404, 236]","[277, 74]"
+147,49,Female,Chicago,"['Electronics', 'Books', 'Toys']",322.56,"['BrandE', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[213, 115, 39, 150, 333, 400]",[]
+148,56,Other,Los Angeles,"['Books', 'Toys', 'Electronics']",350.16,"['BrandC', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[473, 75, 281, 383]",[]
+149,49,Male,Los Angeles,"['Books', 'Sports', 'Beauty']",189.76,"['BrandA', 'BrandB', 'BrandC']","['add_to_cart', 'view']","[336, 464, 80, 68]","[396, 243, 54]"
+150,21,Female,San Francisco,"['Home & Kitchen', 'Beauty', 'Books']",186.98,"['BrandD', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[16, 204, 24, 242, 21, 154]","[459, 143]"
+151,47,Male,New York,"['Clothing', 'Electronics']",137.2,"['BrandA', 'BrandC']","['view', 'purchase']","[30, 77, 18]",[]
+152,54,Female,Chicago,"['Books', 'Sports', 'Clothing']",234.11,"['BrandB', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[252, 68, 396, 21]",[]
+153,40,Other,San Francisco,"['Beauty', 'Clothing']",397.89,"['BrandE', 'BrandC', 'BrandB']","['add_to_cart', 'view']","[68, 400]",[]
+154,56,Other,Chicago,"['Sports', 'Electronics', 'Clothing']",302.61,"['BrandC', 'BrandB', 'BrandD']","['add_to_cart', 'view']","[375, 216, 482, 481, 270, 167]",[]
+155,62,Male,New York,"['Home & Kitchen', 'Beauty', 'Sports']",218.28,"['BrandA', 'BrandC', 'BrandB']","['view', 'purchase']","[332, 275, 330, 271, 149, 52, 110, 282]",[143]
+156,32,Female,New York,"['Books', 'Electronics', 'Sports']",231.05,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[323, 15, 380, 149, 196, 463]",[446]
+157,60,Male,San Francisco,"['Clothing', 'Electronics', 'Books']",56.1,"['BrandA', 'BrandC', 'BrandE']","['purchase', 'view']","[476, 46, 276, 365]",[]
+158,46,Male,New York,"['Home & Kitchen', 'Electronics', 'Clothing']",279.2,"['BrandA', 'BrandC', 'BrandD']",['view'],"[128, 227, 324]",[]
+159,53,Female,Houston,"['Home & Kitchen', 'Clothing', 'Books']",279.68,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart', 'purchase']","[187, 94, 293, 267]",[]
+160,30,Female,Los Angeles,"['Books', 'Toys', 'Beauty']",244.79,"['BrandC', 'BrandE', 'BrandA']",['view'],[422],"[411, 72]"
+161,49,Female,San Francisco,"['Sports', 'Beauty', 'Electronics']",341.76,"['BrandB', 'BrandE', 'BrandC']","['view', 'purchase', 'add_to_cart']","[173, 270, 281, 234, 77, 167]",[252]
+162,24,Other,Chicago,"['Toys', 'Electronics', 'Clothing']",130.34,"['BrandA', 'BrandE', 'BrandD']","['view', 'add_to_cart', 'purchase']","[302, 138, 195, 38, 324, 222]",[]
+163,39,Male,Houston,"['Sports', 'Home & Kitchen', 'Toys']",188.75,"['BrandA', 'BrandD', 'BrandB']","['add_to_cart', 'view', 'purchase']","[139, 47, 48, 308]","[80, 107]"
+164,45,Male,San Francisco,"['Clothing', 'Electronics', 'Toys']",243.28,"['BrandA', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[427, 153, 497, 315, 470, 333, 5]",[29]
+165,19,Other,New York,"['Toys', 'Beauty', 'Books']",272.94,"['BrandA', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[366, 296, 202, 167]",[314]
+166,59,Female,New York,"['Sports', 'Books', 'Home & Kitchen']",242.29,"['BrandC', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[158, 480, 302, 141, 323, 223, 186, 97]","[110, 75]"
+167,62,Other,New York,"['Books', 'Sports', 'Toys']",288.48,"['BrandC', 'BrandB', 'BrandE']","['view', 'purchase']","[138, 93, 96]",[113]
+168,23,Other,New York,"['Beauty', 'Home & Kitchen', 'Books']",164.36,"['BrandE', 'BrandA', 'BrandD']","['view', 'purchase']","[130, 464, 204, 379, 313, 148]",[245]
+169,45,Other,Chicago,"['Home & Kitchen', 'Clothing', 'Books']",322.68,"['BrandA', 'BrandD', 'BrandE']","['add_to_cart', 'view']","[106, 45, 283, 54, 111]",[]
+170,45,Male,Houston,"['Beauty', 'Sports', 'Home & Kitchen']",238.72,"['BrandB', 'BrandA', 'BrandC']",['view'],"[307, 7]","[377, 264]"
+171,61,Other,Los Angeles,"['Beauty', 'Home & Kitchen', 'Clothing']",277.05,"['BrandB', 'BrandA', 'BrandE']","['add_to_cart', 'view']","[106, 314, 455, 302, 320, 49, 404, 368, 367, 280]",[282]
+172,61,Male,Chicago,"['Electronics', 'Sports', 'Books']",196.5,"['BrandB', 'BrandA', 'BrandC']","['add_to_cart', 'view']","[253, 3, 199, 17, 242]",[263]
+173,37,Male,Chicago,"['Electronics', 'Books', 'Clothing']",268.72,"['BrandD', 'BrandB', 'BrandC']","['add_to_cart', 'view']","[113, 76, 319]","[146, 140]"
+174,47,Male,Los Angeles,"['Electronics', 'Sports', 'Books']",225.9,"['BrandE', 'BrandB', 'BrandA']",['view'],[441],"[354, 48]"
+175,28,Female,Los Angeles,"['Home & Kitchen', 'Books', 'Toys']",298.38,"['BrandA', 'BrandB', 'BrandE']","['add_to_cart', 'view', 'purchase']","[396, 153, 369, 345]",[207]
+176,45,Male,New York,"['Beauty', 'Home & Kitchen', 'Electronics']",273.01,"['BrandB', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[277, 404, 257]","[290, 420, 270]"
+177,42,Male,Chicago,"['Electronics', 'Books', 'Home & Kitchen']",242.78,"['BrandC', 'BrandE', 'BrandB']","['add_to_cart', 'view', 'purchase']","[43, 466, 421, 325, 444, 322]",[323]
+178,56,Female,San Francisco,"['Home & Kitchen', 'Electronics', 'Clothing']",336.69,"['BrandE', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[251, 338, 211, 438, 159]",[]
+179,50,Male,Los Angeles,"['Home & Kitchen', 'Clothing', 'Electronics']",215.44,"['BrandB', 'BrandA', 'BrandE']","['add_to_cart', 'view', 'purchase']","[238, 276, 463, 86, 257, 428, 199, 425, 373]","[126, 208, 438, 406]"
+180,18,Other,Los Angeles,"['Sports', 'Books', 'Clothing']",176.88,"['BrandA', 'BrandB', 'BrandD']","['add_to_cart', 'view', 'purchase']","[286, 360, 139, 320, 223, 86, 480, 494]",[360]
+181,44,Other,Houston,"['Electronics', 'Home & Kitchen', 'Toys']",239.37,"['BrandB', 'BrandD', 'BrandA']","['view', 'add_to_cart', 'purchase']","[181, 467, 427, 346, 215, 492, 398, 125, 396]",[61]
+182,30,Male,San Francisco,"['Sports', 'Books', 'Home & Kitchen']",288.78,"['BrandD', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[334, 69, 39, 215, 178, 30, 470, 274]","[224, 393]"
+183,58,Female,San Francisco,"['Books', 'Sports', 'Beauty']",141.33,"['BrandA', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[79, 393, 73, 490]",[]
+184,20,Other,Los Angeles,"['Home & Kitchen', 'Books', 'Sports']",201.74,"['BrandA', 'BrandE', 'BrandC']","['view', 'add_to_cart']","[292, 414, 123, 289, 99, 411, 86]","[44, 441]"
+185,56,Female,New York,"['Beauty', 'Books', 'Sports']",329.61,"['BrandC', 'BrandE', 'BrandB']","['view', 'purchase', 'add_to_cart']","[419, 56, 401, 337]","[28, 285]"
+186,23,Female,Houston,"['Books', 'Sports', 'Electronics']",275.76,"['BrandD', 'BrandC', 'BrandE']","['view', 'purchase']","[201, 310, 293]",[328]
+187,25,Other,San Francisco,"['Books', 'Electronics', 'Clothing']",307.88,"['BrandB', 'BrandC', 'BrandA']","['view', 'add_to_cart', 'purchase']","[274, 394, 345, 15, 177, 179, 285, 438]",[84]
+188,44,Female,Los Angeles,"['Toys', 'Clothing', 'Beauty']",283.3,"['BrandC', 'BrandE', 'BrandA']","['view', 'purchase', 'add_to_cart']","[460, 28, 71, 325, 485, 319, 356, 301, 228]",[]
+189,26,Other,San Francisco,"['Electronics', 'Beauty', 'Books']",249.04,"['BrandD', 'BrandB', 'BrandE']","['view', 'add_to_cart', 'purchase']","[371, 12, 178, 213, 111, 131, 294, 75, 156, 89]","[291, 239, 497]"
+190,54,Female,Houston,"['Beauty', 'Home & Kitchen', 'Books']",265.1,"['BrandD', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[256, 364, 244, 452, 332]",[461]
+191,50,Other,Houston,"['Books', 'Home & Kitchen', 'Beauty']",185.72,"['BrandE', 'BrandD', 'BrandA']","['view', 'add_to_cart', 'purchase']","[25, 15, 357, 104, 239, 38, 490]",[]
+192,59,Male,Chicago,"['Toys', 'Home & Kitchen', 'Electronics']",284.96,"['BrandA', 'BrandB', 'BrandE']","['view', 'purchase', 'add_to_cart']","[437, 496, 173, 39, 253, 469, 440, 11]",[41]
+193,61,Other,Los Angeles,"['Electronics', 'Beauty', 'Sports']",211.3,"['BrandB', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[212, 360, 202, 226, 307, 395]",[140]
+194,41,Other,Houston,"['Toys', 'Electronics', 'Clothing']",298.7,"['BrandD', 'BrandB', 'BrandA']",['view'],"[332, 340, 386, 400, 29]",[219]
+195,32,Other,Chicago,"['Clothing', 'Sports', 'Beauty']",263.01,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart']","[490, 439, 340, 204, 267, 299, 205]",[]
+196,49,Other,Chicago,"['Beauty', 'Clothing', 'Electronics']",196.07,"['BrandA', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[447, 349, 327]","[248, 426]"
+197,49,Female,San Francisco,"['Books', 'Toys', 'Beauty']",219.67,"['BrandC', 'BrandA', 'BrandD']",['view'],"[80, 287, 172, 234, 339, 24]",[444]
+198,41,Male,San Francisco,"['Sports', 'Beauty', 'Toys']",333.48,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[186, 384, 173, 19]",[157]
+199,58,Other,Chicago,"['Toys', 'Sports', 'Electronics']",359.06,"['BrandE', 'BrandD', 'BrandA']","['view', 'add_to_cart']","[497, 346, 321, 33, 341]",[339]
+200,29,Female,San Francisco,"['Beauty', 'Home & Kitchen', 'Sports']",248.78,"['BrandD', 'BrandE', 'BrandA']","['view', 'purchase', 'add_to_cart']","[60, 114, 200, 420, 250, 183]",[275]
+201,56,Male,Houston,"['Electronics', 'Books', 'Beauty']",335.51,"['BrandE', 'BrandD', 'BrandC']","['view', 'purchase', 'add_to_cart']","[388, 354, 221, 372, 201, 393]",[36]
+202,19,Male,New York,"['Clothing', 'Home & Kitchen']",345.02,"['BrandA', 'BrandD']",['add_to_cart'],[340],[227]
+203,20,Male,Houston,"['Beauty', 'Books', 'Clothing']",331.82,"['BrandA', 'BrandC']","['add_to_cart', 'view']","[118, 345, 218]",[]
+204,54,Male,Chicago,"['Books', 'Electronics', 'Clothing']",286.4,"['BrandC', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[293, 321, 481, 235, 158, 251, 473]","[424, 89, 201, 233]"
+205,34,Other,Chicago,"['Books', 'Beauty', 'Home & Kitchen']",272.95,"['BrandA', 'BrandE', 'BrandB']","['view', 'purchase']","[187, 298]",[]
+206,19,Other,Houston,"['Clothing', 'Toys', 'Electronics']",319.93,"['BrandA', 'BrandE', 'BrandB']","['add_to_cart', 'view', 'purchase']","[149, 280, 290, 407, 141, 317]","[406, 273, 423]"
+207,19,Female,San Francisco,"['Clothing', 'Beauty', 'Electronics']",207.84,"['BrandC', 'BrandB', 'BrandD']","['view', 'purchase', 'add_to_cart']","[141, 129, 216, 498, 17, 335, 302, 250, 480, 380]",[]
+208,45,Female,San Francisco,"['Beauty', 'Books', 'Home & Kitchen']",160.75,"['BrandC', 'BrandA']","['view', 'add_to_cart']","[165, 85, 144, 349]",[]
+209,40,Female,Chicago,"['Electronics', 'Beauty', 'Books']",270.17,"['BrandD', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[270, 54, 269, 169, 74, 108, 481, 121]",[497]
+210,54,Male,Los Angeles,"['Sports', 'Toys', 'Home & Kitchen']",290.7,"['BrandA', 'BrandC', 'BrandB']","['view', 'purchase']","[200, 376, 67, 134]",[]
+211,49,Male,San Francisco,"['Sports', 'Home & Kitchen', 'Beauty']",297.4,"['BrandA', 'BrandB', 'BrandD']","['add_to_cart', 'view', 'purchase']","[117, 429, 59, 281, 191, 442, 391, 163, 127, 141, 308]",[35]
+212,50,Other,Houston,"['Beauty', 'Clothing', 'Home & Kitchen']",290.42,"['BrandC', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[289, 402, 42, 292, 334, 344]",[]
+213,18,Male,San Francisco,"['Books', 'Home & Kitchen', 'Clothing']",240.45,"['BrandC', 'BrandE']",['view'],[193],[169]
+214,36,Male,Houston,"['Books', 'Toys', 'Sports']",319.65,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[23, 402, 274, 410, 158, 380]","[346, 385]"
+215,19,Male,Chicago,"['Beauty', 'Home & Kitchen', 'Electronics']",215.37,"['BrandD', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[359, 298, 238, 498, 269, 260, 59]","[364, 239]"
+216,61,Female,San Francisco,"['Sports', 'Electronics', 'Home & Kitchen']",250.37,"['BrandB', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[79, 431, 328, 202, 274]","[494, 78, 155]"
+217,43,Female,Houston,"['Electronics', 'Home & Kitchen', 'Beauty']",286.62,"['BrandC', 'BrandB', 'BrandA']","['purchase', 'view', 'add_to_cart']","[330, 204, 54, 326, 382, 263, 134]",[]
+218,49,Other,Chicago,"['Toys', 'Home & Kitchen', 'Electronics']",222.78,"['BrandE', 'BrandA']","['view', 'purchase']","[410, 105, 207, 420]",[313]
+219,23,Male,Los Angeles,"['Toys', 'Sports']",319.68,"['BrandA', 'BrandC', 'BrandD']","['purchase', 'view']","[427, 50, 22, 127]",[]
+220,49,Male,Houston,"['Beauty', 'Sports', 'Electronics']",145.19,"['BrandD', 'BrandB', 'BrandA']","['add_to_cart', 'view', 'purchase']","[449, 86, 338, 139, 217]",[166]
+221,21,Other,Los Angeles,"['Electronics', 'Books', 'Home & Kitchen']",342.49,"['BrandE', 'BrandC', 'BrandD']","['add_to_cart', 'view']","[270, 224, 124, 317, 234, 266]",[418]
+222,28,Male,Los Angeles,"['Sports', 'Beauty', 'Clothing']",341.82,"['BrandD', 'BrandA', 'BrandB']","['purchase', 'add_to_cart', 'view']","[326, 188, 426, 89, 206]",[471]
+223,34,Male,New York,"['Books', 'Toys']",268.25,['BrandA'],['add_to_cart'],"[417, 398]",[142]
+224,55,Female,San Francisco,"['Toys', 'Sports', 'Beauty']",275.92,"['BrandD', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[50, 389, 480, 313, 66]",[]
+225,41,Other,Houston,"['Clothing', 'Electronics', 'Books']",166.98,"['BrandE', 'BrandD', 'BrandA']","['add_to_cart', 'purchase', 'view']","[272, 434, 365, 183, 331, 379]",[302]
+226,22,Other,Los Angeles,"['Toys', 'Beauty', 'Electronics']",295.65,"['BrandC', 'BrandD', 'BrandA']","['view', 'add_to_cart']","[53, 33, 116, 95, 485, 87]","[40, 461]"
+227,51,Other,New York,"['Sports', 'Beauty', 'Clothing']",274.05,"['BrandD', 'BrandB', 'BrandA']","['add_to_cart', 'purchase', 'view']","[412, 281, 483, 449]","[499, 83, 198]"
+228,23,Other,Chicago,"['Clothing', 'Toys', 'Books']",266.02,"['BrandA', 'BrandD', 'BrandB']",['view'],"[492, 52, 131]",[]
+229,39,Female,Houston,"['Beauty', 'Sports', 'Clothing']",301.58,"['BrandE', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[483, 156, 421, 444, 29, 461, 146, 186]",[197]
+230,28,Female,Los Angeles,"['Electronics', 'Clothing', 'Books']",259.79,"['BrandB', 'BrandE', 'BrandC']","['view', 'add_to_cart']","[31, 374, 375, 367, 272]",[181]
+231,33,Male,San Francisco,"['Clothing', 'Beauty', 'Electronics']",237.51,"['BrandD', 'BrandB']","['add_to_cart', 'view']","[318, 287, 370]",[]
+232,50,Male,New York,"['Books', 'Sports', 'Home & Kitchen']",236.44,"['BrandA', 'BrandC', 'BrandB']","['add_to_cart', 'view', 'purchase']","[250, 167, 64, 309, 376, 136]","[465, 465]"
+233,26,Male,Los Angeles,"['Beauty', 'Sports', 'Clothing']",231.11,"['BrandC', 'BrandE', 'BrandD']","['view', 'purchase']","[78, 180, 10, 82]","[138, 54]"
+234,23,Male,San Francisco,"['Toys', 'Books', 'Electronics']",221.07,"['BrandD', 'BrandE', 'BrandB']","['add_to_cart', 'view']","[488, 157]","[316, 412, 135]"
+235,33,Female,Los Angeles,"['Electronics', 'Books', 'Sports']",177.67,"['BrandB', 'BrandC', 'BrandE']",['view'],"[161, 410]",[140]
+236,46,Other,Houston,"['Sports', 'Beauty', 'Books']",144.09,"['BrandE', 'BrandB', 'BrandC']","['view', 'purchase', 'add_to_cart']","[283, 100, 165, 229, 181, 268]",[]
+237,20,Female,Houston,"['Books', 'Home & Kitchen', 'Electronics']",277.68,"['BrandB', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[398, 306, 409, 291, 343, 121, 293, 198, 102, 296, 416, 474, 107, 251]","[489, 52]"
+238,37,Male,Houston,"['Home & Kitchen', 'Beauty', 'Sports']",293.02,"['BrandA', 'BrandC', 'BrandD']",['view'],"[25, 466, 307, 9, 491, 300]","[405, 110, 262, 81]"
+239,53,Female,New York,"['Beauty', 'Clothing', 'Electronics']",246.67,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[131, 93, 422, 194, 8, 70, 464]","[297, 227]"
+240,36,Other,Houston,"['Beauty', 'Electronics', 'Books']",254.44,"['BrandB', 'BrandE']",[],[],[400]
+241,43,Other,San Francisco,"['Clothing', 'Beauty', 'Electronics']",336.65,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[397, 386, 237, 490]",[162]
+242,20,Female,Los Angeles,"['Books', 'Electronics', 'Toys']",251.53,"['BrandA', 'BrandB', 'BrandC']","['add_to_cart', 'purchase']","[206, 100]",[276]
+243,36,Female,Chicago,"['Home & Kitchen', 'Clothing', 'Beauty']",357.04,"['BrandC', 'BrandD', 'BrandA']","['add_to_cart', 'view']","[483, 180, 106]",[457]
+244,37,Female,San Francisco,"['Toys', 'Sports', 'Beauty']",251.87,"['BrandA', 'BrandB']",['add_to_cart'],"[22, 290]",[]
+245,49,Male,San Francisco,"['Sports', 'Beauty', 'Books']",304.88,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[382, 380, 73, 355]","[196, 367]"
+246,24,Female,Houston,"['Electronics', 'Beauty', 'Sports']",276.4,"['BrandA', 'BrandB', 'BrandD']","['view', 'purchase', 'add_to_cart']","[273, 299, 458, 355, 493, 377, 235]",[]
+247,58,Female,New York,"['Sports', 'Home & Kitchen', 'Electronics']",280.6,"['BrandE', 'BrandA', 'BrandB']","['purchase', 'view', 'add_to_cart']","[227, 9, 221, 415, 211, 266, 329, 467, 489]",[127]
+248,50,Female,Los Angeles,"['Sports', 'Clothing', 'Electronics']",228.09,"['BrandB', 'BrandC', 'BrandA']",['view'],"[116, 148, 142, 93]",[]
+249,57,Other,New York,"['Toys', 'Sports', 'Home & Kitchen']",279.34,"['BrandB', 'BrandE', 'BrandC']","['view', 'add_to_cart']","[114, 75, 186, 71, 18]",[456]
+250,56,Other,Los Angeles,"['Toys', 'Beauty', 'Sports']",144.85,"['BrandC', 'BrandB']","['view', 'add_to_cart']","[376, 262, 449]",[]
+251,35,Male,Los Angeles,"['Books', 'Home & Kitchen', 'Sports']",208.02,"['BrandA', 'BrandE', 'BrandC']","['view', 'add_to_cart']","[402, 204, 48, 357, 157, 281]","[408, 361, 440]"
+252,57,Male,New York,"['Sports', 'Beauty', 'Books']",344.19,"['BrandC', 'BrandE']","['add_to_cart', 'view']","[367, 197, 285]","[322, 121]"
+253,18,Other,San Francisco,"['Beauty', 'Home & Kitchen', 'Sports']",223.17,"['BrandE', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[28, 194, 322, 158, 395, 38, 421]",[348]
+254,28,Other,Los Angeles,"['Home & Kitchen', 'Toys', 'Electronics']",369.29,"['BrandC', 'BrandB', 'BrandE']",['add_to_cart'],"[281, 5]","[246, 456]"
+255,45,Other,New York,"['Beauty', 'Electronics', 'Home & Kitchen']",301.98,"['BrandD', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[214, 13, 413, 330, 209, 285, 190, 59, 31, 134]","[136, 312]"
+256,42,Female,Los Angeles,"['Toys', 'Books', 'Clothing']",177.67,"['BrandB', 'BrandC', 'BrandA']","['add_to_cart', 'view']","[77, 366, 24, 386]",[153]
+257,40,Female,Chicago,"['Electronics', 'Sports', 'Home & Kitchen']",277.13,"['BrandA', 'BrandD']","['add_to_cart', 'view']","[194, 175]",[383]
+258,48,Other,San Francisco,"['Sports', 'Books', 'Clothing']",197.79,"['BrandE', 'BrandA', 'BrandB']","['purchase', 'view', 'add_to_cart']","[232, 396, 465, 425, 88, 440]",[470]
+259,47,Female,Houston,"['Beauty', 'Electronics', 'Books']",260.37,"['BrandC', 'BrandA', 'BrandB']","['add_to_cart', 'view']","[285, 427, 279, 92, 54, 415]",[299]
+260,59,Female,Los Angeles,"['Home & Kitchen', 'Sports', 'Books']",372.6,"['BrandE', 'BrandB', 'BrandA']","['view', 'purchase']","[434, 496, 299, 326, 65, 189]","[188, 44]"
+261,52,Male,Chicago,"['Sports', 'Books']",204.97,"['BrandB', 'BrandA', 'BrandC']",['view'],"[10, 473]",[250]
+262,24,Other,Houston,"['Toys', 'Beauty', 'Home & Kitchen']",106.6,"['BrandE', 'BrandD', 'BrandC']","['add_to_cart', 'view']","[34, 364, 395]",[]
+263,33,Other,Houston,"['Sports', 'Books', 'Beauty']",148.39,"['BrandE', 'BrandC', 'BrandD']",['view'],"[297, 388]","[159, 161]"
+264,43,Female,Los Angeles,"['Electronics', 'Clothing', 'Beauty']",352.47,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[282, 438, 394, 18]",[98]
+265,19,Other,New York,"['Clothing', 'Books', 'Beauty']",247.53,"['BrandB', 'BrandE', 'BrandD']","['add_to_cart', 'view']","[154, 132, 175, 257, 387, 471]",[335]
+266,18,Male,Los Angeles,"['Electronics', 'Toys', 'Clothing']",246.64,"['BrandC', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[109, 303, 39, 226, 220]",[]
+267,29,Male,Chicago,"['Sports', 'Toys', 'Clothing']",294.37,"['BrandD', 'BrandB', 'BrandE']","['add_to_cart', 'view', 'purchase']","[462, 188, 279, 320, 178]",[]
+268,22,Male,Houston,"['Books', 'Electronics', 'Sports']",275.9,"['BrandA', 'BrandD', 'BrandC']","['add_to_cart', 'purchase', 'view']","[196, 223, 26, 442, 221, 456]",[346]
+269,54,Other,Los Angeles,"['Home & Kitchen', 'Toys', 'Books']",300.01,"['BrandD', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[70, 204, 119, 1, 20, 304]","[203, 324]"
+270,49,Other,New York,"['Sports', 'Books', 'Electronics']",159.64,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart']","[181, 262, 357, 79, 266, 89, 218]",[392]
+271,26,Other,Los Angeles,"['Electronics', 'Sports', 'Beauty']",267.17,"['BrandA', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[403, 278, 401, 103, 241, 482, 109, 369, 445, 222]","[253, 429]"
+272,58,Other,San Francisco,"['Books', 'Electronics', 'Beauty']",231.26,"['BrandB', 'BrandE', 'BrandA']",['view'],"[469, 276]","[92, 24]"
+273,52,Other,New York,"['Sports', 'Clothing', 'Books']",187.89,"['BrandB', 'BrandD', 'BrandC']","['view', 'add_to_cart', 'purchase']","[280, 471, 255, 401, 13, 56, 43, 364, 433, 189]",[449]
+274,36,Male,Chicago,"['Sports', 'Clothing', 'Beauty']",234.93,"['BrandE', 'BrandB', 'BrandA']","['add_to_cart', 'purchase']","[451, 229, 423]",[]
+275,33,Female,Houston,"['Books', 'Beauty', 'Toys']",162.56,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[464, 113, 10, 308, 303]",[]
+276,20,Male,Los Angeles,"['Toys', 'Electronics', 'Sports']",234.99,"['BrandD', 'BrandC', 'BrandA']","['add_to_cart', 'view']","[323, 389, 120, 227, 494, 393, 238, 122, 196]",[329]
+277,37,Other,New York,"['Toys', 'Home & Kitchen', 'Electronics']",278.56,"['BrandC', 'BrandD', 'BrandA']","['view', 'add_to_cart']","[185, 92, 390]",[152]
+278,41,Male,San Francisco,"['Electronics', 'Books', 'Sports']",316.55,"['BrandD', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[223, 91, 350, 278, 410, 132, 448, 381]","[146, 142]"
+279,50,Other,New York,"['Books', 'Beauty', 'Toys']",207.42,"['BrandC', 'BrandA', 'BrandB']","['add_to_cart', 'view']","[203, 494, 353, 168, 475]",[75]
+280,41,Other,San Francisco,"['Toys', 'Books']",91.67,['BrandB'],['view'],[396],[]
+281,28,Male,Chicago,"['Electronics', 'Toys', 'Sports']",287.96,"['BrandE', 'BrandD', 'BrandA']","['view', 'add_to_cart', 'purchase']","[49, 309, 456, 138, 300]",[98]
+282,25,Other,Houston,"['Home & Kitchen', 'Books', 'Beauty']",274.22,"['BrandC', 'BrandD', 'BrandA']","['view', 'purchase', 'add_to_cart']","[463, 163, 303, 90, 424]",[]
+283,53,Female,Chicago,"['Clothing', 'Books', 'Sports']",239.6,"['BrandA', 'BrandB', 'BrandC']",['view'],"[152, 77, 109, 68, 169, 216, 128, 243, 413]","[213, 267, 344]"
+284,55,Other,Los Angeles,"['Clothing', 'Toys', 'Home & Kitchen']",255.72,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[394, 330, 257, 131, 28]",[68]
+285,57,Female,New York,"['Books', 'Beauty', 'Clothing']",340.76,"['BrandD', 'BrandB', 'BrandA']","['purchase', 'view', 'add_to_cart']","[485, 213, 82, 358, 381]",[]
+286,37,Female,San Francisco,"['Beauty', 'Clothing', 'Sports']",192.09,"['BrandB', 'BrandE', 'BrandD']","['view', 'purchase']","[93, 159, 481, 92]",[499]
+287,52,Other,San Francisco,"['Toys', 'Beauty', 'Sports']",311.63,"['BrandB', 'BrandD', 'BrandA']","['view', 'add_to_cart', 'purchase']","[322, 288, 92, 340, 351, 338]","[288, 450, 219]"
+288,42,Male,New York,"['Home & Kitchen', 'Sports', 'Books']",243.33,"['BrandA', 'BrandE', 'BrandD']","['view', 'add_to_cart']","[409, 107, 113, 353, 401, 356]",[]
+289,52,Female,New York,"['Clothing', 'Home & Kitchen']",220.76,"['BrandB', 'BrandA', 'BrandD']","['add_to_cart', 'view', 'purchase']","[483, 59, 114]","[145, 335]"
+290,42,Male,Los Angeles,"['Home & Kitchen', 'Electronics']",366.24,"['BrandC', 'BrandB']",[],[],[7]
+291,46,Female,Chicago,"['Electronics', 'Clothing', 'Beauty']",225.6,"['BrandE', 'BrandA', 'BrandB']","['add_to_cart', 'view']","[145, 299, 330, 139, 253]",[36]
+292,35,Other,San Francisco,"['Books', 'Sports', 'Home & Kitchen']",89.38,"['BrandA', 'BrandC', 'BrandB']","['view', 'add_to_cart']","[366, 477, 298]",[]
+293,63,Other,Los Angeles,"['Electronics', 'Clothing', 'Toys']",338.42,"['BrandA', 'BrandE', 'BrandD']","['add_to_cart', 'view']","[339, 333, 188]","[272, 94, 414]"
+294,35,Female,Chicago,"['Books', 'Toys', 'Beauty']",264.75,"['BrandB', 'BrandC', 'BrandA']","['add_to_cart', 'view']","[341, 163, 102, 279, 368, 33, 173, 397]",[473]
+295,19,Other,Los Angeles,"['Home & Kitchen', 'Books']",280.12,"['BrandC', 'BrandD']",['add_to_cart'],[434],[230]
+296,52,Female,San Francisco,"['Clothing', 'Sports', 'Electronics']",234.78,"['BrandE', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[384, 29, 472, 193, 209, 192, 194, 357]","[451, 333, 196]"
+297,33,Other,New York,"['Beauty', 'Home & Kitchen', 'Toys']",218.37,"['BrandD', 'BrandC', 'BrandB']",['view'],"[494, 206, 126, 154]","[194, 248, 182]"
+298,58,Male,New York,"['Books', 'Toys', 'Sports']",360.29,"['BrandE', 'BrandB', 'BrandD']","['view', 'add_to_cart', 'purchase']","[423, 311, 168, 231, 27, 183]",[]
+299,53,Other,Chicago,"['Books', 'Sports', 'Beauty']",356.77,"['BrandE', 'BrandD', 'BrandA']","['view', 'purchase', 'add_to_cart']","[402, 459, 293, 424]",[361]
+300,50,Male,Houston,"['Home & Kitchen', 'Books', 'Electronics']",255.72,"['BrandE', 'BrandD', 'BrandC']","['purchase', 'view', 'add_to_cart']","[434, 218, 331, 114, 221, 65]",[]
+301,21,Other,Chicago,"['Electronics', 'Home & Kitchen', 'Toys']",267.35,"['BrandC', 'BrandD', 'BrandB']","['add_to_cart', 'view']","[115, 72]","[126, 357]"
+302,50,Male,Houston,"['Home & Kitchen', 'Clothing', 'Sports']",200.33,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart']","[232, 141, 330, 453, 268]",[]
+303,31,Other,Los Angeles,"['Books', 'Home & Kitchen', 'Beauty']",213.2,"['BrandE', 'BrandC', 'BrandD']",['add_to_cart'],"[395, 271, 340]",[69]
+304,38,Male,Los Angeles,"['Electronics', 'Toys', 'Books']",237.92,"['BrandE', 'BrandC', 'BrandA']",['view'],"[248, 16, 464, 473]",[270]
+305,37,Female,San Francisco,"['Toys', 'Clothing', 'Beauty']",290.51,"['BrandC', 'BrandA']","['view', 'add_to_cart']","[145, 435]",[206]
+306,25,Female,Houston,"['Books', 'Electronics', 'Beauty']",337.34,"['BrandD', 'BrandE', 'BrandA']","['view', 'purchase', 'add_to_cart']","[293, 306, 244, 385, 64, 361]",[388]
+307,24,Male,San Francisco,"['Books', 'Electronics', 'Clothing']",176.76,"['BrandD', 'BrandA', 'BrandE']","['view', 'add_to_cart', 'purchase']","[338, 137, 345, 396, 144]",[21]
+308,20,Other,New York,"['Electronics', 'Toys', 'Books']",272.29,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart', 'purchase']","[396, 424, 310, 278, 125]",[179]
+309,34,Male,Houston,"['Books', 'Toys', 'Clothing']",290.27,"['BrandB', 'BrandC', 'BrandA']","['view', 'add_to_cart', 'purchase']","[84, 310, 495, 89, 288]",[]
+310,50,Other,Chicago,"['Sports', 'Electronics', 'Beauty']",220.56,"['BrandE', 'BrandA', 'BrandC']","['view', 'add_to_cart', 'purchase']","[78, 122, 9, 470, 261, 29, 95]",[]
+311,29,Female,New York,"['Beauty', 'Clothing', 'Home & Kitchen']",273.07,"['BrandC', 'BrandD', 'BrandA']","['view', 'add_to_cart', 'purchase']","[180, 420, 56, 259, 443, 308]",[481]
+312,39,Other,New York,"['Toys', 'Books']",481.38,"['BrandE', 'BrandC']",['view'],"[339, 72]",[]
+313,39,Female,Chicago,"['Books', 'Sports', 'Electronics']",376.2,"['BrandE', 'BrandD', 'BrandB']","['view', 'purchase', 'add_to_cart']","[39, 81, 459, 72, 135]",[]
+314,63,Other,New York,"['Books', 'Toys', 'Sports']",217.59,"['BrandC', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[279, 93, 453, 21, 178, 115, 365]",[]
+315,47,Other,Houston,"['Electronics', 'Home & Kitchen', 'Toys']",331.02,"['BrandC', 'BrandD', 'BrandE']","['purchase', 'view']","[386, 321, 206, 333, 140]",[]
+316,55,Other,San Francisco,"['Clothing', 'Beauty', 'Books']",292.0,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart', 'purchase']","[320, 448, 287]","[402, 290, 10]"
+317,55,Male,New York,"['Sports', 'Beauty', 'Toys']",397.81,"['BrandD', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[96, 288, 404, 380]","[83, 466]"
+318,62,Male,Houston,"['Toys', 'Home & Kitchen', 'Beauty']",286.89,"['BrandB', 'BrandA', 'BrandD']","['add_to_cart', 'view']","[269, 118, 316, 449, 61]","[1, 500, 337]"
+319,25,Female,Los Angeles,"['Toys', 'Sports']",266.51,"['BrandD', 'BrandE']",['view'],[225],[]
+320,44,Female,Houston,"['Books', 'Sports', 'Toys']",337.09,"['BrandA', 'BrandC', 'BrandD']",['view'],"[350, 219]",[10]
+321,44,Male,San Francisco,"['Electronics', 'Home & Kitchen', 'Sports']",173.96,"['BrandC', 'BrandD', 'BrandE']","['view', 'purchase']","[367, 153, 422, 449, 454]","[158, 274]"
+322,51,Female,Houston,"['Clothing', 'Toys', 'Electronics']",254.98,"['BrandC', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[50, 17, 21]","[424, 427]"
+323,38,Male,Chicago,"['Clothing', 'Sports']",331.95,"['BrandE', 'BrandD', 'BrandB']","['purchase', 'add_to_cart']","[223, 419]",[351]
+324,47,Other,San Francisco,"['Electronics', 'Clothing', 'Books']",223.23,"['BrandC', 'BrandE', 'BrandB']","['view', 'purchase', 'add_to_cart']","[138, 147, 131, 61]","[77, 135, 171]"
+325,50,Female,Los Angeles,"['Toys', 'Sports', 'Home & Kitchen']",214.6,"['BrandD', 'BrandA', 'BrandC']","['add_to_cart', 'view']","[353, 292, 86, 141, 265]",[164]
+326,45,Female,Chicago,"['Toys', 'Sports', 'Home & Kitchen']",335.34,"['BrandE', 'BrandA', 'BrandB']","['add_to_cart', 'view', 'purchase']","[211, 344, 196, 66, 35]",[281]
+327,64,Male,Houston,"['Clothing', 'Sports', 'Beauty']",306.53,"['BrandB', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[371, 402, 186, 368, 297, 57, 337, 393, 163]","[139, 8]"
+328,50,Female,San Francisco,"['Electronics', 'Beauty', 'Home & Kitchen']",406.7,"['BrandE', 'BrandC', 'BrandB']","['view', 'purchase', 'add_to_cart']","[168, 246, 466, 182, 90]",[221]
+329,22,Female,Los Angeles,"['Electronics', 'Home & Kitchen', 'Toys']",299.95,"['BrandB', 'BrandD', 'BrandC']","['purchase', 'add_to_cart']","[294, 78, 428, 187]",[156]
+330,36,Other,Chicago,"['Home & Kitchen', 'Beauty', 'Books']",313.99,"['BrandC', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[400, 428, 463, 25, 500, 45]",[]
+331,21,Female,Los Angeles,"['Books', 'Electronics', 'Clothing']",233.26,"['BrandC', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[29, 128, 36, 346, 44, 86]",[285]
+332,52,Other,Houston,"['Sports', 'Electronics', 'Books']",231.4,"['BrandD', 'BrandC', 'BrandA']",['view'],"[203, 154]","[224, 448]"
+333,34,Male,Los Angeles,"['Books', 'Sports', 'Home & Kitchen']",389.32,"['BrandB', 'BrandD', 'BrandE']",['view'],"[81, 470, 381, 483, 93]",[84]
+334,61,Female,New York,"['Books', 'Beauty', 'Electronics']",307.5,"['BrandC', 'BrandD', 'BrandE']","['view', 'purchase', 'add_to_cart']","[280, 197, 142, 486, 259, 62, 12]","[83, 229, 98, 465, 233]"
+335,45,Other,Chicago,"['Sports', 'Toys', 'Clothing']",232.87,"['BrandB', 'BrandC', 'BrandD']","['view', 'add_to_cart', 'purchase']","[368, 344, 43, 142, 271, 170]","[153, 350]"
+336,47,Male,Los Angeles,"['Electronics', 'Clothing', 'Books']",280.8,"['BrandD', 'BrandB', 'BrandC']","['view', 'purchase', 'add_to_cart']","[213, 92, 218, 107, 467, 319, 297]",[136]
+337,46,Female,Houston,"['Electronics', 'Clothing', 'Home & Kitchen']",289.2,"['BrandA', 'BrandB', 'BrandC']","['add_to_cart', 'view', 'purchase']","[344, 90, 42, 174, 9, 347]",[]
+338,63,Male,Houston,"['Beauty', 'Electronics', 'Books']",348.49,"['BrandA', 'BrandE', 'BrandC']","['view', 'add_to_cart']","[182, 280, 52, 67, 180]",[]
+339,23,Female,Los Angeles,"['Toys', 'Electronics', 'Sports']",331.33,"['BrandA', 'BrandC', 'BrandE']","['add_to_cart', 'view']","[11, 172, 381, 350, 338]",[356]
+340,52,Male,Houston,"['Toys', 'Home & Kitchen', 'Electronics']",264.75,"['BrandD', 'BrandE', 'BrandC']","['view', 'add_to_cart', 'purchase']","[333, 130, 433, 88, 211, 201, 218, 289]",[183]
+341,58,Male,San Francisco,"['Sports', 'Toys', 'Home & Kitchen']",260.59,"['BrandD', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[23, 144]",[462]
+342,54,Other,San Francisco,"['Electronics', 'Home & Kitchen', 'Sports']",310.75,"['BrandE', 'BrandD', 'BrandC']",['view'],"[304, 289, 218]",[241]
+343,41,Male,San Francisco,"['Toys', 'Sports', 'Electronics']",288.62,"['BrandD', 'BrandA', 'BrandE']","['view', 'add_to_cart', 'purchase']","[387, 37, 400, 196, 389, 245, 208]","[445, 324, 354]"
+344,46,Female,New York,"['Home & Kitchen', 'Sports', 'Electronics']",197.06,"['BrandA', 'BrandB']","['add_to_cart', 'view']","[445, 355, 41, 155]",[143]
+345,63,Female,Los Angeles,"['Toys', 'Home & Kitchen', 'Sports']",292.12,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[439, 100, 312, 125, 324, 214]","[337, 281]"
+346,48,Other,New York,"['Electronics', 'Books']",59.77,"['BrandD', 'BrandA']",['add_to_cart'],[366],[291]
+347,52,Female,Houston,"['Sports', 'Electronics', 'Toys']",97.83,"['BrandD', 'BrandB', 'BrandC']","['purchase', 'view', 'add_to_cart']","[126, 190, 366]",[97]
+348,50,Female,New York,"['Beauty', 'Books', 'Sports']",228.76,"['BrandB', 'BrandE', 'BrandC']","['view', 'add_to_cart']","[361, 139, 479, 4, 344]",[229]
+349,38,Female,Houston,"['Electronics', 'Books']",314.49,"['BrandA', 'BrandE', 'BrandC']",['view'],"[6, 333, 91, 112]",[]
+350,49,Male,Houston,"['Toys', 'Electronics', 'Sports']",309.45,"['BrandD', 'BrandA', 'BrandC']","['add_to_cart', 'view']","[11, 46, 254]",[]
+351,40,Male,Chicago,"['Books', 'Electronics', 'Toys']",325.38,"['BrandD', 'BrandE']","['view', 'add_to_cart']","[198, 136, 329, 403]",[]
+352,50,Female,San Francisco,"['Sports', 'Clothing', 'Toys']",202.48,"['BrandA', 'BrandB', 'BrandD']","['add_to_cart', 'view']","[243, 217, 316, 272, 283]",[132]
+353,20,Other,Houston,"['Books', 'Sports']",285.05,"['BrandA', 'BrandD']","['view', 'add_to_cart']","[336, 83]",[366]
+354,35,Male,Chicago,"['Beauty', 'Books']",109.12,"['BrandB', 'BrandD', 'BrandA']",['view'],[408],[]
+355,42,Other,San Francisco,"['Toys', 'Sports', 'Electronics']",279.67,"['BrandC', 'BrandD', 'BrandA']","['view', 'add_to_cart']","[18, 94, 288, 258, 122, 11, 53, 359, 111, 113, 310, 249]",[62]
+356,59,Female,Houston,"['Toys', 'Electronics', 'Books']",249.27,"['BrandA', 'BrandE', 'BrandC']","['view', 'purchase', 'add_to_cart']","[347, 26, 228, 204]",[]
+357,48,Female,Houston,"['Home & Kitchen', 'Toys', 'Books']",231.92,"['BrandA', 'BrandC', 'BrandD']","['view', 'add_to_cart', 'purchase']","[230, 187, 480, 346, 249, 139]",[]
+358,20,Male,New York,"['Sports', 'Books', 'Clothing']",278.3,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart', 'purchase']","[424, 281, 43, 197, 259, 380]","[340, 366, 199]"
+359,57,Female,New York,"['Electronics', 'Home & Kitchen']",440.76,"['BrandB', 'BrandE']",['view'],[317],[375]
+360,63,Male,San Francisco,"['Home & Kitchen', 'Beauty', 'Books']",301.96,"['BrandC', 'BrandA', 'BrandB']","['add_to_cart', 'view']","[66, 84, 225]",[]
+361,41,Female,Houston,"['Electronics', 'Books', 'Sports']",251.46,"['BrandA', 'BrandE', 'BrandC']",['view'],"[188, 78, 374]",[128]
+362,49,Female,Los Angeles,"['Beauty', 'Sports', 'Home & Kitchen']",419.47,"['BrandE', 'BrandD']",['view'],"[223, 421]",[245]
+363,64,Male,New York,"['Toys', 'Electronics', 'Books']",249.03,"['BrandA', 'BrandC', 'BrandD']",['view'],"[463, 271, 204]","[280, 356]"
+364,39,Male,San Francisco,"['Sports', 'Clothing', 'Toys']",242.24,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[369, 103, 195, 196, 394, 314, 278]",[224]
+365,40,Male,Houston,"['Books', 'Home & Kitchen', 'Toys']",305.14,"['BrandE', 'BrandD', 'BrandB']","['add_to_cart', 'view']","[283, 120, 84, 205, 293]",[]
+366,19,Female,Houston,"['Sports', 'Books', 'Clothing']",331.81,"['BrandC', 'BrandB', 'BrandE']","['view', 'add_to_cart', 'purchase']","[192, 483, 487, 354, 393, 227, 478]",[371]
+367,44,Female,Los Angeles,"['Books', 'Electronics', 'Sports']",239.92,"['BrandA', 'BrandE', 'BrandD']","['add_to_cart', 'view']","[190, 235, 46, 287, 354, 469, 439, 332, 411, 51]",[10]
+368,59,Other,San Francisco,"['Home & Kitchen', 'Clothing', 'Books']",244.38,"['BrandE', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[463, 236, 24, 464, 13, 369, 179, 228, 163, 207]",[325]
+369,19,Male,Houston,"['Clothing', 'Beauty', 'Books']",269.97,"['BrandB', 'BrandA', 'BrandD']",['view'],"[51, 29, 43, 227, 377, 93]",[468]
+370,43,Female,New York,"['Books', 'Electronics']",172.01,"['BrandA', 'BrandD']","['view', 'add_to_cart']","[104, 61]",[]
+371,34,Female,Los Angeles,"['Sports', 'Electronics', 'Beauty']",281.18,"['BrandC', 'BrandD', 'BrandB']","['add_to_cart', 'view']","[79, 433, 403, 286, 276, 35, 192]","[226, 482, 262]"
+372,57,Male,San Francisco,"['Beauty', 'Electronics', 'Sports']",176.53,"['BrandA', 'BrandC', 'BrandB']","['purchase', 'view', 'add_to_cart']","[455, 244, 41, 447, 499]",[66]
+373,50,Other,Los Angeles,"['Sports', 'Home & Kitchen', 'Beauty']",186.2,"['BrandC', 'BrandB', 'BrandD']","['view', 'purchase']","[481, 284, 38, 95, 390]",[]
+374,26,Male,New York,"['Books', 'Electronics', 'Clothing']",312.65,"['BrandC', 'BrandE', 'BrandB']",['view'],"[386, 495, 375, 326]",[444]
+375,60,Other,San Francisco,"['Electronics', 'Home & Kitchen', 'Beauty']",207.03,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[172, 224, 273, 327, 290, 489, 250]",[272]
+376,56,Female,Los Angeles,"['Toys', 'Books', 'Home & Kitchen']",224.59,"['BrandC', 'BrandE', 'BrandD']","['view', 'add_to_cart']","[472, 219, 324, 271, 408, 276]",[62]
+377,46,Other,Chicago,"['Toys', 'Clothing', 'Books']",214.27,"['BrandB', 'BrandA']","['view', 'add_to_cart']","[326, 255]",[341]
+378,59,Female,New York,"['Sports', 'Books', 'Clothing']",324.84,"['BrandC', 'BrandE', 'BrandD']","['view', 'add_to_cart']","[103, 374, 186, 328, 434, 185]",[350]
+379,43,Male,New York,"['Toys', 'Beauty', 'Clothing']",337.3,"['BrandD', 'BrandB', 'BrandE']",['view'],"[474, 182]",[]
+380,52,Male,New York,"['Sports', 'Home & Kitchen', 'Clothing']",241.23,"['BrandB', 'BrandA', 'BrandC']","['add_to_cart', 'purchase', 'view']","[101, 481, 425, 221]","[48, 106]"
+381,42,Male,Chicago,"['Home & Kitchen', 'Beauty', 'Sports']",236.33,"['BrandC', 'BrandA', 'BrandE']","['view', 'add_to_cart', 'purchase']","[345, 449, 201, 80, 432, 431, 391]",[292]
+382,41,Other,Chicago,"['Sports', 'Home & Kitchen', 'Clothing']",306.07,"['BrandB', 'BrandA', 'BrandD']","['add_to_cart', 'purchase', 'view']","[378, 94, 227]","[207, 48]"
+383,30,Female,Houston,"['Toys', 'Clothing', 'Electronics']",185.05,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[105, 255, 480, 144, 451, 61, 38, 140]","[23, 326]"
+384,24,Male,Los Angeles,"['Clothing', 'Toys', 'Books']",397.96,"['BrandC', 'BrandD', 'BrandA']","['view', 'purchase', 'add_to_cart']","[186, 441, 19, 483, 192, 317, 166, 37]","[193, 303]"
+385,53,Male,Houston,"['Books', 'Sports']",264.31,"['BrandB', 'BrandD', 'BrandA']",['view'],[276],"[371, 198]"
+386,62,Female,Los Angeles,"['Beauty', 'Clothing', 'Home & Kitchen']",266.79,"['BrandB', 'BrandC', 'BrandE']",['view'],"[51, 216, 290, 395, 348]",[]
+387,37,Male,Chicago,"['Electronics', 'Beauty', 'Toys']",255.85,"['BrandD', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[456, 205, 359, 156, 344, 19, 17, 99]","[348, 136]"
+388,18,Female,Chicago,"['Electronics', 'Sports', 'Toys']",279.38,"['BrandC', 'BrandA', 'BrandB']","['view', 'purchase', 'add_to_cart']","[91, 222, 254, 86, 394, 66, 330, 201, 252]",[]
+389,25,Female,Houston,"['Toys', 'Books', 'Electronics']",141.05,"['BrandC', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[203, 24, 34, 128, 63]",[432]
+390,63,Female,San Francisco,"['Home & Kitchen', 'Toys', 'Electronics']",211.92,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart', 'purchase']","[395, 9, 407, 461, 431, 29, 69]","[200, 205]"
+391,33,Female,Houston,"['Toys', 'Home & Kitchen', 'Sports']",265.42,"['BrandE', 'BrandC', 'BrandB']",['view'],"[245, 170, 437, 311]","[454, 281, 395]"
+392,31,Female,Los Angeles,"['Books', 'Home & Kitchen', 'Beauty']",324.73,"['BrandA', 'BrandB', 'BrandC']",['view'],"[432, 306, 168, 256]","[417, 420]"
+393,29,Other,Houston,"['Beauty', 'Toys', 'Clothing']",293.28,"['BrandE', 'BrandC', 'BrandA']","['purchase', 'view']","[29, 499, 327, 286]","[348, 376]"
+394,40,Male,New York,"['Electronics', 'Clothing', 'Books']",230.25,"['BrandE', 'BrandA']","['view', 'add_to_cart']","[13, 10, 313]",[430]
+395,32,Other,Los Angeles,"['Home & Kitchen', 'Books', 'Beauty']",345.97,['BrandB'],['purchase'],"[89, 282]",[215]
+396,45,Male,Los Angeles,"['Books', 'Electronics', 'Home & Kitchen']",196.35,"['BrandA', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[9, 204, 256, 18, 114, 343]",[142]
+397,51,Other,San Francisco,"['Books', 'Electronics', 'Clothing']",226.53,"['BrandA', 'BrandE', 'BrandB']","['view', 'add_to_cart', 'purchase']","[439, 104, 135, 364]",[333]
+398,19,Female,Chicago,"['Beauty', 'Toys', 'Electronics']",297.99,"['BrandA', 'BrandC', 'BrandE']","['add_to_cart', 'view']","[182, 115, 387, 244]",[175]
+399,49,Male,Los Angeles,"['Electronics', 'Home & Kitchen', 'Books']",333.47,"['BrandB', 'BrandC', 'BrandD']",['view'],"[478, 166, 417]",[131]
+400,40,Male,Chicago,"['Sports', 'Home & Kitchen', 'Beauty']",246.76,"['BrandA', 'BrandD', 'BrandC']","['view', 'add_to_cart', 'purchase']","[134, 356, 262, 54]","[97, 187]"
+401,39,Other,Houston,"['Electronics', 'Sports', 'Beauty']",200.83,"['BrandC', 'BrandB', 'BrandE']","['view', 'purchase']","[369, 471, 56, 118]",[323]
+402,42,Other,New York,"['Beauty', 'Sports', 'Toys']",153.7,"['BrandC', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[11, 486, 471, 267, 255]",[262]
+403,39,Male,San Francisco,"['Sports', 'Toys', 'Electronics']",268.92,"['BrandC', 'BrandB', 'BrandD']",['view'],[350],[442]
+404,39,Other,Chicago,"['Toys', 'Sports', 'Books']",343.54,"['BrandB', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[254, 138, 115, 251]",[456]
+405,59,Other,Los Angeles,"['Sports', 'Toys', 'Electronics']",340.82,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[174, 224, 141, 382, 33, 384]",[]
+406,23,Other,Chicago,"['Beauty', 'Electronics', 'Toys']",254.38,"['BrandC', 'BrandA', 'BrandE']",['view'],"[332, 260, 135]",[297]
+407,32,Female,Los Angeles,"['Beauty', 'Books', 'Toys']",141.91,"['BrandC', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[403, 298, 374]",[479]
+408,60,Female,Chicago,"['Beauty', 'Electronics', 'Books']",208.84,"['BrandE', 'BrandB', 'BrandC']","['view', 'purchase']","[395, 158, 197, 390]","[73, 182, 333, 377]"
+409,54,Other,Los Angeles,"['Sports', 'Electronics', 'Toys']",221.54,"['BrandD', 'BrandB']","['purchase', 'add_to_cart', 'view']","[126, 324, 55]",[289]
+410,50,Other,Houston,"['Beauty', 'Clothing', 'Toys']",302.66,"['BrandA', 'BrandD', 'BrandE']","['add_to_cart', 'view', 'purchase']","[249, 227, 329, 206, 259, 195]",[]
+411,25,Female,Los Angeles,"['Electronics', 'Sports', 'Clothing']",214.03,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[196, 302, 377]",[270]
+412,61,Female,Los Angeles,"['Electronics', 'Toys', 'Sports']",264.72,"['BrandB', 'BrandD', 'BrandC']","['add_to_cart', 'view']","[492, 165, 477, 93, 416]",[156]
+413,61,Male,New York,"['Beauty', 'Toys', 'Home & Kitchen']",310.16,"['BrandD', 'BrandB', 'BrandA']","['add_to_cart', 'view']","[111, 310, 90, 252]",[202]
+414,22,Male,Los Angeles,"['Sports', 'Electronics', 'Home & Kitchen']",262.12,"['BrandD', 'BrandE', 'BrandB']","['add_to_cart', 'view', 'purchase']","[457, 349, 76]",[482]
+415,56,Female,New York,"['Books', 'Sports', 'Toys']",227.13,"['BrandA', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[69, 86, 156, 365, 353, 187]","[393, 51, 184]"
+416,21,Other,San Francisco,"['Toys', 'Electronics', 'Home & Kitchen']",298.05,"['BrandA', 'BrandE', 'BrandD']","['view', 'add_to_cart']","[407, 175, 136, 302, 498, 443]","[278, 65]"
+417,23,Other,New York,"['Beauty', 'Home & Kitchen']",293.13,"['BrandC', 'BrandB', 'BrandE']",['view'],[7],"[296, 185]"
+418,62,Other,Houston,"['Books', 'Sports']",365.72,"['BrandC', 'BrandD']",['view'],[482],[64]
+419,49,Other,New York,"['Sports', 'Electronics', 'Beauty']",206.95,"['BrandC', 'BrandE', 'BrandB']","['purchase', 'view']","[100, 415, 307, 161]","[139, 323]"
+420,47,Male,San Francisco,"['Electronics', 'Clothing', 'Books']",290.61,"['BrandE', 'BrandC', 'BrandB']","['view', 'purchase', 'add_to_cart']","[101, 461, 63, 188, 155, 121, 466]","[277, 387, 241, 318]"
+421,64,Female,Houston,"['Clothing', 'Sports', 'Home & Kitchen']",319.46,"['BrandA', 'BrandD', 'BrandE']","['add_to_cart', 'purchase']","[259, 317, 319, 433, 435, 103]","[483, 309]"
+422,52,Other,Chicago,"['Books', 'Toys', 'Home & Kitchen']",300.39,"['BrandA', 'BrandE', 'BrandC']","['view', 'add_to_cart', 'purchase']","[211, 334, 74, 418, 417, 190, 227, 281]",[346]
+423,57,Male,Chicago,"['Sports', 'Clothing', 'Beauty']",289.01,"['BrandB', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[428, 363, 439, 235]","[484, 214, 186, 353]"
+424,33,Other,New York,"['Electronics', 'Books', 'Toys']",225.22,"['BrandA', 'BrandE', 'BrandC']","['view', 'add_to_cart', 'purchase']","[191, 362, 158, 71, 122, 49]","[498, 142, 70]"
+425,30,Female,New York,"['Sports', 'Toys', 'Beauty']",321.26,"['BrandD', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[380, 401, 383, 321, 464]",[]
+426,59,Male,San Francisco,"['Books', 'Home & Kitchen', 'Beauty']",166.33,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart', 'purchase']","[456, 342, 405, 43, 216, 306, 268]","[194, 408]"
+427,47,Female,San Francisco,"['Clothing', 'Home & Kitchen', 'Books']",242.66,"['BrandD', 'BrandA', 'BrandC']","['view', 'add_to_cart', 'purchase']","[167, 204, 379, 289, 229]",[436]
+428,36,Female,Los Angeles,"['Sports', 'Beauty', 'Clothing']",294.51,"['BrandD', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[166, 446, 338, 147]",[471]
+429,34,Male,San Francisco,"['Electronics', 'Toys', 'Sports']",290.45,"['BrandB', 'BrandA', 'BrandE']","['view', 'add_to_cart', 'purchase']","[269, 371, 415, 480, 203, 150, 398, 282, 48, 96, 247]",[]
+430,36,Male,Los Angeles,"['Beauty', 'Electronics', 'Books']",382.76,"['BrandA', 'BrandE', 'BrandB']",['view'],"[430, 348]","[426, 375]"
+431,45,Male,Houston,"['Beauty', 'Clothing', 'Electronics']",184.3,"['BrandD', 'BrandA', 'BrandB']","['purchase', 'view']","[29, 195, 94, 46]",[]
+432,43,Male,New York,"['Toys', 'Clothing', 'Books']",283.45,"['BrandD', 'BrandE', 'BrandC']","['add_to_cart', 'purchase', 'view']","[423, 313, 320, 283, 216]",[480]
+433,54,Male,Houston,"['Books', 'Electronics', 'Sports']",234.88,"['BrandC', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[69, 289, 53, 112, 120, 379, 464, 373]",[113]
+434,43,Male,San Francisco,"['Home & Kitchen', 'Toys', 'Clothing']",244.93,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[480, 216, 310, 265, 342, 5, 85]",[]
+435,40,Male,Houston,"['Electronics', 'Sports', 'Toys']",246.17,"['BrandB', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[94, 420, 268, 214, 379]","[249, 387, 247]"
+436,26,Other,Houston,"['Electronics', 'Home & Kitchen', 'Books']",223.44,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart']","[489, 179, 213, 368]",[272]
+437,29,Female,Houston,"['Clothing', 'Toys', 'Home & Kitchen']",263.74,"['BrandB', 'BrandD', 'BrandC']","['add_to_cart', 'view']","[452, 37]",[485]
+438,18,Male,San Francisco,"['Electronics', 'Home & Kitchen', 'Books']",186.45,"['BrandA', 'BrandE', 'BrandD']","['view', 'add_to_cart', 'purchase']","[146, 354, 284, 80, 308, 274]","[112, 439, 160]"
+439,18,Other,Houston,"['Beauty', 'Toys', 'Home & Kitchen']",262.41,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[153, 362, 413, 143, 154, 271, 83, 193, 88, 490, 59, 234, 263, 137]",[]
+440,64,Other,Los Angeles,"['Books', 'Home & Kitchen', 'Clothing']",233.63,"['BrandA', 'BrandD', 'BrandE']","['view', 'purchase', 'add_to_cart']","[194, 349, 283, 420, 35]",[491]
+441,51,Other,San Francisco,"['Toys', 'Sports', 'Electronics']",242.84,"['BrandC', 'BrandD', 'BrandB']","['view', 'add_to_cart', 'purchase']","[387, 191, 56, 1, 301, 95, 49, 472]",[]
+442,49,Female,Houston,"['Sports', 'Books', 'Electronics']",230.15,"['BrandA', 'BrandE', 'BrandD']",['view'],"[386, 423, 73, 470, 417, 289, 250, 123]",[]
+443,42,Male,San Francisco,"['Books', 'Toys', 'Home & Kitchen']",299.77,"['BrandD', 'BrandC', 'BrandB']","['add_to_cart', 'purchase']","[235, 257, 94, 31, 407]","[85, 183]"
+444,57,Other,Chicago,"['Beauty', 'Clothing', 'Books']",310.97,"['BrandA', 'BrandD', 'BrandE']","['view', 'purchase', 'add_to_cart']","[90, 287, 94, 320, 219, 440, 192]",[5]
+445,62,Female,Los Angeles,"['Home & Kitchen', 'Sports', 'Toys']",221.6,"['BrandC', 'BrandA', 'BrandB']","['add_to_cart', 'view']","[186, 457, 67, 21, 165, 207]",[]
+446,18,Female,Houston,"['Sports', 'Beauty', 'Electronics']",176.88,"['BrandD', 'BrandA', 'BrandC']","['view', 'purchase', 'add_to_cart']","[402, 205, 475, 280, 210, 86, 80]",[364]
+447,33,Female,Chicago,"['Books', 'Electronics', 'Sports']",285.06,"['BrandB', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[214, 353, 318, 110, 176, 373, 66, 443]","[458, 255]"
+448,56,Other,Chicago,"['Electronics', 'Clothing', 'Books']",317.11,"['BrandC', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[369, 344, 307, 64, 83]",[]
+449,22,Male,San Francisco,"['Books', 'Beauty', 'Sports']",197.42,"['BrandA', 'BrandC']","['add_to_cart', 'view']","[440, 322]","[297, 118, 203]"
+450,39,Other,Chicago,"['Toys', 'Sports', 'Books']",250.9,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[2, 104, 223, 408, 8, 358]",[303]
+451,46,Other,Los Angeles,"['Electronics', 'Toys', 'Home & Kitchen']",324.91,"['BrandA', 'BrandE', 'BrandB']","['add_to_cart', 'view']","[405, 372, 28]","[112, 119]"
+452,20,Male,Los Angeles,"['Beauty', 'Books', 'Electronics']",291.77,"['BrandB', 'BrandC', 'BrandE']","['add_to_cart', 'view']","[358, 412, 500, 348]",[]
+453,29,Male,New York,"['Electronics', 'Toys']",325.97,"['BrandE', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[442, 23, 4, 291, 42]",[430]
+454,43,Male,Los Angeles,"['Toys', 'Home & Kitchen', 'Books']",287.68,"['BrandA', 'BrandD', 'BrandC']",['view'],"[357, 444, 92]",[]
+455,33,Female,Chicago,"['Home & Kitchen', 'Clothing', 'Electronics']",248.64,"['BrandB', 'BrandE', 'BrandD']","['add_to_cart', 'view', 'purchase']","[215, 217, 333, 327]",[]
+456,54,Male,Los Angeles,"['Beauty', 'Electronics', 'Home & Kitchen']",281.27,"['BrandC', 'BrandD', 'BrandB']",['view'],[8],"[484, 191]"
+457,39,Other,San Francisco,"['Books', 'Toys', 'Sports']",264.1,"['BrandC', 'BrandB', 'BrandD']",['view'],"[375, 394, 313, 384]",[101]
+458,46,Male,New York,"['Beauty', 'Toys', 'Books']",245.77,"['BrandE', 'BrandA', 'BrandB']",['view'],"[321, 472, 331, 54]","[175, 411, 71]"
+459,31,Other,Chicago,"['Sports', 'Clothing', 'Electronics']",353.31,"['BrandE', 'BrandC', 'BrandD']","['add_to_cart', 'view', 'purchase']","[379, 228, 468, 334, 487]",[367]
+460,45,Female,New York,"['Electronics', 'Beauty', 'Toys']",231.67,"['BrandD', 'BrandC', 'BrandB']","['add_to_cart', 'view']","[111, 176, 160]","[146, 481]"
+461,22,Other,Chicago,"['Beauty', 'Clothing', 'Home & Kitchen']",241.1,"['BrandD', 'BrandC', 'BrandA']","['view', 'add_to_cart', 'purchase']","[287, 476, 450, 325, 340, 418]",[]
+462,64,Other,San Francisco,"['Sports', 'Home & Kitchen', 'Toys']",267.18,"['BrandA', 'BrandE', 'BrandB']","['view', 'add_to_cart', 'purchase']","[393, 16, 500, 62, 398]",[235]
+463,47,Male,New York,"['Beauty', 'Books', 'Toys']",290.84,"['BrandB', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[453, 489, 122, 468]","[202, 290, 441, 376]"
+464,63,Male,Houston,"['Beauty', 'Books', 'Clothing']",271.2,"['BrandB', 'BrandD', 'BrandE']","['view', 'add_to_cart', 'purchase']","[482, 261, 491, 474, 348, 340, 308, 458]",[]
+465,22,Other,Chicago,"['Beauty', 'Electronics', 'Sports']",207.6,"['BrandE', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[18, 275, 268]",[261]
+466,29,Male,Houston,"['Home & Kitchen', 'Beauty', 'Toys']",242.02,"['BrandB', 'BrandA']","['purchase', 'view', 'add_to_cart']","[496, 184, 255]",[1]
+467,33,Female,New York,"['Electronics', 'Books', 'Home & Kitchen']",280.91,"['BrandA', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[261, 405, 412, 354, 125]",[176]
+468,43,Female,Houston,"['Clothing', 'Electronics', 'Beauty']",327.88,"['BrandE', 'BrandA', 'BrandC']","['add_to_cart', 'view', 'purchase']","[261, 319, 430, 25, 300]","[103, 300]"
+469,43,Male,Houston,"['Home & Kitchen', 'Books', 'Sports']",231.66,"['BrandD', 'BrandC', 'BrandE']",['view'],"[477, 135, 31]",[209]
+470,38,Female,New York,"['Home & Kitchen', 'Sports']",69.61,"['BrandC', 'BrandA']","['view', 'add_to_cart']","[330, 80]",[]
+471,56,Male,San Francisco,"['Beauty', 'Books', 'Home & Kitchen']",265.72,"['BrandB', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[359, 315, 282, 348, 12, 89, 283, 465, 479]",[]
+472,53,Other,Houston,"['Books', 'Beauty', 'Home & Kitchen']",319.06,"['BrandA', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[236, 197, 440, 348, 347]","[133, 372]"
+473,50,Other,Houston,"['Beauty', 'Sports', 'Clothing']",386.87,"['BrandA', 'BrandB']",['view'],"[199, 162]",[]
+474,47,Female,San Francisco,"['Electronics', 'Books', 'Clothing']",244.01,"['BrandA', 'BrandE', 'BrandC']","['add_to_cart', 'view']","[274, 455, 303, 89, 234, 486, 80]","[39, 118]"
+475,54,Male,Houston,['Home & Kitchen'],274.16,['BrandB'],['add_to_cart'],[125],[494]
+476,40,Male,Houston,"['Home & Kitchen', 'Sports', 'Clothing']",353.49,"['BrandD', 'BrandA', 'BrandB']","['add_to_cart', 'view']","[356, 236]","[107, 58]"
+477,27,Female,Houston,"['Beauty', 'Home & Kitchen', 'Sports']",232.88,"['BrandC', 'BrandA', 'BrandB']","['view', 'purchase', 'add_to_cart']","[65, 58, 368, 123]",[479]
+478,22,Other,Los Angeles,"['Books', 'Home & Kitchen', 'Electronics']",252.53,"['BrandC', 'BrandB', 'BrandE']","['add_to_cart', 'purchase', 'view']","[369, 277, 347, 18, 74, 288]",[7]
+479,53,Female,San Francisco,"['Electronics', 'Toys', 'Sports']",277.24,"['BrandC', 'BrandD', 'BrandA']","['view', 'purchase', 'add_to_cart']","[63, 231, 467, 463, 264, 308, 68, 190]",[226]
+480,51,Other,Houston,"['Clothing', 'Home & Kitchen', 'Electronics']",244.71,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[107, 92, 149, 165, 47, 61, 342]",[]
+481,48,Male,San Francisco,"['Home & Kitchen', 'Toys', 'Electronics']",252.69,"['BrandE', 'BrandB', 'BrandA']","['view', 'purchase', 'add_to_cart']","[338, 112, 263, 405, 249, 194]",[16]
+482,27,Other,Chicago,"['Sports', 'Electronics', 'Beauty']",320.37,"['BrandA', 'BrandB', 'BrandD']","['add_to_cart', 'view', 'purchase']","[321, 196, 462, 147, 112, 373]","[423, 186]"
+483,36,Female,Chicago,"['Electronics', 'Home & Kitchen', 'Toys']",246.61,"['BrandA', 'BrandB', 'BrandE']","['view', 'purchase']","[359, 410, 202, 424]","[412, 18]"
+484,49,Male,Houston,"['Toys', 'Clothing', 'Books']",323.88,"['BrandA', 'BrandC', 'BrandE']","['view', 'add_to_cart', 'purchase']","[109, 232, 293, 164]",[]
+485,18,Female,San Francisco,"['Home & Kitchen', 'Toys', 'Books']",286.39,"['BrandD', 'BrandC', 'BrandE']","['add_to_cart', 'view', 'purchase']","[242, 72, 427, 109, 459, 87, 299]",[194]
+486,22,Female,San Francisco,"['Sports', 'Books', 'Electronics']",158.38,"['BrandB', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[24, 171, 3, 267, 138, 490, 281]",[186]
+487,62,Other,San Francisco,"['Books', 'Toys', 'Beauty']",319.3,"['BrandE', 'BrandA', 'BrandC']","['add_to_cart', 'view', 'purchase']","[337, 464, 450, 339, 72, 16, 368]",[]
+488,21,Female,Los Angeles,"['Clothing', 'Electronics', 'Books']",178.13,"['BrandA', 'BrandC']","['add_to_cart', 'view']","[118, 442, 498, 243]",[216]
+489,33,Other,Chicago,"['Beauty', 'Electronics', 'Sports']",222.57,"['BrandA', 'BrandE']","['add_to_cart', 'view']","[128, 311]",[342]
+490,41,Male,San Francisco,"['Home & Kitchen', 'Books', 'Electronics']",200.74,"['BrandA', 'BrandC', 'BrandE']","['add_to_cart', 'view']","[425, 404, 201, 234, 319, 268, 242]",[]
+491,33,Other,San Francisco,"['Beauty', 'Electronics', 'Sports']",231.53,"['BrandA', 'BrandD', 'BrandB']","['add_to_cart', 'view', 'purchase']","[349, 331, 112, 10, 93, 65, 500]","[301, 9, 284]"
+492,19,Male,Los Angeles,"['Electronics', 'Beauty', 'Toys']",218.57,"['BrandB', 'BrandC', 'BrandD']","['purchase', 'view']","[480, 271, 168, 113, 498]",[458]
+493,45,Other,Los Angeles,"['Beauty', 'Electronics', 'Books']",339.85,"['BrandB', 'BrandD', 'BrandC']","['view', 'add_to_cart']","[304, 442, 186, 193, 313]","[458, 173]"
+494,49,Female,San Francisco,"['Home & Kitchen', 'Toys', 'Books']",232.64,"['BrandC', 'BrandD', 'BrandA']","['add_to_cart', 'view']","[218, 222, 473, 209, 334, 88, 467, 171]",[]
+495,44,Other,New York,"['Electronics', 'Books', 'Home & Kitchen']",254.98,"['BrandD', 'BrandB', 'BrandE']","['view', 'add_to_cart', 'purchase']","[130, 311, 106, 246, 376, 59, 195]","[146, 102]"
+496,37,Other,San Francisco,"['Sports', 'Beauty', 'Books']",267.29,"['BrandA', 'BrandC', 'BrandD']","['add_to_cart', 'purchase', 'view']","[299, 72, 58, 324, 161, 257]",[]
+497,41,Male,San Francisco,"['Beauty', 'Toys', 'Clothing']",345.78,"['BrandA', 'BrandE', 'BrandC']","['add_to_cart', 'view']","[488, 381]","[16, 240]"
+498,29,Female,Los Angeles,"['Books', 'Clothing', 'Home & Kitchen']",288.21,"['BrandC', 'BrandA', 'BrandE']","['add_to_cart', 'view']","[210, 317, 14, 274, 89, 204, 120, 334]","[488, 104]"
+499,52,Other,Los Angeles,"['Beauty', 'Electronics', 'Books']",324.14,"['BrandE', 'BrandC', 'BrandA']","['purchase', 'view', 'add_to_cart']","[387, 234, 192, 293, 119]","[28, 220]"
+500,50,Female,San Francisco,"['Sports', 'Home & Kitchen', 'Clothing']",277.16,"['BrandB', 'BrandA', 'BrandE']","['view', 'purchase']","[353, 326, 130, 186]","[155, 162, 489, 277]"
+501,50,Other,San Francisco,"['Electronics', 'Home & Kitchen', 'Clothing']",241.79,"['BrandE', 'BrandA']","['view', 'add_to_cart']","[302, 417]",[]
+502,60,Other,San Francisco,"['Toys', 'Beauty', 'Sports']",290.28,"['BrandE', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[139, 459, 113, 207, 123, 316]",[189]
+503,54,Female,Los Angeles,"['Books', 'Sports', 'Toys']",266.74,"['BrandC', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[415, 56, 229, 228, 221, 293, 436, 316, 95]","[99, 33, 157]"
+504,29,Other,San Francisco,"['Beauty', 'Books', 'Clothing']",245.74,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[64, 8, 484, 490]",[]
+505,20,Female,San Francisco,"['Home & Kitchen', 'Books', 'Electronics']",275.94,"['BrandB', 'BrandC', 'BrandA']","['add_to_cart', 'view']","[230, 2, 35]",[]
+506,18,Other,Houston,"['Toys', 'Books', 'Electronics']",185.24,"['BrandB', 'BrandA', 'BrandD']","['purchase', 'view']","[189, 43, 94, 227, 308]",[111]
+507,50,Male,New York,"['Home & Kitchen', 'Books', 'Clothing']",248.9,"['BrandD', 'BrandA', 'BrandC']","['purchase', 'view']","[265, 1]",[]
+508,57,Female,Chicago,"['Home & Kitchen', 'Sports', 'Beauty']",266.75,"['BrandE', 'BrandC', 'BrandA']","['view', 'purchase', 'add_to_cart']","[450, 385, 90, 373, 161, 208]",[325]
+509,27,Other,New York,"['Home & Kitchen', 'Sports', 'Books']",347.33,"['BrandC', 'BrandB', 'BrandE']","['view', 'purchase', 'add_to_cart']","[167, 317, 87, 399, 273, 389]","[218, 382, 167]"
+510,60,Other,Houston,"['Sports', 'Clothing', 'Home & Kitchen']",282.61,"['BrandA', 'BrandB']",['add_to_cart'],"[419, 441]",[243]
+511,61,Male,Chicago,"['Books', 'Beauty', 'Clothing']",230.32,"['BrandC', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[468, 466, 163, 298, 48, 348, 165, 318]",[266]
+512,46,Female,San Francisco,"['Beauty', 'Sports', 'Clothing']",260.79,"['BrandA', 'BrandE', 'BrandC']","['add_to_cart', 'view']","[406, 380]",[5]
+513,30,Other,Houston,"['Toys', 'Home & Kitchen', 'Clothing']",260.18,"['BrandA', 'BrandB', 'BrandD']","['purchase', 'view']","[8, 276, 433, 141]",[67]
+514,29,Male,San Francisco,"['Books', 'Beauty', 'Toys']",345.46,"['BrandD', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[183, 331, 381, 188, 5, 379]",[198]
+515,48,Other,Los Angeles,"['Electronics', 'Toys', 'Home & Kitchen']",177.75,"['BrandB', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[174, 181, 467, 153, 425, 179]",[]
+516,63,Female,Houston,"['Books', 'Clothing', 'Beauty']",325.25,"['BrandA', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[121, 147, 70, 6, 492]","[335, 417]"
+517,19,Other,Los Angeles,"['Home & Kitchen', 'Beauty', 'Sports']",294.39,"['BrandA', 'BrandE', 'BrandC']","['add_to_cart', 'purchase', 'view']","[143, 124, 452, 110, 435]",[]
+518,52,Other,Houston,"['Electronics', 'Toys', 'Beauty']",265.45,"['BrandA', 'BrandE', 'BrandD']","['add_to_cart', 'view']","[304, 52, 26, 463]",[151]
+519,40,Other,Houston,"['Books', 'Electronics', 'Home & Kitchen']",200.15,"['BrandA', 'BrandE', 'BrandC']","['view', 'purchase']","[491, 130, 210, 177, 436, 245]","[498, 142]"
+520,34,Other,Los Angeles,"['Books', 'Home & Kitchen', 'Beauty']",209.62,"['BrandC', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[262, 113, 354, 275, 441, 74]",[358]
+521,43,Male,Chicago,"['Books', 'Electronics', 'Beauty']",282.77,"['BrandC', 'BrandA', 'BrandE']","['add_to_cart', 'view']","[53, 362, 61, 326, 17]",[374]
+522,25,Male,New York,"['Home & Kitchen', 'Books', 'Electronics']",215.52,"['BrandB', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[105, 219, 273, 425, 445, 163, 240]",[]
+523,46,Female,San Francisco,"['Electronics', 'Books', 'Toys']",197.57,"['BrandA', 'BrandD', 'BrandC']","['view', 'add_to_cart']","[445, 220, 446, 398, 128, 381, 136, 480, 168]",[]
+524,43,Male,Houston,"['Home & Kitchen', 'Electronics', 'Books']",186.64,"['BrandD', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[61, 105, 465, 245, 257]",[194]
+525,27,Male,San Francisco,"['Clothing', 'Books', 'Electronics']",211.99,"['BrandA', 'BrandB', 'BrandD']","['view', 'purchase', 'add_to_cart']","[101, 156, 119, 493, 76, 318]",[30]
+526,43,Female,Los Angeles,"['Home & Kitchen', 'Beauty', 'Electronics']",334.74,"['BrandB', 'BrandD', 'BrandC']","['add_to_cart', 'view']","[327, 20, 59, 150]",[]
+527,51,Male,San Francisco,"['Home & Kitchen', 'Books', 'Sports']",311.05,"['BrandD', 'BrandE', 'BrandB']","['add_to_cart', 'view']","[148, 371, 59]","[421, 328]"
+528,58,Male,Los Angeles,"['Home & Kitchen', 'Clothing', 'Electronics']",258.96,"['BrandD', 'BrandB', 'BrandC']","['view', 'purchase', 'add_to_cart']","[246, 239, 368, 412, 103, 455, 401, 226, 379]",[321]
+529,24,Female,San Francisco,"['Sports', 'Toys', 'Electronics']",151.62,"['BrandB', 'BrandC', 'BrandA']","['view', 'purchase', 'add_to_cart']","[378, 477, 80, 184, 303, 129, 130]",[]
+530,21,Female,New York,"['Beauty', 'Home & Kitchen', 'Electronics']",304.1,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart', 'purchase']","[287, 177, 200, 386, 435, 484, 443, 158, 268, 228, 368, 311]",[]
+531,62,Female,New York,"['Toys', 'Books', 'Electronics']",390.51,"['BrandC', 'BrandB', 'BrandA']",['add_to_cart'],"[246, 339, 87]","[398, 286]"
+532,28,Other,New York,"['Clothing', 'Electronics', 'Sports']",280.6,"['BrandB', 'BrandD', 'BrandC']","['view', 'purchase', 'add_to_cart']","[77, 136, 188, 219, 263, 368]",[]
+533,46,Other,New York,"['Electronics', 'Books', 'Home & Kitchen']",228.25,"['BrandB', 'BrandD', 'BrandC']","['view', 'add_to_cart']","[14, 457, 175]",[150]
+534,53,Female,New York,"['Electronics', 'Toys', 'Clothing']",244.32,"['BrandA', 'BrandC', 'BrandD']","['view', 'add_to_cart', 'purchase']","[356, 232, 228, 323, 112, 10, 19, 164]",[]
+535,42,Female,New York,"['Toys', 'Beauty', 'Electronics']",222.74,"['BrandB', 'BrandE', 'BrandC']","['add_to_cart', 'purchase']","[126, 47, 57]","[195, 87]"
+536,38,Female,Los Angeles,"['Beauty', 'Electronics', 'Books']",316.71,"['BrandB', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[181, 31, 180, 397, 197]",[]
+537,53,Other,Houston,"['Toys', 'Home & Kitchen', 'Electronics']",352.21,"['BrandC', 'BrandD', 'BrandB']","['view', 'purchase', 'add_to_cart']","[343, 57, 328, 289, 151, 260, 304, 398]",[]
+538,27,Other,San Francisco,"['Beauty', 'Sports', 'Electronics']",217.91,"['BrandB', 'BrandD', 'BrandC']","['view', 'add_to_cart']","[263, 495, 270, 493, 461, 397, 329, 74, 160]",[]
+539,54,Male,New York,['Books'],148.54,['BrandE'],['view'],[159],[]
+540,26,Male,Los Angeles,"['Home & Kitchen', 'Beauty', 'Toys']",166.07,"['BrandD', 'BrandC', 'BrandB']","['view', 'purchase']","[208, 148, 55, 123, 357, 411, 387]",[]
+541,41,Female,Los Angeles,"['Books', 'Home & Kitchen', 'Clothing']",166.13,"['BrandC', 'BrandE', 'BrandB']","['view', 'purchase']","[144, 488, 8, 331, 366, 387]",[]
+542,52,Other,Los Angeles,"['Beauty', 'Electronics', 'Books']",240.66,"['BrandD', 'BrandE', 'BrandA']","['view', 'add_to_cart', 'purchase']","[154, 96, 138, 92, 73, 192, 53]",[55]
+543,52,Other,Houston,"['Sports', 'Toys', 'Electronics']",264.27,"['BrandB', 'BrandA', 'BrandD']","['add_to_cart', 'purchase']","[93, 414, 126]",[214]
+544,53,Other,San Francisco,"['Books', 'Home & Kitchen', 'Sports']",245.99,"['BrandC', 'BrandE', 'BrandD']","['add_to_cart', 'view', 'purchase']","[442, 445, 449, 209, 91]",[69]
+545,35,Female,Houston,"['Clothing', 'Sports', 'Toys']",287.25,"['BrandB', 'BrandA', 'BrandE']",['view'],[189],[236]
+546,56,Male,Chicago,"['Home & Kitchen', 'Electronics', 'Sports']",231.86,"['BrandB', 'BrandC', 'BrandE']","['view', 'purchase', 'add_to_cart']","[187, 122, 114, 452, 457, 131, 387]",[215]
+547,49,Female,Los Angeles,"['Toys', 'Home & Kitchen', 'Books']",258.24,"['BrandA', 'BrandC', 'BrandD']","['view', 'add_to_cart', 'purchase']","[198, 244, 183, 427, 484, 333, 399, 330]",[23]
+548,41,Male,Chicago,"['Clothing', 'Home & Kitchen', 'Books']",339.78,"['BrandD', 'BrandB', 'BrandC']",['view'],"[211, 134, 1]",[305]
+549,40,Male,New York,"['Sports', 'Books', 'Clothing']",226.6,"['BrandD', 'BrandE', 'BrandC']","['view', 'purchase']","[415, 218, 446]",[289]
+550,49,Female,New York,"['Electronics', 'Toys', 'Home & Kitchen']",221.41,"['BrandA', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[304, 240, 340, 345, 257, 427]",[455]
+551,54,Male,Houston,"['Electronics', 'Toys', 'Books']",260.92,"['BrandC', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[412, 164, 331, 17, 135, 62, 75, 307]",[]
+552,29,Male,San Francisco,"['Books', 'Toys', 'Clothing']",174.46,"['BrandA', 'BrandE', 'BrandC']","['add_to_cart', 'view', 'purchase']","[218, 232, 205, 256]","[73, 42]"
+553,30,Other,Chicago,"['Sports', 'Books', 'Electronics']",218.74,"['BrandD', 'BrandC', 'BrandA']","['view', 'purchase']","[116, 287, 186]","[97, 477]"
+554,40,Male,San Francisco,"['Clothing', 'Home & Kitchen', 'Beauty']",256.29,"['BrandD', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[230, 424, 253, 17, 417, 55, 212]",[436]
+555,42,Female,Houston,"['Sports', 'Books', 'Electronics']",348.74,"['BrandA', 'BrandC', 'BrandE']","['view', 'add_to_cart', 'purchase']","[157, 338, 381]",[]
+556,52,Female,New York,"['Toys', 'Home & Kitchen', 'Clothing']",253.59,"['BrandB', 'BrandD', 'BrandC']","['view', 'purchase', 'add_to_cart']","[235, 376, 385, 130, 141, 387, 50, 492, 45]",[341]
+557,58,Male,San Francisco,"['Books', 'Clothing', 'Beauty']",312.49,"['BrandA', 'BrandE', 'BrandD']","['view', 'add_to_cart', 'purchase']","[142, 438, 245, 361, 198, 417, 41]",[]
+558,47,Other,San Francisco,"['Electronics', 'Books', 'Beauty']",246.87,"['BrandA', 'BrandB', 'BrandD']","['add_to_cart', 'purchase', 'view']","[416, 82, 209, 490, 375]","[46, 373]"
+559,34,Other,New York,"['Home & Kitchen', 'Clothing', 'Sports']",269.79,"['BrandC', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[125, 470, 145, 249, 41, 14, 140]",[32]
+560,37,Male,Chicago,"['Books', 'Clothing', 'Home & Kitchen']",145.43,"['BrandA', 'BrandD', 'BrandE']","['view', 'purchase']","[325, 128, 364, 73]","[464, 137, 94]"
+561,42,Male,New York,"['Books', 'Sports', 'Electronics']",184.98,"['BrandA', 'BrandC', 'BrandB']","['view', 'add_to_cart']","[385, 242, 302, 3, 342]","[449, 142, 448]"
+562,39,Female,San Francisco,"['Books', 'Electronics', 'Toys']",221.4,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[169, 124]","[277, 42]"
+563,30,Male,Chicago,"['Clothing', 'Sports', 'Electronics']",203.26,"['BrandB', 'BrandE', 'BrandC']","['add_to_cart', 'view']","[416, 354, 487, 56, 139]",[8]
+564,36,Other,Chicago,"['Electronics', 'Books', 'Home & Kitchen']",134.68,"['BrandC', 'BrandD', 'BrandE']",['view'],"[21, 114]",[179]
+565,53,Male,New York,"['Electronics', 'Beauty', 'Toys']",224.46,"['BrandE', 'BrandC', 'BrandA']","['add_to_cart', 'view', 'purchase']","[175, 355, 16, 324, 271, 280]",[]
+566,29,Female,San Francisco,"['Books', 'Electronics', 'Home & Kitchen']",277.07,"['BrandD', 'BrandE', 'BrandA']",['view'],"[328, 241, 200]",[]
+567,58,Female,Houston,"['Clothing', 'Beauty', 'Electronics']",227.43,"['BrandD', 'BrandC', 'BrandB']","['view', 'add_to_cart']","[94, 388, 499, 305, 54, 97, 77]",[259]
+568,36,Female,San Francisco,"['Clothing', 'Sports', 'Toys']",262.58,"['BrandC', 'BrandB', 'BrandD']","['purchase', 'view', 'add_to_cart']","[468, 58, 164, 336, 298]",[319]
+569,29,Female,Los Angeles,"['Electronics', 'Beauty', 'Clothing']",255.14,"['BrandA', 'BrandB', 'BrandE']",['view'],"[257, 377]",[18]
+570,26,Female,Houston,"['Home & Kitchen', 'Toys', 'Sports']",211.89,"['BrandE', 'BrandD', 'BrandC']","['view', 'purchase', 'add_to_cart']","[80, 262, 494, 288, 47]","[44, 480]"
+571,24,Male,Chicago,"['Books', 'Toys', 'Sports']",228.38,"['BrandA', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[205, 309, 22, 381, 447]",[464]
+572,45,Male,Houston,"['Beauty', 'Toys', 'Clothing']",124.93,"['BrandB', 'BrandE']","['purchase', 'view']","[34, 363]",[397]
+573,31,Male,Chicago,"['Books', 'Clothing', 'Beauty']",238.04,"['BrandA', 'BrandE', 'BrandD']","['view', 'purchase']","[249, 130, 101, 388, 160, 434]","[13, 135]"
+574,48,Male,Chicago,"['Beauty', 'Home & Kitchen', 'Electronics']",253.48,"['BrandB', 'BrandA', 'BrandC']",['view'],"[273, 473, 492, 296, 409, 405]",[]
+575,36,Female,Houston,"['Books', 'Clothing', 'Electronics']",224.18,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[406, 181, 26, 48, 137, 183, 336]",[465]
+576,64,Other,Chicago,"['Electronics', 'Books', 'Clothing']",205.74,"['BrandC', 'BrandA', 'BrandE']","['view', 'purchase', 'add_to_cart']","[216, 353, 460, 171, 409, 158]","[280, 464]"
+577,33,Male,Chicago,"['Toys', 'Books', 'Electronics']",253.73,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[10, 70, 149, 472]",[]
+578,22,Other,Los Angeles,"['Beauty', 'Books', 'Sports']",298.77,"['BrandB', 'BrandA', 'BrandD']",['view'],"[175, 327, 85, 449]",[]
+579,52,Male,San Francisco,"['Clothing', 'Books', 'Electronics']",287.58,"['BrandA', 'BrandE', 'BrandD']","['view', 'add_to_cart']","[137, 145, 221, 180, 249]",[]
+580,29,Male,San Francisco,"['Electronics', 'Home & Kitchen', 'Beauty']",291.24,"['BrandD', 'BrandC', 'BrandE']","['add_to_cart', 'view']","[259, 239, 210, 175, 304, 337]","[238, 418, 211]"
+581,42,Other,Los Angeles,"['Electronics', 'Beauty', 'Home & Kitchen']",258.74,"['BrandB', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[32, 271, 191, 403, 72]","[400, 46]"
+582,38,Female,Houston,"['Toys', 'Beauty', 'Books']",276.21,"['BrandA', 'BrandD', 'BrandC']","['add_to_cart', 'view', 'purchase']","[413, 287, 480, 417, 147, 374]",[]
+583,53,Male,New York,"['Sports', 'Beauty', 'Toys']",313.1,"['BrandD', 'BrandA', 'BrandE']","['add_to_cart', 'view']","[39, 192, 21, 28]","[231, 275, 42]"
+584,40,Male,New York,"['Toys', 'Beauty', 'Home & Kitchen']",365.45,"['BrandB', 'BrandD', 'BrandA']","['view', 'add_to_cart', 'purchase']","[134, 187, 81, 391, 215, 226]",[456]
+585,33,Male,New York,"['Toys', 'Home & Kitchen', 'Books']",365.39,"['BrandC', 'BrandD', 'BrandE']",['view'],[135],"[385, 230]"
+586,56,Other,Los Angeles,"['Beauty', 'Sports', 'Clothing']",285.5,"['BrandD', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[121, 391, 379, 55, 229, 164, 32]",[]
+587,62,Female,Los Angeles,"['Toys', 'Electronics', 'Clothing']",295.99,"['BrandB', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[4, 46, 214, 96, 175]",[]
+588,59,Other,Chicago,"['Books', 'Clothing', 'Toys']",226.34,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[40, 444, 402, 272, 286, 330, 101, 217]",[]
+589,56,Other,New York,"['Books', 'Clothing', 'Toys']",249.89,"['BrandD', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[364, 411, 106, 105, 328, 292, 21]","[424, 160]"
+590,31,Female,Houston,"['Sports', 'Beauty', 'Home & Kitchen']",325.31,"['BrandE', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[345, 275, 112, 434]","[245, 149, 256, 225, 254]"
+591,48,Other,Houston,"['Home & Kitchen', 'Beauty', 'Books']",287.13,"['BrandB', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[496, 229, 31, 77, 357]",[]
+592,22,Female,New York,"['Clothing', 'Electronics', 'Toys']",305.81,"['BrandA', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[23, 348, 326, 353]",[]
+593,52,Male,New York,"['Clothing', 'Books', 'Toys']",141.51,"['BrandB', 'BrandC']","['purchase', 'add_to_cart']","[233, 378]",[474]
+594,40,Female,New York,"['Electronics', 'Toys', 'Clothing']",231.95,"['BrandB', 'BrandC', 'BrandD']","['view', 'purchase', 'add_to_cart']","[376, 171, 259, 221, 323]",[116]
+595,46,Male,Los Angeles,"['Beauty', 'Books', 'Clothing']",211.49,"['BrandB', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[344, 174, 429]",[377]
+596,60,Other,Los Angeles,"['Toys', 'Home & Kitchen', 'Electronics']",321.55,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[413, 146, 275, 125]",[]
+597,28,Other,Los Angeles,"['Books', 'Clothing', 'Electronics']",280.07,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[441, 442, 240, 370, 386, 325]","[319, 308]"
+598,35,Male,San Francisco,"['Home & Kitchen', 'Sports']",400.39,"['BrandB', 'BrandD']","['purchase', 'add_to_cart']","[215, 482]",[]
+599,64,Other,Houston,"['Books', 'Sports', 'Toys']",245.18,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart', 'purchase']","[303, 350, 77, 434, 235, 358, 378, 234]",[]
+600,29,Female,Houston,"['Electronics', 'Clothing', 'Beauty']",292.05,"['BrandA', 'BrandE', 'BrandD']","['view', 'add_to_cart']","[340, 477, 411]","[18, 340, 466]"
+601,26,Male,Chicago,"['Home & Kitchen', 'Electronics', 'Beauty']",216.46,"['BrandD', 'BrandC', 'BrandB']","['add_to_cart', 'view']","[161, 57, 37, 133, 337, 270, 110, 266]","[158, 55, 238]"
+602,27,Other,Los Angeles,"['Books', 'Home & Kitchen', 'Sports']",300.52,"['BrandA', 'BrandC', 'BrandD']",['view'],"[231, 363, 433, 137, 346, 54]","[478, 420, 127]"
+603,61,Male,San Francisco,"['Home & Kitchen', 'Beauty', 'Clothing']",253.54,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[486, 13]",[453]
+604,34,Female,San Francisco,"['Clothing', 'Sports', 'Electronics']",304.77,"['BrandA', 'BrandD', 'BrandC']",['view'],"[9, 438]","[488, 460, 353, 482]"
+605,55,Female,Houston,"['Sports', 'Home & Kitchen', 'Books']",340.6,"['BrandD', 'BrandA']","['view', 'add_to_cart']","[200, 37, 244, 17]",[]
+606,24,Other,Los Angeles,"['Toys', 'Electronics', 'Home & Kitchen']",306.06,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[151, 237, 439, 94, 66, 122]",[]
+607,63,Female,Chicago,"['Toys', 'Beauty', 'Home & Kitchen']",345.78,"['BrandD', 'BrandA', 'BrandC']","['view', 'add_to_cart', 'purchase']","[19, 423, 152, 477, 321, 239, 112, 170]",[]
+608,30,Male,Los Angeles,"['Clothing', 'Beauty', 'Electronics']",240.83,"['BrandC', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[29, 476, 379, 315, 218, 467]","[429, 320]"
+609,57,Female,New York,"['Home & Kitchen', 'Sports', 'Beauty']",340.61,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart', 'purchase']","[444, 297, 254, 311, 88, 223, 51, 168]",[359]
+610,59,Male,Los Angeles,"['Sports', 'Toys', 'Beauty']",225.99,"['BrandC', 'BrandD', 'BrandA']","['add_to_cart', 'view', 'purchase']","[242, 337, 470, 41, 493, 147, 299, 481, 74, 471]",[]
+611,26,Male,New York,"['Clothing', 'Electronics', 'Toys']",203.05,"['BrandE', 'BrandC', 'BrandB']","['view', 'add_to_cart', 'purchase']","[146, 333, 20, 122, 31, 447, 47, 247, 111, 324]",[363]
+612,44,Female,New York,"['Beauty', 'Home & Kitchen', 'Electronics']",298.83,"['BrandB', 'BrandA', 'BrandE']","['view', 'purchase', 'add_to_cart']","[332, 26, 239, 400, 89, 215, 69]",[282]
+613,19,Other,Chicago,"['Toys', 'Electronics', 'Sports']",278.5,"['BrandD', 'BrandA']","['view', 'add_to_cart']","[463, 127, 471]",[324]
+614,22,Female,Houston,"['Home & Kitchen', 'Books', 'Toys']",321.51,"['BrandE', 'BrandC', 'BrandA']","['add_to_cart', 'view']","[210, 352, 413]","[317, 407]"
+615,46,Male,Los Angeles,"['Toys', 'Beauty', 'Clothing']",268.22,"['BrandC', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[395, 292, 140, 327, 474, 33, 150, 252]",[411]
+616,54,Male,New York,"['Beauty', 'Electronics', 'Home & Kitchen']",307.07,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[26, 498, 91, 334, 316, 435, 438]","[450, 229]"
+617,55,Female,Los Angeles,"['Beauty', 'Books', 'Sports']",162.95,"['BrandB', 'BrandC']",['view'],"[101, 48, 113]",[195]
+618,36,Other,Houston,"['Books', 'Home & Kitchen', 'Toys']",313.25,"['BrandC', 'BrandE', 'BrandB']","['add_to_cart', 'view']","[44, 475, 334, 456, 176, 387, 280, 223, 362]",[113]
+619,25,Other,Houston,"['Home & Kitchen', 'Beauty']",443.16,"['BrandD', 'BrandB']",['view'],"[37, 134]",[]
+620,62,Male,San Francisco,"['Beauty', 'Electronics', 'Toys']",253.34,"['BrandE', 'BrandC', 'BrandB']","['view', 'add_to_cart']","[189, 77, 226, 365, 134, 463, 430]",[249]
+621,18,Male,Houston,"['Books', 'Toys', 'Sports']",379.82,"['BrandC', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[85, 462, 299, 307, 107]",[]
+622,39,Other,Chicago,"['Toys', 'Sports', 'Beauty']",223.17,"['BrandA', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[329, 255, 82, 356, 450, 216, 423]",[]
+623,34,Female,New York,"['Home & Kitchen', 'Sports', 'Electronics']",185.39,"['BrandB', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[410, 156]","[97, 256]"
+624,24,Male,San Francisco,"['Beauty', 'Books', 'Home & Kitchen']",263.71,"['BrandA', 'BrandD', 'BrandE']","['purchase', 'view']","[456, 108]","[301, 112, 17, 390, 266]"
+625,42,Male,Chicago,"['Books', 'Sports', 'Electronics']",173.06,"['BrandC', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[457, 205, 444]","[112, 284, 233]"
+626,62,Other,Los Angeles,"['Beauty', 'Toys', 'Home & Kitchen']",203.42,"['BrandE', 'BrandC', 'BrandA']","['add_to_cart', 'view']","[465, 457, 304, 157]",[348]
+627,21,Female,New York,"['Books', 'Electronics', 'Beauty']",254.0,"['BrandE', 'BrandC', 'BrandA']",['view'],"[307, 300, 175]",[73]
+628,53,Other,Houston,"['Books', 'Electronics', 'Sports']",303.07,"['BrandC', 'BrandE', 'BrandD']","['view', 'add_to_cart']","[289, 481, 444, 221, 71, 254]","[277, 228]"
+629,23,Female,New York,"['Books', 'Sports', 'Toys']",164.07,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[231, 279, 491, 203]",[]
+630,48,Female,Los Angeles,"['Clothing', 'Beauty', 'Books']",201.08,"['BrandC', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[242, 455, 23, 193, 436]","[262, 368]"
+631,36,Female,San Francisco,"['Books', 'Beauty', 'Toys']",209.42,"['BrandC', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[416, 409, 291, 59, 336]","[352, 490, 313]"
+632,61,Male,San Francisco,"['Books', 'Home & Kitchen', 'Electronics']",341.07,"['BrandA', 'BrandC', 'BrandE']",['view'],"[221, 398]",[244]
+633,56,Other,San Francisco,"['Home & Kitchen', 'Toys']",169.11,"['BrandD', 'BrandC']",['view'],[303],[38]
+634,44,Other,Houston,"['Books', 'Home & Kitchen', 'Beauty']",287.08,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[118, 397, 444, 277, 428]","[85, 59]"
+635,27,Female,Chicago,"['Home & Kitchen', 'Clothing', 'Toys']",344.72,"['BrandD', 'BrandA']","['add_to_cart', 'view']","[42, 38, 372]",[321]
+636,43,Male,Chicago,"['Books', 'Home & Kitchen', 'Clothing']",288.25,"['BrandA', 'BrandB', 'BrandD']","['add_to_cart', 'view']","[298, 336, 402]",[465]
+637,36,Male,New York,"['Beauty', 'Toys', 'Books']",230.17,"['BrandB', 'BrandD', 'BrandA']","['add_to_cart', 'view']","[198, 467, 407, 263]","[324, 212]"
+638,56,Other,Houston,"['Toys', 'Sports', 'Books']",358.6,"['BrandE', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[288, 150, 469, 345]","[311, 190, 276]"
+639,20,Male,San Francisco,"['Home & Kitchen', 'Electronics', 'Toys']",228.49,"['BrandE', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[428, 225, 205, 189, 235, 53, 207]",[]
+640,62,Male,San Francisco,"['Home & Kitchen', 'Sports', 'Clothing']",205.53,"['BrandB', 'BrandD', 'BrandE']","['view', 'purchase']","[79, 12, 135]",[1]
+641,30,Female,Los Angeles,"['Beauty', 'Sports', 'Home & Kitchen']",224.98,"['BrandD', 'BrandA', 'BrandE']",['add_to_cart'],"[165, 372, 468, 151]",[97]
+642,45,Male,Los Angeles,"['Electronics', 'Beauty', 'Books']",294.55,"['BrandA', 'BrandD', 'BrandC']","['view', 'add_to_cart']","[285, 19, 445, 354, 185]","[370, 391]"
+643,37,Female,San Francisco,"['Clothing', 'Electronics', 'Toys']",199.5,"['BrandA', 'BrandD', 'BrandE']","['view', 'purchase']","[498, 480, 312, 436]",[103]
+644,45,Other,San Francisco,"['Beauty', 'Sports']",415.64,"['BrandD', 'BrandA', 'BrandE']",['view'],"[166, 199, 182]",[]
+645,25,Male,Houston,"['Home & Kitchen', 'Electronics', 'Clothing']",222.72,"['BrandA', 'BrandE', 'BrandC']","['add_to_cart', 'view']","[438, 167, 255]","[272, 410]"
+646,58,Other,Chicago,"['Electronics', 'Beauty', 'Home & Kitchen']",331.07,"['BrandC', 'BrandA', 'BrandE']","['view', 'purchase', 'add_to_cart']","[207, 306, 297, 260]",[226]
+647,56,Other,Los Angeles,"['Books', 'Toys', 'Clothing']",220.69,"['BrandC', 'BrandE', 'BrandB']",['view'],"[289, 263, 77]","[286, 34]"
+648,18,Male,Chicago,"['Clothing', 'Beauty', 'Home & Kitchen']",229.84,"['BrandE', 'BrandB', 'BrandC']",[],[],"[363, 296]"
+649,20,Male,Houston,"['Books', 'Clothing', 'Electronics']",259.86,"['BrandD', 'BrandB', 'BrandC']","['add_to_cart', 'view']","[92, 384, 89, 61, 94, 181]",[]
+650,30,Other,San Francisco,"['Electronics', 'Books', 'Clothing']",204.74,"['BrandA', 'BrandE']",['view'],"[104, 103, 204, 406]",[273]
+651,45,Male,Chicago,"['Toys', 'Sports', 'Electronics']",238.5,"['BrandB', 'BrandC', 'BrandA']",['view'],"[20, 228, 272]",[341]
+652,42,Female,San Francisco,"['Books', 'Electronics', 'Toys']",264.81,"['BrandC', 'BrandE', 'BrandA']","['view', 'add_to_cart', 'purchase']","[346, 432, 258, 275, 111]",[]
+653,50,Female,San Francisco,"['Clothing', 'Beauty', 'Toys']",325.52,"['BrandD', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[310, 439, 41, 435, 107]",[340]
+654,55,Male,New York,"['Electronics', 'Home & Kitchen', 'Sports']",351.77,"['BrandB', 'BrandE']",['view'],"[256, 382, 431]",[140]
+655,23,Other,Chicago,"['Toys', 'Sports', 'Clothing']",289.11,"['BrandB', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[44, 16, 62, 95, 476]","[56, 153]"
+656,61,Male,Chicago,"['Electronics', 'Clothing', 'Beauty']",255.95,"['BrandE', 'BrandD', 'BrandC']","['view', 'add_to_cart']","[75, 292, 81, 222, 122]","[302, 370, 182]"
+657,62,Male,San Francisco,"['Beauty', 'Sports', 'Books']",217.44,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[389, 267, 8, 39, 440, 290]","[239, 138, 464, 66]"
+658,49,Other,Houston,"['Books', 'Clothing', 'Electronics']",246.18,"['BrandA', 'BrandE', 'BrandB']","['view', 'add_to_cart', 'purchase']","[409, 104, 382, 334, 279, 356, 295, 452, 406, 411, 152, 191]","[441, 26, 103]"
+659,62,Other,New York,"['Toys', 'Electronics', 'Books']",361.5,"['BrandC', 'BrandE', 'BrandD']",['view'],[493],"[62, 226]"
+660,64,Female,San Francisco,"['Sports', 'Home & Kitchen', 'Electronics']",181.56,"['BrandD', 'BrandA', 'BrandE']","['view', 'purchase', 'add_to_cart']","[227, 107, 410, 105, 226, 445, 235]",[]
+661,38,Other,Los Angeles,"['Clothing', 'Beauty', 'Sports']",248.43,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[26, 309, 177, 285, 353, 406, 145]","[195, 103]"
+662,33,Female,Los Angeles,"['Books', 'Clothing', 'Sports']",192.66,"['BrandA', 'BrandC', 'BrandD']","['purchase', 'add_to_cart', 'view']","[436, 13, 335]",[374]
+663,38,Other,New York,"['Beauty', 'Home & Kitchen', 'Toys']",245.61,"['BrandC', 'BrandB', 'BrandE']","['view', 'add_to_cart', 'purchase']","[164, 318, 115, 29, 57, 427, 73, 257, 306, 40]",[362]
+664,28,Male,Houston,"['Home & Kitchen', 'Beauty', 'Electronics']",192.89,"['BrandB', 'BrandE']","['view', 'add_to_cart']","[182, 399, 351]",[298]
+665,54,Female,San Francisco,"['Clothing', 'Home & Kitchen', 'Sports']",268.11,"['BrandB', 'BrandD', 'BrandA']","['view', 'add_to_cart']","[58, 291, 298]","[304, 416, 344, 424]"
+666,53,Female,Chicago,"['Beauty', 'Books', 'Electronics']",292.95,"['BrandC', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[85, 34, 16, 453, 500, 380]",[435]
+667,52,Female,New York,"['Clothing', 'Electronics', 'Home & Kitchen']",280.02,"['BrandB', 'BrandC', 'BrandA']",['view'],"[323, 1, 326]",[474]
+668,36,Male,Houston,"['Books', 'Sports', 'Beauty']",282.27,"['BrandA', 'BrandC', 'BrandB']",['view'],"[147, 401, 125]",[417]
+669,37,Male,Chicago,"['Books', 'Sports', 'Home & Kitchen']",292.43,"['BrandA', 'BrandB']","['add_to_cart', 'view']","[359, 8]",[]
+670,35,Male,Los Angeles,"['Electronics', 'Toys', 'Beauty']",219.01,"['BrandB', 'BrandA', 'BrandC']","['add_to_cart', 'view']","[366, 56, 51, 429]","[96, 126]"
+671,64,Male,Los Angeles,"['Electronics', 'Toys', 'Beauty']",311.86,"['BrandC', 'BrandD', 'BrandB']","['view', 'purchase', 'add_to_cart']","[376, 188, 265, 359]",[329]
+672,58,Male,Chicago,"['Electronics', 'Books', 'Beauty']",161.81,"['BrandC', 'BrandD', 'BrandB']",['view'],"[21, 500]",[53]
+673,31,Female,New York,"['Home & Kitchen', 'Clothing', 'Sports']",153.84,"['BrandB', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[467, 428, 491]","[2, 371, 325]"
+674,32,Male,Los Angeles,"['Books', 'Home & Kitchen', 'Electronics']",328.86,"['BrandB', 'BrandD', 'BrandE']","['view', 'purchase', 'add_to_cart']","[141, 270, 461, 84, 470]",[]
+675,48,Female,San Francisco,"['Sports', 'Clothing', 'Electronics']",285.8,"['BrandB', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[419, 379, 392, 401, 35, 221]",[]
+676,18,Male,Chicago,"['Electronics', 'Sports', 'Home & Kitchen']",166.98,"['BrandA', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[432, 133, 360, 80, 455, 61]",[]
+677,20,Other,Chicago,"['Books', 'Sports']",250.91,"['BrandC', 'BrandA']","['purchase', 'view', 'add_to_cart']","[99, 113, 17]",[]
+678,33,Female,Los Angeles,"['Home & Kitchen', 'Sports', 'Toys']",263.61,"['BrandA', 'BrandD', 'BrandE']","['view', 'purchase', 'add_to_cart']","[120, 13, 153, 425, 294, 234, 158, 360, 80]","[264, 359]"
+679,40,Other,New York,"['Electronics', 'Toys', 'Clothing']",248.06,"['BrandE', 'BrandA', 'BrandD']","['view', 'purchase']","[427, 111, 460, 345, 403]",[63]
+680,28,Female,San Francisco,"['Books', 'Electronics']",253.91,"['BrandB', 'BrandA', 'BrandC']",['view'],"[25, 137]","[213, 247]"
+681,29,Other,New York,"['Books', 'Clothing', 'Home & Kitchen']",305.51,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[253, 460, 321, 20]",[358]
+682,27,Male,Houston,"['Toys', 'Home & Kitchen', 'Beauty']",272.41,"['BrandA', 'BrandB', 'BrandD']","['view', 'add_to_cart', 'purchase']","[413, 405, 184, 202, 208, 245, 142]",[]
+683,49,Male,Houston,"['Clothing', 'Toys', 'Home & Kitchen']",246.54,"['BrandC', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[227, 360, 20, 390, 233, 343]","[398, 216]"
+684,33,Male,Los Angeles,"['Beauty', 'Home & Kitchen', 'Clothing']",136.13,"['BrandA', 'BrandE', 'BrandC']",['view'],"[262, 318]",[391]
+685,25,Female,Los Angeles,"['Clothing', 'Beauty', 'Sports']",323.26,"['BrandA', 'BrandD', 'BrandE']",['view'],"[497, 83, 311, 406, 385, 52]",[]
+686,55,Other,Los Angeles,"['Beauty', 'Sports', 'Electronics']",158.62,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[214, 273, 248, 40]",[]
+687,29,Male,Houston,"['Sports', 'Toys', 'Beauty']",278.63,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart', 'purchase']","[49, 229, 327, 260]",[132]
+688,41,Other,New York,"['Sports', 'Clothing', 'Books']",320.35,"['BrandB', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[299, 321, 267, 352, 84, 198, 279, 458, 254]","[267, 345]"
+689,45,Other,New York,"['Home & Kitchen', 'Books', 'Toys']",311.31,"['BrandA', 'BrandC', 'BrandD']","['add_to_cart', 'view', 'purchase']","[453, 180, 409]",[496]
+690,25,Male,Los Angeles,"['Home & Kitchen', 'Toys', 'Electronics']",287.34,"['BrandB', 'BrandA']","['add_to_cart', 'view']","[489, 23, 343]",[]
+691,45,Male,San Francisco,"['Clothing', 'Sports', 'Toys']",171.37,"['BrandB', 'BrandA', 'BrandC']","['add_to_cart', 'view']","[77, 184, 61, 205, 71]","[267, 368, 232]"
+692,53,Other,New York,"['Home & Kitchen', 'Books', 'Toys']",322.47,"['BrandB', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[293, 337, 163, 76, 13]",[208]
+693,43,Male,Houston,"['Electronics', 'Beauty', 'Toys']",301.31,"['BrandE', 'BrandB', 'BrandC']","['add_to_cart', 'view']","[295, 333, 47, 313, 444, 166, 388, 35, 474]",[]
+694,25,Male,Chicago,"['Beauty', 'Sports', 'Electronics']",272.83,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart']","[261, 423, 23, 289, 273, 489, 403, 401, 317]","[272, 199, 481]"
+695,45,Male,Chicago,"['Home & Kitchen', 'Beauty']",236.34,"['BrandB', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[450, 38, 486]",[57]
+696,45,Female,Chicago,"['Electronics', 'Clothing', 'Beauty']",238.33,"['BrandA', 'BrandC', 'BrandE']",['view'],"[202, 145, 74, 402]",[]
+697,54,Other,San Francisco,"['Beauty', 'Electronics', 'Home & Kitchen']",266.51,"['BrandB', 'BrandE', 'BrandA']","['view', 'purchase']","[60, 260, 175, 377, 356, 134]",[]
+698,58,Other,Los Angeles,"['Toys', 'Clothing', 'Beauty']",368.15,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[152, 163, 296, 423, 311, 371]","[68, 96]"
+699,53,Female,Houston,"['Toys', 'Beauty', 'Home & Kitchen']",304.87,"['BrandE', 'BrandA', 'BrandD']","['view', 'purchase']","[160, 168, 241, 332, 295, 271, 6, 427, 20, 14]","[261, 235, 339, 324]"
+700,44,Other,San Francisco,"['Home & Kitchen', 'Books', 'Clothing']",218.06,"['BrandB', 'BrandD', 'BrandA']","['view', 'add_to_cart']","[379, 58, 293, 84, 49, 390, 26]",[]
+701,34,Male,Houston,"['Electronics', 'Books', 'Sports']",231.16,"['BrandE', 'BrandB', 'BrandA']","['add_to_cart', 'view', 'purchase']","[407, 399, 214, 70]",[]
+702,26,Other,Houston,"['Home & Kitchen', 'Books', 'Toys']",294.5,"['BrandE', 'BrandB', 'BrandD']","['view', 'add_to_cart', 'purchase']","[67, 83, 31, 396, 328, 60, 131]",[317]
+703,50,Male,Los Angeles,"['Beauty', 'Electronics', 'Books']",340.0,"['BrandD', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[203, 299, 339, 61]",[327]
+704,37,Female,Chicago,"['Books', 'Electronics', 'Clothing']",277.94,"['BrandE', 'BrandC', 'BrandB']","['view', 'purchase']","[286, 4, 2, 329]","[338, 101]"
+705,30,Male,Los Angeles,"['Toys', 'Books', 'Home & Kitchen']",190.28,"['BrandD', 'BrandB', 'BrandA']","['add_to_cart', 'view']","[49, 133, 420]",[]
+706,45,Other,San Francisco,"['Electronics', 'Beauty']",252.01,"['BrandB', 'BrandD']","['view', 'add_to_cart']","[461, 229]",[116]
+707,46,Other,San Francisco,"['Sports', 'Beauty', 'Electronics']",226.78,"['BrandA', 'BrandC', 'BrandB']",['view'],"[377, 355]","[161, 309]"
+708,30,Other,San Francisco,"['Electronics', 'Clothing', 'Beauty']",309.71,"['BrandC', 'BrandE', 'BrandD']","['view', 'purchase']","[229, 56, 336, 59, 108]","[418, 193]"
+709,63,Female,Los Angeles,"['Electronics', 'Books', 'Toys']",276.62,"['BrandC', 'BrandB', 'BrandA']","['add_to_cart', 'view', 'purchase']","[115, 498, 91, 487, 33, 414, 343]","[285, 220]"
+710,52,Female,Houston,"['Clothing', 'Beauty', 'Toys']",313.62,"['BrandA', 'BrandE', 'BrandB']","['view', 'add_to_cart', 'purchase']","[362, 398, 63, 27, 406, 149]",[29]
+711,23,Other,Houston,"['Books', 'Sports', 'Home & Kitchen']",352.31,"['BrandC', 'BrandB', 'BrandA']",['view'],"[51, 426, 354]","[358, 186]"
+712,35,Male,New York,"['Toys', 'Books', 'Home & Kitchen']",328.78,"['BrandB', 'BrandE', 'BrandA']","['add_to_cart', 'view', 'purchase']","[456, 372, 385, 416, 209, 476, 67, 4]","[153, 347]"
+713,22,Female,San Francisco,"['Books', 'Toys']",316.92,"['BrandA', 'BrandC']","['add_to_cart', 'purchase']","[337, 478]",[]
+714,64,Other,Houston,"['Home & Kitchen', 'Sports', 'Books']",246.03,"['BrandE', 'BrandB', 'BrandD']",['view'],"[328, 295]",[410]
+715,42,Other,New York,"['Sports', 'Clothing', 'Toys']",298.73,"['BrandC', 'BrandB', 'BrandE']","['add_to_cart', 'view']","[48, 193, 341, 44, 245]",[56]
+716,19,Female,Houston,"['Toys', 'Home & Kitchen', 'Electronics']",350.16,"['BrandE', 'BrandD', 'BrandA']","['add_to_cart', 'view']","[455, 129, 108, 251]","[219, 414, 439]"
+717,27,Female,San Francisco,"['Toys', 'Sports', 'Beauty']",333.5,"['BrandE', 'BrandB', 'BrandA']","['add_to_cart', 'view', 'purchase']","[371, 362, 200]",[414]
+718,47,Female,Chicago,"['Beauty', 'Sports', 'Electronics']",257.59,"['BrandB', 'BrandA', 'BrandE']","['view', 'purchase']","[127, 490, 46, 211]",[499]
+719,62,Male,San Francisco,"['Books', 'Toys']",203.55,"['BrandB', 'BrandD']",['view'],[219],[255]
+720,22,Male,Los Angeles,"['Toys', 'Home & Kitchen', 'Beauty']",299.92,"['BrandA', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[244, 69, 486, 127, 96, 61, 415, 65, 20, 164, 320, 77, 341]","[222, 317, 377]"
+721,50,Other,Houston,"['Sports', 'Electronics', 'Clothing']",243.93,"['BrandA', 'BrandE']","['add_to_cart', 'view']","[235, 39, 270, 423, 390, 67]","[199, 30]"
+722,18,Female,Houston,"['Sports', 'Books', 'Electronics']",345.46,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[482, 234, 32, 239, 281, 198, 373]",[210]
+723,35,Male,Los Angeles,"['Home & Kitchen', 'Sports', 'Electronics']",286.86,"['BrandD', 'BrandC', 'BrandE']",['add_to_cart'],"[346, 81, 241, 450]","[158, 156, 289]"
+724,49,Female,Los Angeles,"['Beauty', 'Books', 'Sports']",294.12,"['BrandC', 'BrandD', 'BrandE']","['add_to_cart', 'view']","[362, 125, 285, 218]",[]
+725,64,Other,Chicago,"['Books', 'Clothing', 'Electronics']",213.7,"['BrandC', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[399, 366, 169, 207]",[64]
+726,28,Male,Houston,"['Books', 'Toys', 'Home & Kitchen']",245.94,"['BrandD', 'BrandC', 'BrandE']","['view', 'purchase', 'add_to_cart']","[205, 357, 113, 446, 290, 219, 436, 387, 25, 439]",[102]
+727,38,Male,Houston,"['Beauty', 'Home & Kitchen', 'Sports']",303.07,"['BrandE', 'BrandA', 'BrandB']","['view', 'purchase']","[46, 311, 155, 359, 252]",[182]
+728,43,Male,Chicago,"['Sports', 'Books', 'Clothing']",263.81,"['BrandE', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[12, 353, 67, 489, 127, 24, 244, 26, 231]",[311]
+729,42,Other,New York,"['Beauty', 'Books', 'Sports']",390.05,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[336, 225, 237]",[240]
+730,39,Female,Chicago,"['Clothing', 'Home & Kitchen', 'Books']",274.21,"['BrandC', 'BrandB', 'BrandD']","['add_to_cart', 'view', 'purchase']","[394, 286, 117, 457, 198, 326, 448]",[]
+731,44,Male,San Francisco,"['Books', 'Beauty', 'Toys']",215.34,"['BrandE', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[364, 47, 371, 286, 128]",[277]
+732,30,Other,Houston,"['Sports', 'Clothing', 'Toys']",297.72,"['BrandA', 'BrandB', 'BrandD']","['view', 'add_to_cart', 'purchase']","[493, 382, 440, 57, 351, 78, 138, 95, 458, 423, 11]",[]
+733,50,Female,Los Angeles,"['Sports', 'Electronics', 'Toys']",190.65,"['BrandA', 'BrandB', 'BrandC']","['add_to_cart', 'view', 'purchase']","[206, 455, 54]","[214, 422]"
+734,51,Other,San Francisco,"['Sports', 'Toys', 'Clothing']",291.22,"['BrandB', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[432, 326, 188, 121]",[]
+735,58,Female,Houston,"['Books', 'Clothing', 'Home & Kitchen']",245.54,"['BrandA', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[320, 345, 235, 353, 125, 354]",[137]
+736,52,Other,Chicago,"['Sports', 'Home & Kitchen', 'Electronics']",250.93,"['BrandA', 'BrandE', 'BrandC']","['view', 'add_to_cart']","[226, 359, 232]",[95]
+737,18,Female,San Francisco,"['Electronics', 'Home & Kitchen']",265.43,['BrandB'],['view'],[489],[343]
+738,38,Male,Houston,"['Clothing', 'Sports', 'Toys']",271.02,"['BrandA', 'BrandD', 'BrandE']","['view', 'purchase', 'add_to_cart']","[141, 35, 360, 63, 436, 16, 278]",[]
+739,23,Female,New York,"['Toys', 'Sports']",310.65,"['BrandD', 'BrandA']",['view'],"[462, 11, 356]",[]
+740,45,Other,New York,"['Clothing', 'Electronics', 'Home & Kitchen']",196.83,"['BrandA', 'BrandC', 'BrandB']","['view', 'purchase']","[181, 38, 165]","[265, 326]"
+741,34,Other,Los Angeles,"['Electronics', 'Books', 'Home & Kitchen']",227.34,"['BrandA', 'BrandE', 'BrandB']","['add_to_cart', 'view']","[355, 420]",[]
+742,22,Female,Houston,"['Sports', 'Electronics', 'Books']",142.46,"['BrandB', 'BrandC']","['add_to_cart', 'view']","[280, 101, 397]",[]
+743,48,Male,New York,"['Clothing', 'Books', 'Sports']",289.79,"['BrandA', 'BrandC', 'BrandE']","['view', 'add_to_cart', 'purchase']","[34, 272, 138, 146, 345, 435]","[234, 394]"
+744,22,Male,Chicago,"['Toys', 'Clothing', 'Sports']",113.17,"['BrandA', 'BrandC', 'BrandB']","['view', 'add_to_cart']","[243, 393, 308, 200]",[184]
+745,55,Female,Houston,"['Sports', 'Books']",406.43,"['BrandE', 'BrandB']",['add_to_cart'],[31],[367]
+746,20,Female,Chicago,"['Books', 'Electronics', 'Home & Kitchen']",286.8,"['BrandD', 'BrandC', 'BrandB']",['view'],"[167, 215, 173]","[21, 21, 91]"
+747,40,Other,Chicago,"['Toys', 'Sports', 'Books']",300.94,"['BrandE', 'BrandA', 'BrandD']","['view', 'purchase']","[57, 320, 38, 321]","[356, 100, 328]"
+748,54,Male,New York,"['Electronics', 'Home & Kitchen', 'Toys']",341.89,"['BrandE', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[330, 270, 152, 327, 89]","[458, 141, 87]"
+749,54,Female,Houston,"['Beauty', 'Books', 'Sports']",242.81,"['BrandB', 'BrandC', 'BrandA']","['view', 'purchase', 'add_to_cart']","[264, 169, 215, 352]",[]
+750,27,Male,San Francisco,"['Books', 'Clothing', 'Sports']",141.52,"['BrandB', 'BrandC', 'BrandA']","['add_to_cart', 'view']","[349, 48, 292, 41]",[24]
+751,27,Female,New York,"['Books', 'Electronics', 'Sports']",195.33,"['BrandE', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[73, 105, 210, 11]",[]
+752,36,Female,New York,"['Clothing', 'Home & Kitchen', 'Sports']",266.81,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[477, 225, 14, 400, 351]","[232, 144]"
+753,34,Male,Houston,"['Electronics', 'Home & Kitchen']",230.74,['BrandA'],['view'],"[498, 496]",[]
+754,38,Female,Houston,"['Sports', 'Books', 'Home & Kitchen']",188.54,"['BrandA', 'BrandC', 'BrandD']","['add_to_cart', 'view']","[365, 64, 203, 29, 371, 72]","[242, 353, 457]"
+755,31,Female,Chicago,"['Clothing', 'Toys', 'Books']",257.04,"['BrandB', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[31, 387, 336, 82]","[269, 34, 217]"
+756,26,Other,Houston,"['Clothing', 'Books', 'Sports']",234.71,"['BrandE', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[159, 319, 210, 333, 59, 460]",[]
+757,63,Female,Chicago,"['Clothing', 'Home & Kitchen']",215.94,"['BrandC', 'BrandD']","['view', 'add_to_cart']","[476, 141]",[]
+758,18,Female,New York,"['Sports', 'Beauty', 'Clothing']",298.87,"['BrandE', 'BrandC', 'BrandB']","['view', 'purchase', 'add_to_cart']","[225, 151, 470, 404, 124, 147, 62, 138, 7, 174, 139, 466]","[367, 397, 265]"
+759,62,Female,Los Angeles,"['Beauty', 'Toys', 'Electronics']",278.04,"['BrandC', 'BrandE']","['view', 'add_to_cart']","[40, 431, 406, 475]",[]
+760,30,Other,San Francisco,"['Sports', 'Toys', 'Electronics']",263.89,"['BrandA', 'BrandB', 'BrandE']",['view'],[9],"[382, 356]"
+761,21,Male,New York,"['Electronics', 'Home & Kitchen', 'Clothing']",250.2,"['BrandB', 'BrandD', 'BrandA']","['add_to_cart', 'view', 'purchase']","[331, 140, 438, 317, 388, 447, 274]",[]
+762,18,Other,Houston,"['Clothing', 'Books', 'Toys']",237.37,"['BrandD', 'BrandE', 'BrandC']",['view'],"[407, 170, 231]",[436]
+763,57,Other,San Francisco,"['Electronics', 'Beauty', 'Toys']",194.29,"['BrandA', 'BrandC', 'BrandD']","['view', 'add_to_cart', 'purchase']","[272, 82, 275, 9, 271, 195, 253]",[]
+764,49,Male,Los Angeles,"['Books', 'Sports', 'Electronics']",208.33,"['BrandE', 'BrandC', 'BrandA']",['view'],[42],[472]
+765,51,Other,Los Angeles,"['Books', 'Beauty', 'Sports']",253.08,"['BrandD', 'BrandE', 'BrandC']","['add_to_cart', 'purchase', 'view']","[197, 154, 157, 472]",[]
+766,45,Male,Chicago,"['Beauty', 'Clothing', 'Sports']",324.52,"['BrandE', 'BrandA', 'BrandC']","['view', 'add_to_cart', 'purchase']","[258, 363, 450, 69, 367, 95]","[466, 29]"
+767,48,Other,San Francisco,"['Sports', 'Clothing', 'Beauty']",274.45,"['BrandC', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[258, 172]","[88, 485, 471]"
+768,25,Male,Chicago,"['Toys', 'Books', 'Sports']",217.08,"['BrandA', 'BrandE', 'BrandD']","['view', 'purchase']","[281, 415, 243, 393, 231, 76, 472]",[356]
+769,56,Female,New York,"['Clothing', 'Toys', 'Books']",254.3,"['BrandB', 'BrandA']","['view', 'add_to_cart']","[24, 33]","[344, 67, 89]"
+770,43,Other,San Francisco,"['Books', 'Sports', 'Home & Kitchen']",176.22,"['BrandC', 'BrandA']","['view', 'add_to_cart']","[464, 158, 473]",[]
+771,51,Other,New York,"['Sports', 'Electronics', 'Home & Kitchen']",306.59,"['BrandC', 'BrandE', 'BrandA']",['add_to_cart'],"[70, 270, 69]",[78]
+772,20,Other,Chicago,"['Sports', 'Electronics', 'Beauty']",192.39,"['BrandA', 'BrandE', 'BrandC']","['view', 'purchase', 'add_to_cart']","[253, 271, 67, 29, 139]",[]
+773,29,Other,San Francisco,"['Clothing', 'Toys', 'Home & Kitchen']",322.96,"['BrandA', 'BrandD', 'BrandC']",['view'],"[158, 170, 35]",[13]
+774,18,Female,Chicago,"['Beauty', 'Toys', 'Books']",205.23,"['BrandE', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[99, 480, 183]","[28, 342]"
+775,61,Other,San Francisco,"['Sports', 'Home & Kitchen', 'Clothing']",237.24,"['BrandE', 'BrandB', 'BrandA']","['purchase', 'add_to_cart']","[125, 132, 77]",[71]
+776,22,Female,Chicago,"['Books', 'Toys', 'Home & Kitchen']",224.22,"['BrandA', 'BrandB', 'BrandC']",['view'],"[24, 278, 187, 481]",[]
+777,47,Female,Los Angeles,"['Sports', 'Beauty', 'Home & Kitchen']",249.16,"['BrandA', 'BrandE', 'BrandB']","['view', 'purchase']","[348, 298, 379, 253]",[196]
+778,47,Female,Chicago,"['Sports', 'Home & Kitchen', 'Electronics']",233.35,"['BrandB', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[447, 128, 73, 496, 320]",[]
+779,34,Female,Los Angeles,"['Sports', 'Clothing', 'Beauty']",261.62,"['BrandB', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[103, 275, 48, 244]","[349, 155]"
+780,64,Male,Chicago,"['Books', 'Sports', 'Beauty']",300.72,"['BrandC', 'BrandE', 'BrandD']","['view', 'add_to_cart']","[454, 471, 245, 1, 36]","[285, 75]"
+781,40,Male,San Francisco,"['Beauty', 'Electronics', 'Sports']",275.21,"['BrandA', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[372, 429, 313, 136, 199]",[]
+782,32,Other,San Francisco,"['Books', 'Electronics']",242.7,"['BrandC', 'BrandA', 'BrandD']",['view'],"[18, 434]",[285]
+783,54,Male,San Francisco,"['Home & Kitchen', 'Books', 'Beauty']",283.87,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart', 'purchase']","[178, 466, 137, 364, 213, 418, 87, 336]",[200]
+784,38,Male,Houston,"['Electronics', 'Toys', 'Sports']",254.61,"['BrandC', 'BrandA']",['view'],"[190, 260, 70, 196]",[220]
+785,31,Other,New York,"['Beauty', 'Home & Kitchen', 'Books']",254.14,"['BrandD', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[202, 240, 477, 185, 467, 342, 328, 364, 178]",[]
+786,19,Other,San Francisco,['Electronics'],389.58,['BrandC'],['view'],[307],[]
+787,28,Other,Los Angeles,"['Clothing', 'Sports', 'Home & Kitchen']",274.62,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[206, 485, 441, 493]",[330]
+788,56,Male,San Francisco,"['Sports', 'Home & Kitchen', 'Beauty']",407.32,"['BrandE', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[482, 496, 287, 189, 127, 373]",[311]
+789,55,Male,Houston,"['Toys', 'Home & Kitchen', 'Books']",331.24,"['BrandA', 'BrandE', 'BrandD']","['add_to_cart', 'view']","[106, 276, 421, 370]",[41]
+790,51,Other,Los Angeles,"['Home & Kitchen', 'Sports', 'Beauty']",187.28,"['BrandC', 'BrandB', 'BrandA']","['add_to_cart', 'purchase', 'view']","[139, 479, 355, 7, 152, 417, 292]",[]
+791,55,Female,Houston,"['Books', 'Electronics', 'Sports']",254.88,"['BrandC', 'BrandE', 'BrandB']","['view', 'purchase', 'add_to_cart']","[386, 63, 171, 99, 491, 466, 485, 201, 5]","[161, 72]"
+792,51,Other,Los Angeles,"['Sports', 'Clothing', 'Home & Kitchen']",285.35,"['BrandE', 'BrandC', 'BrandB']","['view', 'add_to_cart']","[279, 358, 88, 488, 324]","[403, 495, 452]"
+793,35,Female,Chicago,"['Beauty', 'Toys']",269.16,"['BrandB', 'BrandA']",['view'],"[295, 184]",[]
+794,47,Female,New York,"['Beauty', 'Electronics', 'Toys']",367.29,"['BrandB', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[237, 51, 337, 374]",[]
+795,32,Other,New York,"['Home & Kitchen', 'Electronics', 'Sports']",353.2,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[37, 170, 231, 19]","[207, 272]"
+796,44,Other,Houston,"['Electronics', 'Books', 'Toys']",240.93,"['BrandB', 'BrandC', 'BrandA']","['purchase', 'add_to_cart', 'view']","[226, 286, 314, 92]",[]
+797,51,Other,New York,"['Home & Kitchen', 'Beauty', 'Sports']",204.52,"['BrandB', 'BrandD']","['view', 'add_to_cart']","[357, 134, 401, 331, 287]",[]
+798,55,Male,Houston,"['Sports', 'Clothing', 'Electronics']",278.17,"['BrandA', 'BrandB', 'BrandC']","['view', 'purchase']","[162, 30, 46, 370, 184, 213]","[419, 161]"
+799,50,Female,Houston,"['Electronics', 'Sports', 'Books']",179.89,"['BrandC', 'BrandE', 'BrandD']","['view', 'purchase']","[294, 226, 177, 365, 342]","[226, 122]"
+800,41,Male,Houston,"['Clothing', 'Electronics', 'Home & Kitchen']",183.06,"['BrandC', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[490, 236, 26, 105, 203, 29]","[193, 185]"
+801,32,Male,New York,"['Toys', 'Sports']",206.16,"['BrandB', 'BrandA', 'BrandE']","['add_to_cart', 'view']","[445, 454]",[153]
+802,47,Other,Houston,"['Home & Kitchen', 'Sports', 'Books']",304.83,"['BrandC', 'BrandD', 'BrandA']","['view', 'add_to_cart']","[7, 98, 77, 413]","[83, 185]"
+803,59,Male,New York,"['Home & Kitchen', 'Sports', 'Toys']",265.77,"['BrandC', 'BrandA', 'BrandE']","['add_to_cart', 'view']","[127, 214, 122, 41, 361]",[453]
+804,34,Other,Houston,"['Electronics', 'Clothing', 'Books']",271.96,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart', 'purchase']","[411, 305, 186, 92, 169, 10, 319, 176, 428, 273]",[]
+805,22,Female,San Francisco,"['Sports', 'Books', 'Electronics']",220.42,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[169, 231, 273, 326, 86, 329]",[]
+806,46,Other,Houston,"['Electronics', 'Sports', 'Beauty']",303.59,"['BrandD', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[291, 208, 484, 149]","[98, 83, 166]"
+807,21,Male,Los Angeles,"['Home & Kitchen', 'Sports', 'Beauty']",226.31,"['BrandC', 'BrandE', 'BrandB']","['add_to_cart', 'view']","[161, 139, 240]","[44, 453]"
+808,27,Male,Houston,"['Home & Kitchen', 'Beauty', 'Sports']",284.91,"['BrandC', 'BrandD', 'BrandA']","['view', 'add_to_cart', 'purchase']","[297, 246, 392, 253, 242, 326, 47]",[202]
+809,34,Other,Chicago,"['Beauty', 'Home & Kitchen', 'Clothing']",225.13,"['BrandC', 'BrandD', 'BrandA']","['view', 'purchase']","[379, 438, 303, 105, 99]",[487]
+810,27,Other,Houston,"['Beauty', 'Sports', 'Toys']",289.66,"['BrandA', 'BrandE', 'BrandB']","['view', 'add_to_cart', 'purchase']","[341, 331, 377, 381, 470, 127, 112]","[348, 391]"
+811,34,Male,Los Angeles,"['Sports', 'Beauty', 'Home & Kitchen']",311.87,"['BrandE', 'BrandC', 'BrandD']","['add_to_cart', 'view']","[311, 191, 247, 287, 254, 83]","[71, 44, 481]"
+812,37,Female,Los Angeles,"['Sports', 'Electronics', 'Home & Kitchen']",278.88,"['BrandC', 'BrandA', 'BrandB']","['purchase', 'add_to_cart']","[253, 256, 77]",[88]
+813,41,Female,New York,"['Beauty', 'Clothing', 'Toys']",205.04,"['BrandD', 'BrandE', 'BrandA']",['view'],"[55, 94, 443, 114, 366]",[]
+814,22,Other,San Francisco,"['Sports', 'Home & Kitchen', 'Beauty']",220.23,"['BrandB', 'BrandA', 'BrandE']","['add_to_cart', 'purchase', 'view']","[42, 428, 158, 125, 12]",[401]
+815,51,Female,Houston,"['Electronics', 'Clothing', 'Sports']",310.37,"['BrandE', 'BrandB']",['view'],[382],[369]
+816,23,Male,New York,"['Toys', 'Home & Kitchen', 'Books']",238.43,"['BrandA', 'BrandB', 'BrandD']",['view'],"[357, 417, 71, 98, 222]","[417, 257, 492]"
+817,19,Other,San Francisco,"['Sports', 'Clothing', 'Toys']",261.99,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart', 'purchase']","[335, 337, 139, 88, 225, 448, 265]",[]
+818,30,Male,Houston,"['Clothing', 'Toys', 'Books']",353.99,"['BrandE', 'BrandC', 'BrandD']",['view'],"[316, 334]","[351, 320, 442, 340, 64]"
+819,60,Male,Chicago,"['Beauty', 'Electronics', 'Sports']",245.85,"['BrandC', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[93, 426, 23]","[165, 354]"
+820,60,Female,Houston,"['Books', 'Electronics', 'Toys']",268.1,"['BrandD', 'BrandC', 'BrandA']","['view', 'add_to_cart', 'purchase']","[53, 58, 150, 339, 432, 235, 82]",[]
+821,28,Other,Los Angeles,"['Electronics', 'Home & Kitchen', 'Beauty']",309.41,"['BrandA', 'BrandE']","['add_to_cart', 'view']","[182, 67, 264]","[332, 359]"
+822,64,Other,Los Angeles,"['Beauty', 'Clothing', 'Books']",335.59,"['BrandD', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[281, 109, 482, 154, 477, 168]","[154, 394, 465]"
+823,40,Female,Chicago,"['Books', 'Sports', 'Clothing']",288.51,"['BrandB', 'BrandD', 'BrandA']",['view'],[388],[396]
+824,33,Male,New York,"['Clothing', 'Electronics', 'Home & Kitchen']",223.74,"['BrandB', 'BrandA', 'BrandD']","['view', 'add_to_cart']","[498, 357, 64, 371]",[]
+825,48,Male,San Francisco,"['Sports', 'Toys', 'Beauty']",304.1,"['BrandE', 'BrandA', 'BrandC']","['view', 'add_to_cart', 'purchase']","[140, 189, 182, 127, 352, 495, 473, 202, 95, 492]",[122]
+826,28,Male,Houston,"['Electronics', 'Beauty', 'Sports']",285.8,"['BrandB', 'BrandE', 'BrandC']","['view', 'add_to_cart']","[226, 417, 474, 418]","[375, 362]"
+827,33,Male,Los Angeles,"['Electronics', 'Books', 'Toys']",246.75,"['BrandE', 'BrandC', 'BrandD']","['add_to_cart', 'view']","[95, 102, 83, 146, 105, 235]","[135, 442]"
+828,25,Other,New York,"['Books', 'Toys', 'Sports']",186.43,"['BrandD', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[316, 366, 225, 308]",[]
+829,21,Other,Chicago,['Sports'],70.1,['BrandA'],['view'],[268],[]
+830,57,Female,Los Angeles,"['Electronics', 'Sports', 'Toys']",224.91,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[412, 279, 398, 371, 468, 122, 119]",[498]
+831,21,Female,Chicago,"['Electronics', 'Sports', 'Clothing']",216.05,"['BrandE', 'BrandA', 'BrandB']","['add_to_cart', 'view']","[15, 86, 8, 135, 96]",[]
+832,42,Other,Houston,"['Home & Kitchen', 'Books', 'Beauty']",264.78,"['BrandE', 'BrandA', 'BrandC']","['add_to_cart', 'view']","[90, 38, 293, 246, 472]",[466]
+833,20,Other,San Francisco,"['Electronics', 'Clothing', 'Home & Kitchen']",190.3,"['BrandB', 'BrandA', 'BrandC']","['view', 'purchase']","[161, 170, 257]","[318, 383]"
+834,49,Male,Los Angeles,"['Home & Kitchen', 'Electronics', 'Beauty']",260.86,"['BrandD', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[208, 466, 296, 172, 397, 493, 28, 401]","[18, 304]"
+835,20,Male,Los Angeles,"['Sports', 'Home & Kitchen', 'Books']",242.2,"['BrandA', 'BrandE', 'BrandC']","['view', 'purchase', 'add_to_cart']","[323, 315, 139, 145, 281]",[360]
+836,44,Female,Houston,"['Home & Kitchen', 'Sports', 'Beauty']",255.47,"['BrandC', 'BrandA', 'BrandD']","['add_to_cart', 'view', 'purchase']","[144, 289, 147, 200, 372, 444]",[]
+837,46,Other,New York,"['Electronics', 'Books', 'Toys']",195.86,"['BrandE', 'BrandB', 'BrandA']","['view', 'purchase', 'add_to_cart']","[206, 313, 272, 469, 464, 374, 474, 273]",[63]
+838,49,Female,San Francisco,"['Clothing', 'Books', 'Sports']",198.77,"['BrandD', 'BrandE', 'BrandA']",['view'],"[210, 145, 178, 179]",[351]
+839,36,Other,Los Angeles,"['Books', 'Sports', 'Clothing']",211.12,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[216, 143, 131, 133, 21, 241]","[80, 417]"
+840,38,Male,San Francisco,"['Home & Kitchen', 'Books', 'Clothing']",162.49,"['BrandC', 'BrandD', 'BrandA']","['view', 'add_to_cart']","[38, 32, 10, 68, 34]",[]
+841,22,Female,Los Angeles,"['Electronics', 'Beauty', 'Toys']",206.02,"['BrandD', 'BrandC']",['view'],"[432, 238, 160, 146]",[]
+842,35,Female,San Francisco,"['Books', 'Toys', 'Beauty']",289.27,"['BrandE', 'BrandC', 'BrandA']",['view'],"[393, 239]","[87, 75]"
+843,45,Other,Chicago,"['Electronics', 'Home & Kitchen', 'Books']",251.97,"['BrandE', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[53, 250, 49, 215]","[19, 270, 125, 69]"
+844,59,Male,Los Angeles,"['Sports', 'Beauty', 'Electronics']",236.54,"['BrandA', 'BrandD', 'BrandE']","['view', 'purchase']","[446, 306, 128, 290, 138, 307]",[58]
+845,39,Female,San Francisco,"['Clothing', 'Beauty', 'Electronics']",246.15,"['BrandC', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[271, 281, 266, 251, 175, 56, 280, 227]",[2]
+846,38,Male,New York,"['Toys', 'Books', 'Electronics']",169.83,"['BrandC', 'BrandB', 'BrandD']","['view', 'purchase', 'add_to_cart']","[129, 445, 59, 255, 476, 378, 456]","[43, 74]"
+847,23,Female,Chicago,"['Clothing', 'Books', 'Sports']",305.15,"['BrandB', 'BrandA', 'BrandE']","['add_to_cart', 'view']","[110, 472, 107, 417]",[368]
+848,18,Male,Chicago,"['Toys', 'Sports', 'Beauty']",266.26,"['BrandD', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[152, 403, 287, 459, 453, 80, 205]",[]
+849,22,Other,New York,"['Books', 'Home & Kitchen', 'Electronics']",246.77,"['BrandB', 'BrandA', 'BrandC']","['view', 'add_to_cart', 'purchase']","[165, 393, 475, 156, 326, 89, 194, 413, 460, 221, 72]",[]
+850,58,Female,San Francisco,"['Toys', 'Home & Kitchen', 'Books']",233.27,"['BrandA', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[86, 73, 313, 133, 234, 321]","[256, 42]"
+851,29,Female,Houston,"['Toys', 'Beauty', 'Home & Kitchen']",268.47,"['BrandB', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[246, 324]",[377]
+852,43,Male,New York,"['Electronics', 'Home & Kitchen', 'Sports']",224.72,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[421, 9, 253, 365, 335]",[]
+853,63,Male,San Francisco,"['Books', 'Home & Kitchen', 'Electronics']",237.93,"['BrandA', 'BrandB', 'BrandD']","['add_to_cart', 'view', 'purchase']","[220, 290, 462, 326, 375, 23, 279, 19, 235]",[417]
+854,51,Female,New York,"['Beauty', 'Books', 'Electronics']",327.17,"['BrandB', 'BrandC', 'BrandD']","['view', 'add_to_cart', 'purchase']","[375, 76, 231, 440, 466]",[400]
+855,31,Other,New York,"['Books', 'Toys', 'Sports']",223.17,"['BrandD', 'BrandE', 'BrandB']","['view', 'add_to_cart', 'purchase']","[341, 466, 308, 192, 266, 148, 423, 184, 445]",[160]
+856,43,Male,Los Angeles,"['Toys', 'Sports']",197.3,"['BrandE', 'BrandD']","['purchase', 'add_to_cart']","[122, 119, 316]",[]
+857,62,Male,San Francisco,"['Books', 'Sports']",236.34,"['BrandE', 'BrandB']","['purchase', 'view']","[415, 284]",[]
+858,44,Male,Houston,"['Sports', 'Books', 'Electronics']",252.21,"['BrandD', 'BrandA', 'BrandC']","['view', 'add_to_cart', 'purchase']","[146, 52, 323, 491, 313, 82, 305, 156, 109]",[224]
+859,26,Female,Los Angeles,"['Sports', 'Home & Kitchen', 'Beauty']",263.99,"['BrandE', 'BrandC', 'BrandA']",['view'],"[362, 402, 172, 455]","[138, 428]"
+860,43,Female,New York,"['Toys', 'Home & Kitchen']",323.24,"['BrandC', 'BrandB']",['add_to_cart'],"[376, 405]",[]
+861,64,Female,New York,"['Books', 'Beauty', 'Home & Kitchen']",161.84,"['BrandC', 'BrandD', 'BrandB']","['add_to_cart', 'view', 'purchase']","[308, 457, 22, 185, 178]","[479, 76]"
+862,39,Female,New York,"['Clothing', 'Books', 'Home & Kitchen']",218.86,"['BrandE', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[259, 489, 128, 154, 394]","[351, 159]"
+863,64,Other,San Francisco,"['Sports', 'Clothing', 'Electronics']",354.02,"['BrandC', 'BrandB', 'BrandE']","['add_to_cart', 'view', 'purchase']","[323, 350, 338, 380, 403]",[468]
+864,47,Other,San Francisco,"['Sports', 'Clothing', 'Home & Kitchen']",290.12,"['BrandC', 'BrandE', 'BrandA']","['add_to_cart', 'view']","[184, 121, 88, 52, 66, 208]","[319, 211, 254]"
+865,60,Female,Los Angeles,"['Home & Kitchen', 'Beauty', 'Electronics']",156.44,"['BrandD', 'BrandA', 'BrandB']","['view', 'purchase', 'add_to_cart']","[129, 205, 26, 243, 272]","[120, 364]"
+866,34,Other,Houston,"['Beauty', 'Sports', 'Home & Kitchen']",215.98,"['BrandC', 'BrandE', 'BrandA']","['view', 'add_to_cart', 'purchase']","[439, 271, 5, 325, 163, 241]",[]
+867,43,Male,Los Angeles,"['Home & Kitchen', 'Toys']",350.84,"['BrandD', 'BrandA']","['view', 'purchase']","[106, 492]",[107]
+868,53,Male,Chicago,"['Home & Kitchen', 'Beauty', 'Electronics']",251.63,"['BrandB', 'BrandD', 'BrandA']","['view', 'add_to_cart', 'purchase']","[133, 149, 56, 456, 417, 324]","[215, 275]"
+869,18,Male,New York,"['Beauty', 'Toys', 'Clothing']",288.18,"['BrandD', 'BrandA', 'BrandC']","['add_to_cart', 'purchase', 'view']","[22, 297, 286, 416, 460]",[327]
+870,25,Female,New York,"['Electronics', 'Beauty', 'Books']",256.23,"['BrandA', 'BrandC']","['view', 'add_to_cart']","[196, 380, 422, 429]",[70]
+871,52,Male,New York,"['Sports', 'Electronics', 'Home & Kitchen']",312.55,"['BrandA', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[42, 499, 383, 320, 27, 204, 91, 415, 221]",[22]
+872,32,Other,Los Angeles,"['Electronics', 'Sports', 'Books']",323.96,"['BrandB', 'BrandA', 'BrandE']","['add_to_cart', 'purchase', 'view']","[225, 118, 176, 237]",[181]
+873,64,Female,Los Angeles,"['Sports', 'Clothing', 'Home & Kitchen']",222.59,"['BrandB', 'BrandC', 'BrandA']","['view', 'purchase', 'add_to_cart']","[128, 31, 165]","[319, 284]"
+874,39,Other,New York,"['Beauty', 'Home & Kitchen', 'Toys']",303.41,"['BrandA', 'BrandB', 'BrandD']","['view', 'purchase']","[329, 345, 86, 295, 173, 218]",[299]
+875,31,Male,Los Angeles,"['Home & Kitchen', 'Electronics', 'Beauty']",310.47,"['BrandE', 'BrandA', 'BrandB']","['view', 'purchase', 'add_to_cart']","[369, 152, 65, 309]","[44, 333, 435]"
+876,43,Male,San Francisco,"['Toys', 'Home & Kitchen', 'Clothing']",403.36,"['BrandD', 'BrandE', 'BrandC']",['view'],"[453, 379]","[414, 443]"
+877,45,Male,San Francisco,"['Clothing', 'Beauty', 'Home & Kitchen']",262.05,"['BrandD', 'BrandE', 'BrandA']","['view', 'add_to_cart', 'purchase']","[483, 337, 390, 307]","[180, 209, 365, 154]"
+878,40,Female,Los Angeles,"['Toys', 'Electronics', 'Beauty']",261.49,"['BrandA', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[248, 110, 383, 300]",[41]
+879,31,Other,New York,"['Toys', 'Home & Kitchen', 'Books']",284.7,"['BrandD', 'BrandE', 'BrandA']",['view'],"[472, 237, 139, 38]","[443, 423, 44]"
+880,41,Female,Los Angeles,"['Clothing', 'Home & Kitchen', 'Books']",214.17,"['BrandB', 'BrandD', 'BrandA']","['add_to_cart', 'purchase']","[318, 213, 173]","[217, 209, 408]"
+881,19,Female,Los Angeles,"['Books', 'Electronics', 'Sports']",232.28,"['BrandC', 'BrandA']","['view', 'add_to_cart', 'purchase']","[17, 498, 253, 144]",[64]
+882,62,Male,Los Angeles,"['Sports', 'Beauty', 'Clothing']",262.9,"['BrandE', 'BrandC', 'BrandB']","['view', 'add_to_cart']","[161, 2, 214, 254]",[]
+883,43,Female,Chicago,"['Books', 'Beauty', 'Electronics']",160.64,"['BrandD', 'BrandA', 'BrandE']","['add_to_cart', 'view']","[240, 63, 123]",[434]
+884,31,Female,San Francisco,"['Electronics', 'Beauty', 'Sports']",346.21,"['BrandD', 'BrandB', 'BrandE']","['add_to_cart', 'view']","[186, 327, 341, 426, 283, 320]",[136]
+885,24,Male,Houston,"['Books', 'Toys', 'Beauty']",218.83,"['BrandD', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[219, 123, 331, 152, 472, 463, 282, 437]",[434]
+886,20,Female,Houston,"['Home & Kitchen', 'Sports', 'Books']",270.91,"['BrandA', 'BrandE', 'BrandC']","['view', 'add_to_cart']","[161, 277, 262, 32, 210, 192]",[496]
+887,64,Male,Chicago,"['Toys', 'Sports', 'Clothing']",281.04,"['BrandB', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[29, 162, 392, 454, 375, 321, 469, 309]",[111]
+888,40,Male,Los Angeles,"['Toys', 'Home & Kitchen', 'Electronics']",303.59,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart']","[278, 74, 1, 355]",[]
+889,63,Male,Chicago,"['Beauty', 'Electronics', 'Books']",276.3,"['BrandE', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[239, 333, 446, 135, 222, 72, 451, 192]","[355, 163]"
+890,60,Male,Chicago,"['Toys', 'Sports', 'Electronics']",241.02,"['BrandD', 'BrandE', 'BrandB']","['view', 'add_to_cart', 'purchase']","[302, 268, 333, 273, 347, 374, 250]",[443]
+891,64,Female,New York,"['Electronics', 'Toys', 'Beauty']",419.78,"['BrandB', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[62, 443, 22, 414, 375, 166, 486]",[237]
+892,62,Male,San Francisco,"['Books', 'Clothing', 'Beauty']",281.02,"['BrandB', 'BrandD', 'BrandA']",['view'],"[103, 348, 497, 37]",[]
+893,35,Male,Houston,"['Home & Kitchen', 'Toys', 'Books']",230.56,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[314, 256, 233, 74, 15, 173, 125, 30, 437, 359]",[]
+894,55,Female,Los Angeles,"['Sports', 'Home & Kitchen', 'Books']",199.3,"['BrandD', 'BrandA', 'BrandE']","['add_to_cart', 'view']","[80, 223, 349, 21, 178, 194, 196, 39]",[]
+895,52,Female,Houston,"['Books', 'Electronics', 'Sports']",283.13,"['BrandA', 'BrandB', 'BrandC']","['view', 'add_to_cart', 'purchase']","[176, 31, 408, 48, 33, 233]",[]
+896,32,Other,Houston,"['Beauty', 'Toys']",326.65,"['BrandD', 'BrandE']","['view', 'add_to_cart']","[316, 197]",[55]
+897,42,Female,San Francisco,"['Home & Kitchen', 'Books', 'Toys']",234.4,"['BrandC', 'BrandA', 'BrandD']","['purchase', 'add_to_cart', 'view']","[344, 236, 411, 271, 154, 356, 370, 93]","[366, 395]"
+898,54,Female,Houston,"['Home & Kitchen', 'Books', 'Clothing']",186.48,"['BrandC', 'BrandB', 'BrandA']","['view', 'purchase']","[2, 52, 220, 234, 266]","[452, 494]"
+899,45,Other,Houston,"['Electronics', 'Home & Kitchen', 'Books']",279.07,"['BrandC', 'BrandD', 'BrandA']","['view', 'purchase', 'add_to_cart']","[166, 496, 308, 409, 233, 107]",[307]
+900,27,Female,Chicago,"['Home & Kitchen', 'Clothing', 'Electronics']",309.46,"['BrandB', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[323, 237, 405, 77, 218]","[460, 215]"
+901,56,Female,San Francisco,"['Electronics', 'Beauty', 'Sports']",223.94,"['BrandE', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[121, 392, 190, 128]",[430]
+902,34,Female,New York,"['Beauty', 'Electronics', 'Home & Kitchen']",270.05,"['BrandE', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[241, 208, 312, 104, 400, 287]",[]
+903,56,Female,Los Angeles,"['Sports', 'Electronics', 'Home & Kitchen']",163.61,"['BrandA', 'BrandC', 'BrandB']","['add_to_cart', 'purchase', 'view']","[323, 208, 490, 67, 365, 97]",[]
+904,39,Other,Houston,"['Sports', 'Electronics', 'Home & Kitchen']",276.71,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[317, 156, 314, 473, 455]",[367]
+905,43,Female,Los Angeles,"['Sports', 'Beauty', 'Clothing']",241.43,"['BrandA', 'BrandC', 'BrandB']","['view', 'purchase', 'add_to_cart']","[132, 165, 268, 236, 310, 388]",[]
+906,61,Female,New York,"['Clothing', 'Home & Kitchen', 'Beauty']",309.45,"['BrandA', 'BrandD', 'BrandE']","['view', 'add_to_cart']","[291, 353, 404, 403, 476]","[438, 107]"
+907,42,Other,Los Angeles,"['Toys', 'Clothing', 'Books']",171.18,"['BrandB', 'BrandC', 'BrandE']","['view', 'add_to_cart']","[313, 137, 43, 129]","[153, 216]"
+908,34,Male,New York,"['Electronics', 'Books', 'Beauty']",239.57,"['BrandE', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[134, 105, 456, 483]",[333]
+909,30,Other,Chicago,"['Sports', 'Electronics', 'Home & Kitchen']",262.9,"['BrandD', 'BrandC', 'BrandA']","['add_to_cart', 'view']","[235, 202, 146, 215, 300, 447]",[223]
+910,37,Male,Houston,"['Toys', 'Sports', 'Electronics']",217.32,"['BrandC', 'BrandB']","['view', 'add_to_cart']","[280, 405, 150]","[74, 161]"
+911,42,Other,New York,"['Home & Kitchen', 'Books', 'Toys']",250.88,"['BrandD', 'BrandB', 'BrandA']","['view', 'purchase']","[229, 449, 357, 19]",[117]
+912,21,Other,Los Angeles,"['Toys', 'Electronics', 'Beauty']",246.53,"['BrandE', 'BrandC', 'BrandB']","['view', 'add_to_cart']","[136, 500, 346, 431, 384, 121, 248, 412]",[414]
+913,27,Female,Houston,"['Toys', 'Clothing', 'Sports']",231.0,"['BrandA', 'BrandD', 'BrandE']","['view', 'purchase', 'add_to_cart']","[100, 116, 495, 358, 301]",[356]
+914,20,Male,Chicago,"['Home & Kitchen', 'Beauty', 'Electronics']",260.07,"['BrandD', 'BrandB', 'BrandA']","['add_to_cart', 'view', 'purchase']","[371, 291, 297, 156, 384, 333, 116, 50]","[37, 391]"
+915,58,Female,Houston,"['Electronics', 'Home & Kitchen', 'Sports']",279.35,"['BrandE', 'BrandB', 'BrandA']","['add_to_cart', 'view', 'purchase']","[400, 300, 120, 111, 225, 269, 410, 210]",[]
+916,62,Male,New York,"['Beauty', 'Books', 'Clothing']",345.04,"['BrandD', 'BrandC', 'BrandA']","['view', 'purchase', 'add_to_cart']","[437, 444, 202, 296]","[301, 259]"
+917,35,Other,Chicago,"['Home & Kitchen', 'Sports', 'Electronics']",249.58,"['BrandE', 'BrandB', 'BrandA']","['purchase', 'view', 'add_to_cart']","[210, 244, 278, 364, 382, 260, 197, 71]",[]
+918,64,Other,Los Angeles,"['Books', 'Sports', 'Beauty']",245.34,"['BrandA', 'BrandD']",['view'],"[104, 342]","[393, 93]"
+919,53,Male,Chicago,"['Toys', 'Electronics', 'Beauty']",247.19,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart', 'purchase']","[153, 212, 70, 420, 190, 369, 465, 253, 319]",[205]
+920,64,Female,Chicago,"['Electronics', 'Books', 'Beauty']",336.46,"['BrandB', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[85, 349, 187, 358, 87, 396, 414, 173, 17, 79]",[315]
+921,39,Female,San Francisco,"['Toys', 'Books', 'Sports']",271.64,"['BrandD', 'BrandB', 'BrandC']","['view', 'add_to_cart']","[403, 343, 457, 168, 280, 356, 249, 26, 250, 254]","[242, 50]"
+922,51,Female,Chicago,"['Electronics', 'Home & Kitchen', 'Clothing']",216.53,"['BrandC', 'BrandB', 'BrandA']","['view', 'purchase']","[190, 242, 322, 184, 482]","[179, 257]"
+923,64,Female,Chicago,"['Clothing', 'Sports', 'Electronics']",243.43,"['BrandA', 'BrandC', 'BrandB']","['add_to_cart', 'view']","[460, 155, 392, 65, 228, 112, 8]",[]
+924,25,Other,Houston,"['Books', 'Beauty', 'Toys']",250.17,"['BrandA', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[164, 482, 203, 316, 376]","[66, 233]"
+925,57,Other,Los Angeles,"['Toys', 'Electronics', 'Clothing']",256.5,"['BrandA', 'BrandC', 'BrandD']","['view', 'add_to_cart']","[422, 152, 347, 161, 402, 340, 314, 497]","[67, 422]"
+926,61,Other,Houston,"['Home & Kitchen', 'Books', 'Toys']",256.95,"['BrandC', 'BrandE', 'BrandA']","['view', 'add_to_cart', 'purchase']","[204, 245, 226, 193, 44]",[246]
+927,36,Other,Houston,"['Home & Kitchen', 'Sports', 'Toys']",215.08,"['BrandC', 'BrandE', 'BrandA']","['add_to_cart', 'view', 'purchase']","[454, 376, 235]",[158]
+928,59,Other,New York,"['Books', 'Electronics', 'Sports']",208.82,"['BrandB', 'BrandD', 'BrandE']","['view', 'add_to_cart', 'purchase']","[497, 241, 79, 2, 172, 372]",[133]
+929,58,Female,Houston,"['Sports', 'Toys', 'Clothing']",317.6,"['BrandE', 'BrandB', 'BrandC']","['add_to_cart', 'view']","[303, 238, 31, 482, 151, 386, 373, 339]",[225]
+930,54,Female,San Francisco,"['Electronics', 'Toys', 'Home & Kitchen']",262.77,"['BrandA', 'BrandB', 'BrandD']","['add_to_cart', 'view']","[368, 114, 380, 187]",[278]
+931,23,Female,San Francisco,"['Books', 'Beauty', 'Electronics']",281.94,"['BrandC', 'BrandE', 'BrandB']","['view', 'add_to_cart']","[446, 499, 431]",[478]
+932,43,Female,New York,"['Toys', 'Sports', 'Books']",330.52,"['BrandC', 'BrandE']","['view', 'add_to_cart']","[283, 144, 358]",[62]
+933,51,Other,Los Angeles,"['Home & Kitchen', 'Books', 'Beauty']",311.89,"['BrandE', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[41, 249, 156]","[439, 202]"
+934,62,Other,Los Angeles,"['Books', 'Electronics', 'Sports']",246.92,"['BrandB', 'BrandE']",['add_to_cart'],"[403, 415]",[]
+935,23,Other,Houston,"['Home & Kitchen', 'Beauty', 'Toys']",226.98,"['BrandA', 'BrandC', 'BrandE']","['view', 'purchase']","[363, 55, 62, 500, 151]","[437, 395]"
+936,54,Male,Houston,"['Electronics', 'Sports', 'Clothing']",277.82,"['BrandC', 'BrandB', 'BrandE']","['view', 'purchase', 'add_to_cart']","[60, 487, 100, 150, 448, 161, 477]","[323, 458, 149]"
+937,50,Female,Houston,"['Electronics', 'Home & Kitchen', 'Books']",211.73,"['BrandE', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[237, 455, 177, 434]",[354]
+938,39,Female,Los Angeles,"['Electronics', 'Toys', 'Books']",307.36,"['BrandC', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[247, 158, 183, 127, 168, 242, 297, 256, 375]","[228, 47]"
+939,38,Other,Chicago,"['Books', 'Toys', 'Sports']",210.07,"['BrandB', 'BrandD', 'BrandA']","['view', 'purchase']","[21, 33, 111, 417, 214, 55, 1]",[]
+940,23,Female,San Francisco,"['Toys', 'Electronics', 'Beauty']",245.86,"['BrandB', 'BrandC', 'BrandE']","['view', 'purchase', 'add_to_cart']","[175, 116, 337, 492, 228, 205]","[386, 16, 377]"
+941,23,Female,Chicago,"['Books', 'Home & Kitchen']",381.5,"['BrandE', 'BrandD', 'BrandC']",['view'],"[321, 453, 207]",[169]
+942,21,Other,Chicago,"['Sports', 'Electronics', 'Clothing']",286.55,"['BrandC', 'BrandD', 'BrandE']","['view', 'add_to_cart', 'purchase']","[401, 61, 466, 230, 414, 158]",[56]
+943,47,Male,Los Angeles,"['Toys', 'Clothing', 'Home & Kitchen']",239.91,"['BrandD', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[490, 65, 288, 436, 349]","[492, 320]"
+944,28,Male,Chicago,"['Sports', 'Books', 'Home & Kitchen']",251.0,"['BrandA', 'BrandC']","['add_to_cart', 'view']","[158, 104]",[35]
+945,47,Male,New York,"['Home & Kitchen', 'Books', 'Clothing']",216.02,"['BrandC', 'BrandB', 'BrandD']","['view', 'purchase']","[330, 416, 108, 447, 468, 184, 157, 459]","[194, 27]"
+946,48,Other,Houston,"['Clothing', 'Toys', 'Home & Kitchen']",242.76,"['BrandC', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[222, 115, 145, 468]","[114, 23, 77]"
+947,41,Female,New York,"['Home & Kitchen', 'Books', 'Sports']",245.74,"['BrandB', 'BrandA']","['view', 'add_to_cart', 'purchase']","[58, 378, 89, 465, 343]",[27]
+948,26,Other,San Francisco,"['Toys', 'Beauty', 'Home & Kitchen']",273.66,"['BrandC', 'BrandA', 'BrandB']","['view', 'add_to_cart']","[115, 149, 480, 183, 405, 170]",[342]
+949,20,Other,Houston,"['Home & Kitchen', 'Toys', 'Electronics']",169.23,"['BrandD', 'BrandE', 'BrandA']","['add_to_cart', 'view']","[105, 46, 322, 107]","[60, 120, 324, 184]"
+950,48,Female,Chicago,"['Books', 'Home & Kitchen', 'Beauty']",178.69,"['BrandC', 'BrandA', 'BrandD']","['view', 'add_to_cart', 'purchase']","[76, 262, 500, 45, 169, 90, 471]","[158, 218]"
+951,57,Male,San Francisco,"['Books', 'Home & Kitchen', 'Sports']",179.34,"['BrandE', 'BrandD', 'BrandC']","['add_to_cart', 'view']","[390, 475, 144, 247]",[469]
+952,54,Male,Houston,"['Beauty', 'Toys', 'Books']",240.94,"['BrandA', 'BrandE', 'BrandD']","['view', 'add_to_cart']","[276, 135, 224, 54]",[391]
+953,53,Other,Chicago,"['Sports', 'Home & Kitchen', 'Beauty']",366.34,"['BrandB', 'BrandC', 'BrandA']","['view', 'add_to_cart']","[230, 359, 28]",[186]
+954,41,Male,New York,"['Sports', 'Clothing', 'Beauty']",256.19,"['BrandE', 'BrandB', 'BrandA']","['view', 'add_to_cart', 'purchase']","[430, 141, 110, 142, 415, 324, 208, 115, 417]","[71, 239, 217]"
+955,48,Other,Houston,"['Toys', 'Books', 'Sports']",344.26,['BrandA'],"['view', 'add_to_cart']","[278, 398, 104, 95, 234]",[]
+956,23,Other,Chicago,"['Books', 'Sports', 'Clothing']",276.62,"['BrandA', 'BrandE', 'BrandC']",['view'],"[349, 254, 225, 273]","[203, 192]"
+957,19,Female,New York,"['Books', 'Clothing', 'Electronics']",288.86,"['BrandA', 'BrandE']","['view', 'add_to_cart']","[393, 438, 333]",[]
+958,37,Female,San Francisco,"['Home & Kitchen', 'Beauty', 'Toys']",294.17,"['BrandA', 'BrandB', 'BrandC']",['view'],"[402, 433]",[143]
+959,45,Female,San Francisco,"['Beauty', 'Sports', 'Clothing']",187.19,"['BrandC', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[90, 267, 249]","[271, 224, 318]"
+960,28,Other,San Francisco,"['Sports', 'Home & Kitchen', 'Toys']",289.14,"['BrandA', 'BrandC', 'BrandD']","['view', 'add_to_cart', 'purchase']","[199, 310, 232, 418, 274, 286, 133, 378, 81]",[132]
+961,21,Female,San Francisco,"['Home & Kitchen', 'Sports']",161.51,"['BrandB', 'BrandE']","['view', 'add_to_cart']","[433, 331, 71]",[]
+962,32,Male,Los Angeles,"['Books', 'Electronics', 'Home & Kitchen']",102.21,"['BrandA', 'BrandD', 'BrandC']","['view', 'purchase']","[417, 46, 455, 464, 144]","[440, 434]"
+963,23,Male,Houston,"['Books', 'Beauty', 'Home & Kitchen']",268.64,"['BrandE', 'BrandD', 'BrandA']","['view', 'purchase', 'add_to_cart']","[443, 53, 363, 459, 336, 106, 208, 199, 212, 234]",[73]
+964,47,Other,Houston,"['Home & Kitchen', 'Sports', 'Clothing']",263.17,"['BrandC', 'BrandA']",['add_to_cart'],[394],[204]
+965,55,Other,Los Angeles,"['Books', 'Toys', 'Home & Kitchen']",345.67,"['BrandA', 'BrandC', 'BrandB']",['view'],"[6, 42, 246, 8]",[]
+966,19,Female,Chicago,"['Beauty', 'Clothing']",318.67,"['BrandD', 'BrandB']","['purchase', 'view']","[163, 468]",[]
+967,32,Other,Chicago,"['Electronics', 'Sports', 'Clothing']",243.27,"['BrandE', 'BrandD', 'BrandB']","['view', 'purchase']","[436, 223, 282, 341, 15, 58]",[]
+968,28,Other,San Francisco,"['Books', 'Toys', 'Home & Kitchen']",250.53,"['BrandC', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[90, 6, 240, 9]",[25]
+969,25,Male,New York,['Beauty'],319.38,"['BrandD', 'BrandC']",['view'],"[381, 481]",[]
+970,43,Male,Chicago,"['Books', 'Beauty', 'Electronics']",218.57,"['BrandB', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[10, 156, 133, 163, 249, 454, 330]",[]
+971,62,Female,New York,"['Home & Kitchen', 'Sports', 'Beauty']",339.95,"['BrandA', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[231, 22, 106, 381, 377, 446]",[106]
+972,61,Other,Houston,"['Beauty', 'Home & Kitchen', 'Toys']",297.43,"['BrandE', 'BrandA', 'BrandB']","['view', 'add_to_cart', 'purchase']","[372, 496, 41, 481, 119]",[]
+973,22,Other,New York,"['Toys', 'Electronics', 'Beauty']",294.28,"['BrandD', 'BrandC', 'BrandB']","['view', 'add_to_cart']","[214, 376, 323, 176, 51, 387, 49, 154, 105, 359, 229]",[50]
+974,23,Male,Houston,"['Home & Kitchen', 'Clothing', 'Electronics']",298.71,"['BrandE', 'BrandC', 'BrandA']","['add_to_cart', 'view', 'purchase']","[7, 36, 62, 438, 128]",[]
+975,43,Other,Los Angeles,"['Home & Kitchen', 'Books', 'Sports']",280.91,"['BrandC', 'BrandB', 'BrandD']","['view', 'add_to_cart']","[453, 396, 121, 329, 474, 362]",[32]
+976,21,Male,Los Angeles,"['Books', 'Sports', 'Clothing']",316.5,"['BrandB', 'BrandA', 'BrandE']",['view'],"[465, 293, 438]",[]
+977,36,Female,San Francisco,"['Toys', 'Sports', 'Electronics']",250.3,"['BrandD', 'BrandB', 'BrandC']","['purchase', 'add_to_cart']","[251, 57, 291]","[385, 449]"
+978,37,Male,Chicago,"['Beauty', 'Sports', 'Electronics']",243.09,"['BrandE', 'BrandB', 'BrandA']","['view', 'add_to_cart']","[159, 128, 408]","[279, 241, 362, 284]"
+979,50,Other,San Francisco,"['Electronics', 'Beauty', 'Home & Kitchen']",206.6,"['BrandC', 'BrandB', 'BrandE']","['view', 'purchase', 'add_to_cart']","[191, 489, 201, 288, 123, 484]","[479, 177, 333, 237]"
+980,37,Female,Houston,"['Books', 'Sports', 'Clothing']",235.88,"['BrandC', 'BrandB', 'BrandA']","['add_to_cart', 'view', 'purchase']","[438, 101, 170]",[]
+981,29,Male,San Francisco,"['Books', 'Home & Kitchen', 'Clothing']",162.07,"['BrandD', 'BrandE', 'BrandA']","['add_to_cart', 'view', 'purchase']","[130, 118, 428, 326, 144, 489, 171]",[242]
+982,64,Male,New York,"['Books', 'Sports', 'Home & Kitchen']",201.15,"['BrandA', 'BrandE', 'BrandD']","['view', 'add_to_cart', 'purchase']","[289, 80, 143, 227]",[]
+983,18,Female,Houston,"['Clothing', 'Home & Kitchen', 'Books']",227.56,"['BrandC', 'BrandE', 'BrandA']","['view', 'add_to_cart', 'purchase']","[38, 393, 135, 372]",[216]
+984,43,Female,Los Angeles,"['Beauty', 'Electronics', 'Clothing']",238.13,"['BrandB', 'BrandA', 'BrandE']","['view', 'add_to_cart']","[12, 313, 203, 220, 270, 244, 237]","[15, 295, 450]"
+985,31,Male,Chicago,"['Home & Kitchen', 'Clothing', 'Electronics']",350.67,"['BrandC', 'BrandE', 'BrandA']","['view', 'add_to_cart']","[221, 264, 73, 442, 37, 108, 177]",[]
+986,55,Other,Houston,"['Toys', 'Home & Kitchen', 'Beauty']",259.81,"['BrandB', 'BrandA', 'BrandC']","['view', 'add_to_cart']","[151, 240, 153, 288, 387, 208, 304]",[]
+987,54,Male,Houston,"['Beauty', 'Electronics', 'Sports']",248.5,"['BrandB', 'BrandE', 'BrandD']",['view'],"[105, 15, 386]",[282]
+988,28,Female,New York,"['Sports', 'Toys', 'Clothing']",239.51,"['BrandA', 'BrandB', 'BrandE']","['view', 'add_to_cart']","[398, 217, 396, 79, 189, 433, 110, 319]",[243]
+989,53,Male,Chicago,"['Home & Kitchen', 'Sports', 'Books']",311.51,"['BrandC', 'BrandA']","['view', 'add_to_cart']","[389, 203, 258]",[177]
+990,30,Female,Los Angeles,"['Books', 'Beauty', 'Toys']",429.42,"['BrandD', 'BrandE']","['add_to_cart', 'view']","[192, 381, 183, 320, 231]",[]
+991,60,Female,Houston,"['Clothing', 'Sports', 'Home & Kitchen']",309.1,"['BrandA', 'BrandE', 'BrandD']","['view', 'purchase']","[50, 328, 187, 8, 284]","[495, 445]"
+992,20,Other,Houston,"['Home & Kitchen', 'Books', 'Sports']",269.66,"['BrandC', 'BrandE', 'BrandB']","['view', 'add_to_cart', 'purchase']","[403, 99, 226, 88, 230, 401, 228, 363]",[167]
+993,50,Female,New York,"['Clothing', 'Electronics', 'Beauty']",134.41,"['BrandE', 'BrandD', 'BrandB']","['view', 'add_to_cart']","[195, 471, 191, 61]",[]
+994,23,Female,San Francisco,"['Electronics', 'Home & Kitchen', 'Books']",245.0,"['BrandA', 'BrandE', 'BrandC']","['view', 'purchase', 'add_to_cart']","[317, 277, 157, 378]",[]
+995,27,Other,Los Angeles,"['Beauty', 'Toys', 'Home & Kitchen']",287.22,"['BrandB', 'BrandD', 'BrandC']",['view'],[178],"[168, 405]"
+996,22,Female,Chicago,"['Home & Kitchen', 'Clothing', 'Toys']",228.63,"['BrandA', 'BrandB']","['view', 'add_to_cart']","[23, 416, 437]",[143]
+997,40,Other,Houston,"['Beauty', 'Books', 'Electronics']",267.97,"['BrandB', 'BrandA', 'BrandE']","['add_to_cart', 'view', 'purchase']","[141, 412, 115, 270, 415]",[397]
+998,27,Other,Houston,"['Beauty', 'Electronics', 'Clothing']",266.77,"['BrandD', 'BrandA', 'BrandE']",['view'],"[495, 146, 413, 327]",[]
+999,61,Female,Los Angeles,"['Home & Kitchen', 'Clothing', 'Books']",205.54,"['BrandD', 'BrandE', 'BrandA']",['view'],"[94, 428, 102, 325, 41, 48]",[]
+1000,19,Female,San Francisco,"['Books', 'Clothing', 'Electronics']",293.2,"['BrandE', 'BrandB', 'BrandC']","['view', 'add_to_cart']","[71, 173, 15, 485]","[469, 474]"
+1003,25,Male,New York,[],0.0,[],[],[],[]
