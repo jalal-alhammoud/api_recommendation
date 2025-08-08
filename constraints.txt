@@ -1,0 +1,2 @@
+--no-use-pep517
+--no-build-isolation
