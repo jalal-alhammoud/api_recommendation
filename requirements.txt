@@ -17,7 +17,7 @@ anyio==4.10.0
 anywidget==0.9.18
 argon2-cffi==25.1.0
 argon2-cffi-bindings==25.1.0
-array_record==0.7.2
+# array_record==0.7.2
 arviz==0.22.0
 astropy==7.1.0
 astropy-iers-data==0.2025.8.4.0.42.59
@@ -68,13 +68,13 @@ contourpy==1.3.3
 cramjam==2.11.0
 cryptography==43.0.3
 cuda-python==12.6.2.post1
-cudf-cu12 @ https://pypi.nvidia.com/cudf-cu12/cudf_cu12-25.6.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+# cudf-cu12 @ https://pypi.nvidia.com/cudf-cu12/cudf_cu12-25.6.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
 cudf-polars-cu12==25.6.0
 cufflinks==0.17.3
-cuml-cu12==25.6.0
+# cuml-cu12==25.6.0
 cupy-cuda12x==13.3.0
 curl_cffi==0.12.0
-cuvs-cu12==25.6.1
+# cuvs-cu12==25.6.1
 cvxopt==1.3.2
 cvxpy==1.6.7
 cycler==0.12.1
@@ -107,7 +107,7 @@ easydict==1.13
 editdistance==0.8.1
 eerepr==0.1.2
 einops==0.8.1
-en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+# en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
 entrypoints==0.4
 et_xmlfile==2.0.0
 etils==1.13.0
@@ -167,7 +167,7 @@ google-cloud-resource-manager==1.14.2
 google-cloud-spanner==3.56.0
 google-cloud-storage==2.19.0
 google-cloud-translate==3.21.1
-google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz
+# google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz
 google-crc32c==1.7.1
 google-genai==1.28.0
 google-generativeai==0.8.5
@@ -280,7 +280,7 @@ lazr.restfulclient==0.14.4
 lazr.uri==1.0.6
 lazy_loader==0.4
 libclang==18.1.1
-libcudf-cu12 @ https://pypi.nvidia.com/libcudf-cu12/libcudf_cu12-25.6.0-py3-none-manylinux_2_28_x86_64.whl
+# libcudf-cu12 @ https://pypi.nvidia.com/libcudf-cu12/libcudf_cu12-25.6.0-py3-none-manylinux_2_28_x86_64.whl
 libcugraph-cu12==25.6.0
 libcuml-cu12==25.6.0
 libcuvs-cu12==25.6.1
@@ -292,7 +292,7 @@ librosa==0.11.0
 libucx-cu12==1.18.1
 libucxx-cu12==0.44.0
 lightfm==1.17
-lightgbm @ file:///tmp/lightgbm/LightGBM/dist/lightgbm-4.6.0-py3-none-linux_x86_64.whl
+# lightgbm @ file:///tmp/lightgbm/LightGBM/dist/lightgbm-4.6.0-py3-none-linux_x86_64.whl
 linkify-it-py==2.0.3
 llvmlite==0.43.0
 locket==1.0.0
@@ -436,7 +436,7 @@ pygit2==1.18.1
 Pygments==2.19.2
 PyGObject==3.42.0
 PyJWT==2.10.1
-pylibcudf-cu12 @ https://pypi.nvidia.com/pylibcudf-cu12/pylibcudf_cu12-25.6.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+# pylibcudf-cu12 @ https://pypi.nvidia.com/pylibcudf-cu12/pylibcudf_cu12-25.6.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
 pylibcugraph-cu12==25.6.0
 pylibraft-cu12==25.6.0
 pymc==5.25.1
@@ -574,13 +574,13 @@ tokenizers==0.21.4
 toml==0.10.2
 tomlkit==0.13.3
 toolz==0.12.1
-torch @ https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
+# torch @ https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
 torchao==0.10.0
-torchaudio @ https://download.pytorch.org/whl/cu124/torchaudio-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
+# torchaudio @ https://download.pytorch.org/whl/cu124/torchaudio-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
 torchdata==0.11.0
 torchsummary==1.5.1
 torchtune==0.6.1
-torchvision @ https://download.pytorch.org/whl/cu124/torchvision-0.21.0%2Bcu124-cp311-cp311-linux_x86_64.whl
+# torchvision @ https://download.pytorch.org/whl/cu124/torchvision-0.21.0%2Bcu124-cp311-cp311-linux_x86_64.whl
 tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.7.1
@@ -635,5 +635,3 @@ yfinance==0.2.65
 zict==3.0.0
 zipp==3.23.0
 zstandard==0.23.0
-
-
