@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-fastapi
-uvicorn
-=======
 flask
 gunicorn
->>>>>>> c9a813a (modify api project)
 fairlearn==0.12.0
 surprise==0.1
 numpy>=1.21,<2.0
