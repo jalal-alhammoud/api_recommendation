@@ -68,21 +68,21 @@ def recommend_with_knn():
     except Exception as e:
         raise HTTPException(description=str(e))
 
-@app.route("/lightfm/recommend", methods=["POST"])
-def recommend_with_lightfm():
-    """Get recommendation using LightFM model"""
-    from modelServices.lightfmModel import LightfmModel
-    lightmodel = LightfmModel()
-    try:
-        data = request.get_json()
-        recommendation = lightmodel.recommend_with_lightfm(data['user_id'], data['product_id'])
-        return jsonify({
-            "user_id": data['user_id'],
-            "product_id": data['product_id'],
-            "prediction": recommendation
-        })
-    except Exception as e:
-        raise HTTPException(description=str(e))
+# @app.route("/lightfm/recommend", methods=["POST"])
+# def recommend_with_lightfm():
+#     """Get recommendation using LightFM model"""
+#     from modelServices.lightfmModel import LightfmModel
+#     lightmodel = LightfmModel()
+#     try:
+#         data = request.get_json()
+#         recommendation = lightmodel.recommend_with_lightfm(data['user_id'], data['product_id'])
+#         return jsonify({
+#             "user_id": data['user_id'],
+#             "product_id": data['product_id'],
+#             "prediction": recommendation
+#         })
+#     except Exception as e:
+#         raise HTTPException(description=str(e))
 
 @app.route("/deeplearning/recommend", methods=["POST"])
 def recommend_with_deeplearning():
