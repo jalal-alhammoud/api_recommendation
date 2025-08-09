@@ -47,13 +47,13 @@ requests==2.32.4
 rich==14.1.0
 safetensors==0.6.2
 Cython
+scipy==1.16.1
 scikit-learn==1.7.1
+surprise==0.1
 #scikit-surprise==1.1.4
 scikit-surprise
-scipy==1.16.1
 setuptools==80.9.0
 six==1.17.0
-surprise==0.1
 sympy==1.14.0
 tensorboard==2.19.0
 tensorboard-data-server==0.7.2
