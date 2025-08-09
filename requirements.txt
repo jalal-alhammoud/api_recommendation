@@ -49,7 +49,7 @@ safetensors==0.6.2
 Cython
 scipy==1.16.1
 scikit-learn==1.7.1
-surprise==0.1
+surprise
 #scikit-surprise==1.1.4
 #scikit-surprise
 #setuptools==80.9.0
