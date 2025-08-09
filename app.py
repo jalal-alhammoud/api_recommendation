@@ -298,16 +298,6 @@ def get_similar_users(user_id):
     except Exception as e:
         raise HTTPException(description=str(e))
 
-@app.route("/health", methods=["GET"])
-def health_check():
-    """Health check endpoint"""
-    return jsonify({
-        "status": "healthy",
-        "version": API_METADATA["version"],
-        "api_title": API_METADATA["title"],
-        "description": API_METADATA["description"]
-    })
-
 @app.route('/user-high-rated/<int:user_id>', methods=['GET'])
 def get_user_high_rated_products(user_id):
     """Get products rated highly by a user"""
