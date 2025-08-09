@@ -62,7 +62,7 @@ tensorflow
 #threadpoolctl==3.6.0
 tokenizers
 torch
-tqdm=
+tqdm
 transformers
 #typing_extensions
 #tzdata==2025.2
