@@ -1,5 +1,4 @@
 fairlearn==0.12.0
-lightfm==1.17
 surprise==0.1
 numpy>=1.21,<2.0
 joblib==1.5.1
