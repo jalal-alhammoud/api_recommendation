@@ -46,6 +46,7 @@ regex==2025.7.34
 requests==2.32.4
 rich==14.1.0
 safetensors==0.6.2
+Cython
 scikit-learn==1.7.1
 #scikit-surprise==1.1.4
 scikit-surprise
